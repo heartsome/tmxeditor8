@@ -1,0 +1,347 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>6. Finish project</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<meta name="generator" content="DocBook XSL Stylesheets V1.77.1">
+<link rel="home" href="index.html" title="Heartsome Translation Studio Release 8 Help">
+<link rel="up" href="ch05.html" title="Workflow">
+<link rel="prev" href="ch05s05.html" title="5. Edit &amp; QA">
+<link rel="next" href="ch06.html" title="Maintenance and management of TMs and termbases">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="sect1">
+<div class="titlepage"><div><div><h2 class="title" style="clear: both">
+<a name="ch5s6-finishing"></a>6. Finish project</h2></div></div></div>
+      
+
+      <p>When all segments have been translated following the
+      aforementioned steps, and after QA checks have been performed, the
+      project is nearly complete. Complete the below steps to finish the
+      project.</p>
+
+      <div class="sect2">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="merge-xliff-files"></a>Merge files</h3></div></div></div>
+        
+
+        <p>If the translation project included files that needed to be
+        split up earlier on during the <a class="link" href="ch05s03.html" title="3. Prepare before translating">preparation stage</a> using
+        the <a class="link" href="ch05s03.html#split-xliff-file" title="Split up a file">Split up file feature</a>, the
+        split XLIFF files need to be merged back into one file. The procedure
+        is detailed below:</p>
+
+        <div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem">
+            <p>In the <code class="interfacename">project</code>, select
+            <span class="emphasis"><em>the multiple XLIFF files that were split up from one
+            XLIFF file</em></span>.</p>
+
+            <div class="figure">
+<a name="idp1301440"></a><p class="title"><b>Figure 118. Merge XLIFF files</b></p>
+<div class="figure-contents">
+              
+
+              <div class="screenshot">
+                <div class="mediaobject"><img src="images/merge-xliff-file-1-1.png" alt="Merge XLIFF files"></div>
+              </div>
+            </div>
+</div>
+<br class="figure-break">
+          </li>
+<li class="listitem">
+            <p>Make sure the XLIFF files to be merged are indeed from the
+            same original XLIFF file and that there are <span class="emphasis"><em>no duplicate
+            or missing parts</em></span>. See the example below: </p>
+<div class="example">
+<a name="idp1306160"></a><p class="title"><b>Example 1. Merge XLIFF files</b></p>
+<div class="example-contents">
+                
+
+                <p>For example, where we are merging two split up
+                files:</p>
+
+                <div class="orderedlist"><ol class="orderedlist" type="a">
+<li class="listitem">
+                    <p>A file named <span class="quote">“<span class="quote">File.hsxliff</span>”</span> is first
+                    split up into two files, named
+                    <span class="quote">“<span class="quote">File_1.hsxliff</span>”</span> and
+                    <span class="quote">“<span class="quote">File_2.hsxliff</span>”</span>.</p>
+                  </li>
+<li class="listitem">
+                    <p>The file <span class="quote">“<span class="quote">File_2.hsxliff</span>”</span> is further
+                    split up into two smaller files, named
+                    <span class="quote">“<span class="quote">File_2_1.hsxliff</span>”</span> and
+                    <span class="quote">“<span class="quote">File_2_2.hsxliff</span>”</span>.</p>
+                  </li>
+<li class="listitem">
+                    <p>To do the merge, just select all three files
+                    including <span class="quote">“<span class="quote">File_1.hsxliff</span>”</span>,
+                    <span class="quote">“<span class="quote">File_2_1.hsxliff</span>”</span>, and
+                    <span class="quote">“<span class="quote">File_2_2.hsxliff</span>”</span>.</p>
+                  </li>
+</ol></div>
+              </div>
+</div>
+<p><br class="example-break"></p>
+          </li>
+<li class="listitem">
+            <p>Click <span class="guibutton">Finish</span> button.</p>
+<div class="figure">
+<a name="idp1316000"></a><p class="title"><b>Figure 119. Merge XLIFF files</b></p>
+<div class="figure-contents">
+                
+
+                <div class="screenshot">
+                  <div class="mediaobject"><img src="images/merge-xliff-file-1-2.png" alt="Merge XLIFF files"></div>
+                </div>
+              </div>
+</div>
+<p><br class="figure-break"></p>
+          </li>
+<li class="listitem">
+            <p>The successfully merged XLIFF file will be saved in the same
+            folder it was in before splitting. The file name of the merged
+            file is suffixed with <span class="quote">“<span class="quote">_merged</span>”</span> for the users'
+            convenience.</p>
+
+            <div class="figure">
+<a name="idp1320896"></a><p class="title"><b>Figure 120. The merged XLIFF file</b></p>
+<div class="figure-contents">
+              
+
+              <div class="screenshot">
+                <div class="mediaobject"><img src="images/merge-xliff-file-2.png" alt="The merged XLIFF file"></div>
+              </div>
+            </div>
+</div>
+<br class="figure-break">
+          </li>
+</ol></div>
+      </div>
+
+      <div class="sect2">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="ch5s6b"></a>Unlock repetitions</h3></div></div></div>
+        
+
+        <p>Unlocking repetitions is the reverse operation of <a class="link" href="ch05s03.html#lock-repetition" title="Lock Repetitions">locking repeated segments</a> during
+        <a class="link" href="ch05s03.html" title="3. Prepare before translating">preparation of the
+        translation project</a>. The purpose of unlocking of previously
+        locked repetitions is to apply translations to these repeated
+        segments. For the procedure to apply translations to repeated segments
+        after they have been unlocked, please see <a class="link" href="ch05s06.html#propagated-translation" title="Propagate Translation">propagate translation</a>.</p>
+
+        <p>All locked segments can be unlocked in a few simple steps as
+        follows:</p>
+
+        <div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem">
+            <p>Open or "merge and open" the XLIFF file(s) to be
+            unlocked.</p>
+          </li>
+<li class="listitem">
+            <p>In the editor, filter the segments by <span class="quote">“<span class="quote">locked
+            segments</span>”</span>.</p>
+
+            <div class="figure">
+<a name="idp1331072"></a><p class="title"><b>Figure 121. Unlock segments: Filter locked segments</b></p>
+<div class="figure-contents">
+              
+
+              <div class="screenshot">
+                <div class="mediaobject"><img src="images/unlock-segments.png" alt="Unlock segments: Filter locked segments"></div>
+              </div>
+            </div>
+</div>
+<br class="figure-break">
+          </li>
+<li class="listitem">
+            <p>Select the segments to be unlocked. </p>
+<div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Tip</h3>
+                <p>You can use <span class="keycap"><strong>Ctrl</strong></span>/<span class="keycap"><strong>Shift</strong></span>
+                and the left mouse button to select multiple segments.</p>
+              </div>
+          </li>
+<li class="listitem">
+            <p>Right-click &gt; <span class="guimenuitem">Lock</span>。</p>
+
+            <div class="figure">
+<a name="idp1338288"></a><p class="title"><b>Figure 122. Unlock segments</b></p>
+<div class="figure-contents">
+              
+
+              <div class="screenshot">
+                <div class="mediaobject"><img src="images/unlock-segments-2.png" alt="Unlock segments"></div>
+              </div>
+            </div>
+</div>
+<br class="figure-break">
+          </li>
+</ol></div>
+      </div>
+
+      <div class="sect2">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="propagated-translation"></a>Propagate Translation</h3></div></div></div>
+        
+
+        <p>Propagate Translation is mainly used to handle repetitions by
+        applying the translation of a segment to all other segments that share
+        the same source text. This feature is commonly used in combination
+        with the "lock/unlock repeated segments" feature previously mentioned.
+        Follow these steps:</p>
+
+        <div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem">
+            <p>Open or <span class="quote">“<span class="quote">merge and open </span>”</span>the XLIFF file that
+            contains the repetitions to which you want to apply
+            translations.</p>
+          </li>
+<li class="listitem">
+            <p>Click <span class="guimenu">Translation</span> &gt;
+            <span class="guimenuitem">Propagate Translation</span>；</p>
+
+            <div class="figure">
+<a name="idp1346960"></a><p class="title"><b>Figure 123. Propagate Translation</b></p>
+<div class="figure-contents">
+              
+
+              <div class="screenshot">
+                <div class="mediaobject"><img src="images/propagation-translation.png" alt="Propagate Translation"></div>
+              </div>
+            </div>
+</div>
+<br class="figure-break">
+          </li>
+<li class="listitem">
+            <p>In the editor, filter the segments by <span class="guimenuitem">Internal
+            Repetitions</span>.</p>
+          </li>
+<li class="listitem">
+            <p>Check if the segments require internal tags to be adjusted
+            manually.</p>
+          </li>
+</ol></div>
+
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Note</h3>
+          <p>By default, Propagating Translation will
+          <span class="emphasis"><em>not</em></span> overwrite any existing translations. If the
+          existing translation is no longer needed, it should be deleted first
+          using the <span class="guimenu">Edit</span> &gt; <span class="guimenuitem">Delete
+          Translation</span> feature before the <span class="guimenuitem">Propagate
+          Translation</span> feature is implemented.</p>
+        </div>
+      </div>
+
+      <div class="sect2">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="ch5s6d"></a>Convert XLIFF to target file</h3></div></div></div>
+        
+
+        <p>When all these steps have been completed, we recommend running
+        another <span class="guimenuitem">QA</span> to make sure there are no
+        obvious mistakes (especially with internal tags) in the translation.
+        After that, you are ready to generate the target file. The procedure
+        to generate translated target files is as follows:</p>
+
+        <div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem">
+            <p>In the <code class="interfacename">project</code>, select the
+            XLIFF file(s)/folder(s) to be converted to target file(s).</p>
+          </li>
+<li class="listitem">
+            <p>Use the right-click menu or <span class="guimenu">File</span> menu
+            &gt; <span class="guimenuitem">Convert to Target Files</span>.</p>
+
+            <div class="figure">
+<a name="idp1361040"></a><p class="title"><b>Figure 124. Convert XLIFFs to Target Files</b></p>
+<div class="figure-contents">
+              
+
+              <div class="screenshot">
+                <div class="mediaobject"><img src="images/convert-xliff-to-target-1-1.png" alt="Convert XLIFFs to Target Files"></div>
+              </div>
+            </div>
+</div>
+<br class="figure-break">
+          </li>
+<li class="listitem">
+            <p>In the <code class="interfacename">Convert XLIFFs to Target
+            Files</code> dialog box, confirm the following settings:
+            </p>
+<div class="figure">
+<a name="idp1365680"></a><p class="title"><b>Figure 125. Convert XLIFFs to Target Files</b></p>
+<div class="figure-contents">
+                
+
+                <div class="screenshot">
+                  <div class="mediaobject"><img src="images/convert-xliff-to-target-1-2.png" alt="Convert XLIFFs to Target Files"></div>
+                </div>
+              </div>
+</div>
+<p><br class="figure-break"></p>
+
+            <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+                <p><span class="guilabel">Encoding</span></p>
+
+                <p>The target file's encoding needs to be specified. When
+                <span class="emphasis"><em>non-</em></span><span class="quote">“<span class="quote">Unicode</span>”</span> encoding is
+                used, some characters in the target language may not display
+                properly. Example:</p>
+<div class="example">
+<a name="idp1371632"></a><p class="title"><b>Example 2. Choose encoding for target file</b></p>
+<div class="example-contents">
+                    
+
+                    <p>If the source file is an English file with
+                    <span class="quote">“<span class="quote">ASCII</span>”</span> encoding, the file cannot use
+                    <span class="quote">“<span class="quote">ASCII</span>”</span> after it has been translated into
+                    Chinese. Instead, the target file should be saved using
+                    <span class="quote">“<span class="quote">UTF-8</span>”</span> or <span class="quote">“<span class="quote">GBK</span>”</span>
+                    encoding.</p>
+                  </div>
+</div>
+<p><br class="example-break"></p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Overwrite files with the same
+                name</span></p>
+
+                <p>If there is an existing file sharing the same name as
+                the target file to be generated, the conversion cannot
+                continue. Users can select this option if they are sure that
+                the existing target file with the same name is <span class="emphasis"><em>no
+                longer needed</em></span>. Otherwise, users should move or
+                rename the existing target file before continuing with the
+                conversion.</p>
+              </li>
+</ul></div>
+          </li>
+<li class="listitem">
+            <p>Click the <span class="guibutton">OK</span> button. The target file
+            will be converted as as follows:</p>
+
+            <div class="figure">
+<a name="idp1378592"></a><p class="title"><b>Figure 126. Target file converted from XLIFF</b></p>
+<div class="figure-contents">
+              
+
+              <div class="screenshot">
+                <div class="mediaobject"><img src="images/convert-xliff-to-target-2.png" alt="Target file converted from XLIFF"></div>
+              </div>
+            </div>
+</div>
+<br class="figure-break">
+          </li>
+</ol></div>
+
+        <p>The converted target file will stay in the same folder structure
+        in the <span class="quote">“<span class="quote">XLIFF</span>”</span> folder (this directory structure is
+        inherited from that of the <span class="quote">“<span class="quote">source file</span>”</span>), saved under
+        <span class="quote">“<span class="quote">/Target/target language code</span>”</span>.</p>
+      </div>
+    </div></body>
+</html>

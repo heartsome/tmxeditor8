@@ -1,0 +1,72 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Collaborating with teams</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<meta name="generator" content="DocBook XSL Stylesheets V1.77.1">
+<link rel="home" href="index.html" title="Heartsome Translation Studio Release 8 Help">
+<link rel="up" href="index.html" title="Heartsome Translation Studio Release 8 Help">
+<link rel="prev" href="ch06s05.html" title="5. Export TM as TBX">
+<link rel="next" href="ch07s02.html" title="2. Export Project">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="chapter">
+<div class="titlepage"><div><div><h1 class="title">
+<a name="ch7-teamwork"></a>Collaborating with teams</h1></div></div></div>
+    
+
+    <p>A translation project is often completed by a team of people and
+    therefore inevitably involves teamwork. HSTS provides good support for
+    collaborating with teams.</p>
+
+    <div class="sect1">
+<div class="titlepage"><div><div><h2 class="title" style="clear: both">
+<a name="ch7s1-db-sharing"></a>1. Sharing databases</h2></div></div></div>
+      
+
+      <p>Unlike most CAT tools where server-based features are offered as
+      separate products and sold at high prices, HSTS
+      <span class="quote">“<span class="quote">Professional</span>”</span> and higher editions support external
+      database servers (for a detailed list of supported database types,
+      please refer to external database servers) and allow team members to
+      share TMs and termbases on these servers.</p>
+
+      <p>By following the <a class="link" href="ch06.html" title="Maintenance and management of TMs and termbases">instructions
+      and recommendations on maintenance and management of databases</a>
+      detailed earlier, users can create <span class="quote">“<span class="quote">final databases</span>”</span> and
+      <span class="quote">“<span class="quote">draft databases</span>”</span> (both including TMs and termbases) on any
+      computer functioning as a server. Members of the translation team simply
+      need to add these TMs/termbases to their project.</p>
+
+      <p>If your team needs to share TMs or termbases but are located in
+      different parts of the world, a cloud database might be a good option.
+      HSTS supports both Amazon RDS and ClearDB. For more information, please
+      see the product websites of the respective suppliers.</p>
+
+      <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Note</h3>
+        <p><span class="emphasis"><em>Differences between default and non-default
+        databases</em></span></p>
+
+        <p>In HSTS, each project can have one <span class="quote">“<span class="quote">default</span>”</span>
+        TM/termbase, and an unlimited number of <span class="quote">“<span class="quote">non-default
+        databases</span>”</span> (also called <span class="quote">“<span class="quote">reference databases</span>”</span>).
+        Default and non-default databases are different in that
+        <span class="emphasis"><em>reference databases are read-only</em></span>, meaning you
+        can search for matches in these databases but you can't save segments
+        in them. On the other hand, <span class="emphasis"><em>default databases are used for
+        searching and for saving segments</em></span>.</p>
+
+        <p>Access to databases can also be controlled with the user
+        management system that comes with the database server. Please see the
+        management documents of the appropriate database servers for more
+        details.</p>
+      </div>
+    </div>
+
+    
+
+    
+
+    
+  </div></body>
+</html>

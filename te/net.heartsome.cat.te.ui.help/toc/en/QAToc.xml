@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+<toc label="QA" topic="html/en/ch06.html" sort='false'>
+   <topic label="Selecting QA check items" href="html/en/ch06.html#qa_list_id"/>
+   <topic href="html/en/ch06.html#qa_report_id" label="Performing QA and generating QA reports">
+   </topic>
+   <topic href="html/en/ch06.html#qa_deal_id" label="How to correct errors from the QA report">
+   </topic>
+</toc>
+

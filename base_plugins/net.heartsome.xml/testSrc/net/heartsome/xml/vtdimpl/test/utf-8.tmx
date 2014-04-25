@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<tmx version="1.4">
+   <header
+      creationtool="DejaVu"
+      creationtoolversion="4"
+      datatype="PlainText"
+      segtype="sentence"
+      adminlang="en-us"
+      srclang="zh-cn"
+      o-tmf="DVMDB"
+   >
+   </header>
+   <body>
+      <tu
+         tuid="0000001"
+         datatype="Text"
+         srclang="en-us"
+      >
+         <prop type="x-project">computer2.xls</prop>
+         <prop type="x-idiom-tm-uda-Project_ID">computer2.xls</prop>
+         <prop type="x-filename">computer2.xls</prop>
+         <prop type="x-rowid">0000001</prop>
+         <tuv
+            xml:lang="zh-cn"
+            creationdate="20111027T072546Z"
+            creationid="Administrator"
+         >
+            <prop type="x-issource">false</prop>
+            <seg>主动距陈</seg>
+         </tuv>
+         <tuv
+            xml:lang="en-us"
+            creationdate="20111027T072546Z"
+            creationid="Administrator"
+         >
+            <prop type="x-issource">true</prop>
+            <seg>Active-matrix</seg>
+         </tuv>
+      </tu>
+      <tu
+         tuid="0000002"
+         datatype="Text"
+         srclang="en-us"
+      >
+         <prop type="x-project">computer2.xls</prop>
+         <prop type="x-idiom-tm-uda-Project_ID">computer2.xls</prop>
+         <prop type="x-filename">computer2.xls</prop>
+         <prop type="x-rowid">0000002</prop>
+         <tuv
+            xml:lang="zh-cn"
+            creationdate="20111027T072546Z"
+            creationid="Administrator"
+         >
+            <prop type="x-issource">false</prop>
+            <seg>适配卡</seg>
+         </tuv>
+         <tuv
+            xml:lang="en-us"
+            creationdate="20111027T072546Z"
+            creationid="Administrator"
+         >
+            <prop type="x-issource">true</prop>
+            <seg>Adapter cards</seg>
+         </tuv>
+      </tu>
+	  </body>
+	  </tmx>

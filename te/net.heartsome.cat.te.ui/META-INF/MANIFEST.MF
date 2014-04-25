@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Heartsome CAT TE UI
+Bundle-SymbolicName: net.heartsome.cat.te.ui;singleton:=true
+Bundle-Version: 8.0.0.R8b_v20140103
+Bundle-Activator: net.heartsome.cat.te.ui.Activator
+Bundle-Vendor: Heartsome Technologies Ltd.
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ net.heartsome.cat.te.core;bundle-version="1.0.0",
+ net.heartsome.cat.thirdpartlibrary;bundle-version="8.0.0",
+ org.eclipse.nebula.widgets.tablecombo;bundle-version="8.0.0",
+ org.eclipse.core.databinding;bundle-version="1.4.0",
+ org.eclipse.core.databinding.beans;bundle-version="1.2.100",
+ org.eclipse.core.databinding.property;bundle-version="1.4.0",
+ org.eclipse.jface.databinding;bundle-version="1.5.0",
+ org.eclipse.core.expressions,
+ net.heartsome.cat.te.tmxeditor;bundle-version="1.0.0",
+ org.eclipse.ui.net;bundle-version="1.2.100",
+ net.heartsome.xml;bundle-version="8.0.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-Localization: plugin
+Import-Package: net.heartsome.cat.common.bean,
+ net.heartsome.cat.common.locale,
+ net.heartsome.cat.common.ui,
+ net.heartsome.cat.common.ui.dialog,
+ net.heartsome.cat.common.ui.languagesetting,
+ net.heartsome.cat.common.ui.utils,
+ net.heartsome.cat.common.util,
+ net.heartsome.cat.database,
+ net.heartsome.cat.database.service,
+ net.heartsome.cat.database.ui.bean,
+ net.heartsome.cat.database.ui.core
+Export-Package: net.heartsome.cat.te.ui,
+ net.heartsome.cat.te.ui.preferencepage
+

@@ -1,0 +1,1252 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>3. Prepare before translating</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<meta name="generator" content="DocBook XSL Stylesheets V1.77.1">
+<link rel="home" href="index.html" title="Heartsome Translation Studio Release 8 Help">
+<link rel="up" href="ch05.html" title="Workflow">
+<link rel="prev" href="ch05s02.html" title="2. Creating projects">
+<link rel="next" href="ch05s04.html" title="4. Translation">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="sect1">
+<div class="titlepage"><div><div><h2 class="title" style="clear: both">
+<a name="preparation-of-translation"></a>3. Prepare before translating</h2></div></div></div>
+      
+
+      <p>Before proceeding with translation, you should properly prepare
+      the project to help you work efficiently:</p>
+
+      <div class="sect2">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="create-tm-wizard"></a>New Translation Memory Wizard</h3></div></div></div>
+        
+
+        <p>It is recommended that TMs are always used for translation
+        projects in order to make full use of CAT tool features. If no TM was
+        created or added during project creation, it can be done after the
+        project has been created, by going to the <span class="guimenu">File</span> menu
+        or context menu &gt; <span class="guisubmenu">New</span> &gt;
+        <span class="guimenuitem">Translation Memory</span> to open
+        <code class="interfacename">New Translation Memory Wizard</code>.</p>
+
+        <div class="sect3">
+<div class="titlepage"><div><div><h4 class="title">
+<a name="idp500528"></a>TM basic information</h4></div></div></div>
+          
+
+          <div class="figure">
+<a name="idp501792"></a><p class="title"><b>Figure 39. Create a new TM: TM information</b></p>
+<div class="figure-contents">
+            
+
+            <div class="screenshot">
+              <div class="mediaobject"><img src="images/create-tm-1-basic-info.png" alt="Create a new TM: TM information"></div>
+            </div>
+          </div>
+</div>
+<br class="figure-break">
+
+          <p>In the first step of the Create A New TM wizard, you need to
+          choose the type of TM to be created. Different database types
+          require different basic information to be entered. The differences
+          are detailed as follows:</p>
+
+          <div class="sect4">
+<div class="titlepage"><div><div><h5 class="title">
+<a name="idp503728"></a>Internal DB</h5></div></div></div>
+            
+
+            <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+                <p><span class="guilabel">Path</span></p>
+
+                <p>The path where the TM will be saved.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Name</span></p>
+
+                <p>Name of the TM.</p>
+              </li>
+</ul></div>
+          </div>
+
+          <div class="sect4">
+<div class="titlepage"><div><div><h5 class="title">
+<a name="idp510032"></a>MS SQL Server</h5></div></div></div>
+            
+
+            <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Tip</h3>
+              <p>To get the following information, you might need to ask
+              relevant IT personnel for assistance or refer to the user
+              documentation for the respective database server
+              software.</p>
+            </div>
+
+            <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+                <p><span class="guilabel">Address</span></p>
+
+                <p>The MS SQL Server's host name, domain name, or IP
+                address.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Port</span></p>
+
+                <p>The MS SQL Server port, which is 1433 by default.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Username</span></p>
+
+                <p>The username required to access the MS SQL Server.
+                Authority for creating a database needs to be granted to this
+                user.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Password</span></p>
+
+                <p>The password for the respective user.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Name</span></p>
+
+                <p>Name of the TM.</p>
+              </li>
+</ul></div>
+          </div>
+
+          <div class="sect4">
+<div class="titlepage"><div><div><h5 class="title">
+<a name="idp519680"></a>MySQL</h5></div></div></div>
+            
+
+            <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+                <p><span class="guilabel">Address</span></p>
+
+                <p>The MySQL Server's host name, domain name, or IP
+                address.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Port</span></p>
+
+                <p>The MySQL Server port, which is 3306 by default.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Username</span></p>
+
+                <p>The username required to access the MySQL Server.
+                Authority for creating a database needs to be granted to this
+                user.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Password</span></p>
+
+                <p>The password for the respective user.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Name</span></p>
+
+                <p>Name of the TM.</p>
+              </li>
+</ul></div>
+          </div>
+
+          <div class="sect4">
+<div class="titlepage"><div><div><h5 class="title">
+<a name="idp528320"></a>Oracle</h5></div></div></div>
+            
+
+            <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+                <p><span class="guilabel">Address</span></p>
+
+                <p>The Oracle Server's host name, domain name, or IP
+                address.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Port</span></p>
+
+                <p>The Oracle Server port, which is 1521 by default.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Instance</span></p>
+
+                <p>An Oracle database instance.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Username</span></p>
+
+                <p>The username required to access the MySQL Server.
+                Authority for creating a database needs to be granted to this
+                user.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Password</span></p>
+
+                <p>The password for the respective user.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Name</span></p>
+
+                <p>Name of the TM.</p>
+              </li>
+</ul></div>
+          </div>
+
+          <div class="sect4">
+<div class="titlepage"><div><div><h5 class="title">
+<a name="idp538400"></a>PostgreSQL</h5></div></div></div>
+            
+
+            <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+                <p><span class="guilabel">Address</span></p>
+
+                <p>The PostgreSQL Server's host name, domain name, or IP
+                address.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Port</span></p>
+
+                <p>The PostgreSQL Server port, which is 5432 by
+                default.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Username</span></p>
+
+                <p>The username required to access the MySQL Server.
+                Authority for creating a database needs to be granted to this
+                user.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Password</span></p>
+
+                <p>The password for the respective user.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Name</span></p>
+
+                <p>Name of the TM.</p>
+              </li>
+</ul></div>
+
+            <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Note</h3>
+              <p>For each type of database above, users are allowed to
+              create multiple TMs/termbases on one server (path, server +
+              port, server + port + instance).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sect3">
+<div class="titlepage"><div><div><h4 class="title">
+<a name="create-tm-wizard-import-tmx"></a>Import TMX files</h4></div></div></div>
+          
+
+          <div class="figure">
+<a name="idp549024"></a><p class="title"><b>Figure 40. Create new TM: Import TMX file</b></p>
+<div class="figure-contents">
+            
+
+            <div class="screenshot">
+              <div class="mediaobject"><img src="images/create-tm-2-import-tmx.png" alt="Create new TM: Import TMX file"></div>
+            </div>
+          </div>
+</div>
+<br class="figure-break">
+
+          <p>In the second step of the Create A New TM wizard, you may
+          choose to import a TMX file into the newly created TM.</p>
+
+          <p>By clicking the <span class="guibutton">Options</span> button, you can
+          also define how duplicate entries will be handled.</p>
+
+          <div class="figure">
+<a name="idp553840"></a><p class="title"><b>Figure 41. Options: TM - duplicate entries processing</b></p>
+<div class="figure-contents">
+            
+
+            <div class="screenshot">
+              <div class="mediaobject"><img src="images/create-tm-3-import-option.png" alt="Options: TM - duplicate entries processing"></div>
+            </div>
+          </div>
+</div>
+<br class="figure-break">
+
+          <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
+              <p>Duplicate entries processing</p>
+
+              <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: circle; ">
+<li class="listitem">
+                  <p><span class="guilabel">Add</span></p>
+
+                  <p>Offering the fastest import speed, this is the best
+                  option when there are no duplicate entries between the
+                  existing TM and the TMX being imported, or when all
+                  duplicates need to be retained.</p>
+                </li>
+<li class="listitem">
+                  <p><span class="guilabel">Overwrite</span></p>
+
+                  <p>Offering a slower import speed, this is the best
+                  option when the TMX being imported contains more up-to-date
+                  content than the existing TM.</p>
+                </li>
+<li class="listitem">
+                  <p><span class="guilabel">Ignore</span></p>
+
+                  <p>Offering a moderate import speed, this is the best
+                  option when the existing TM contains more up-to-date content
+                  than the TMX being imported.</p>
+                </li>
+</ul></div>
+            </li></ul></div>
+        </div>
+      </div>
+
+      <div class="sect2">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="create-tb-wizard"></a>New Terbase Wizard</h3></div></div></div>
+        
+
+        <div class="sect3">
+<div class="titlepage"><div><div><h4 class="title">
+<a name="idp565168"></a>Termbase basic information</h4></div></div></div>
+          
+
+          <div class="figure">
+<a name="idp565808"></a><p class="title"><b>Figure 42. Create new termbase: Basic information</b></p>
+<div class="figure-contents">
+            
+
+            <div class="screenshot">
+              <div class="mediaobject"><img src="images/create-tb-1-basic-info.png" alt="Create new termbase: Basic information"></div>
+            </div>
+          </div>
+</div>
+<br class="figure-break">
+
+          <p>Similar to the procedure of creating a new TM, the first step
+          in the Create A New Termbase wizard is choosing from the different
+          types of termbase. For details about the information required for
+          each database type, please see <a class="xref" href="ch05s03.html#create-tm-wizard" title="New Translation Memory Wizard">the section called “New Translation Memory Wizard”</a>.</p>
+        </div>
+
+        <div class="sect3">
+<div class="titlepage"><div><div><h4 class="title">
+<a name="create-tb-wizard-import-tbx"></a>Import TBX files</h4></div></div></div>
+          
+
+          <div class="figure">
+<a name="idp571952"></a><p class="title"><b>Figure 43. Create new termbase: Import TBX file</b></p>
+<div class="figure-contents">
+            
+
+            <div class="screenshot">
+              <div class="mediaobject"><img src="images/create-tb-2-import-tbx.png" alt="Create new termbase: Import TBX file"></div>
+            </div>
+          </div>
+</div>
+<br class="figure-break">
+
+          <p>In the second step of the Create A New Termbase wizard, you
+          can choose to import a TBX file into the newly created
+          termbase.</p>
+
+          <p>By clicking the <span class="guibutton">Options</span> button, you can
+          also define how duplicate entries will be handled.</p>
+
+          <div class="figure">
+<a name="idp576672"></a><p class="title"><b>Figure 44. Options: Termbase - Duplicate entries processing</b></p>
+<div class="figure-contents">
+            
+
+            <div class="screenshot">
+              <div class="mediaobject"><img src="images/create-tb-3-import-option.png" alt="Options: Termbase - Duplicate entries processing"></div>
+            </div>
+          </div>
+</div>
+<br class="figure-break">
+
+          <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
+              <p>Duplicate entries processing</p>
+
+              <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: circle; ">
+<li class="listitem">
+                  <p><span class="guilabel">Add</span></p>
+
+                  <p>Offering the fastest import speed, this is the best
+                  option when there are no matching repetitions between the
+                  existing termbase and the TBX being imported, or when all
+                  duplicates need to be retained.</p>
+                </li>
+<li class="listitem">
+                  <p><span class="guilabel">Overwrite</span></p>
+
+                  <p>Offering a slower import speed, this is the best
+                  option when the TBX being imported contains more up-to-date
+                  content than the existing termbase.</p>
+                </li>
+<li class="listitem">
+                  <p><span class="guilabel">Merge</span></p>
+
+                  <p>Offering a slower import speed, this is a suitable
+                  option when the contents in both the imported TBX and the
+                  existing termbase need to be retained.</p>
+                </li>
+<li class="listitem">
+                  <p><span class="guilabel">Ignore</span></p>
+
+                  <p>Offering a moderate import speed, that is the best
+                  option when the existing termbase contains more up-to-date
+                  content than the TBX being imported.</p>
+                </li>
+</ul></div>
+            </li></ul></div>
+        </div>
+      </div>
+
+      <div class="sect2">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="add-source-files-drag-and-drop"></a>Add Source Files</h3></div></div></div>
+        
+
+        <p>If the "add source file" step was skipped or not all source
+        files were added during the creation of the project, you can do so
+        after the project has been created by simply dragging the source file
+        (one or multiple files/folders) from your computer's file manager and
+        dropping it (or them) into the <span class="quote">“<span class="quote">Source</span>”</span> folder for the
+        project. If a folder was added, then the entire sub-folder structure
+        within it will also be retained. See the figure below illustrating the
+        drag-and-drop operation:</p>
+
+        <div class="figure">
+<a name="idp591088"></a><p class="title"><b>Figure 45. Drag-and-drop folders/files</b></p>
+<div class="figure-contents">
+          
+
+          <div class="screenshot">
+            <div class="mediaobject"><img src="images/drag-and-drop-file.png" alt="Drag-and-drop folders/files"></div>
+          </div>
+        </div>
+</div>
+<br class="figure-break">
+
+        <p>Other than drag-and-drop, you can also add source files by
+        directly copying one or multiple files or folders from your computer's
+        file manager by selecting the project's <span class="quote">“<span class="quote">Source</span>”</span> folder
+        in the Project window and using the hot keys
+        <span class="keycap"><strong>Ctrl</strong></span>/<span class="keycap"><strong>Command</strong></span>+<span class="keycap"><strong>V</strong></span> or
+        <span class="guimenu">Edit</span> menu &gt;
+        <span class="guimenuitem">Paste</span>.</p>
+
+        <p>To delete source files, just select one or multiple
+        files/folders and click <span class="guimenu">Edit</span> menu &gt;
+        <span class="guimenuitem">Delete,</span> or simply press
+        <span class="keycap"><strong>Delete</strong></span> on your keyboard.</p>
+      </div>
+
+      <div class="sect2">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="convert-source-to-xliff"></a>Convert Source Files to XLIFF</h3></div></div></div>
+        
+
+        <p>Since HSTS can be used to directly edit XLIFF files, only source
+        files in other formats have to be converted into XLIFF format before
+        they can be translated with HSTS. You will be directed to this step
+        automatically in the final step of project creation after adding
+        source files and chosen <span class="guilabel">Convert source files to
+        XLIFF</span> after the project is created. Alternatively, you can
+        expand the project folder and select the <span class="quote">“<span class="quote">Source</span>”</span> folder,
+        or any other files/folders in the Source folder. Following this,
+        choose <span class="guimenu">Convert to XLIFF Files</span> from context menu or
+        <span class="guimenuitem">File</span> menu.</p>
+
+        <div class="figure">
+<a name="idp602448"></a><p class="title"><b>Figure 46. Convert Source Files to XLIFF</b></p>
+<div class="figure-contents">
+          
+
+          <div class="screenshot">
+            <div class="mediaobject"><img src="images/convert-source-to-xliff-1.png" alt="Convert Source Files to XLIFF"></div>
+          </div>
+        </div>
+</div>
+<br class="figure-break">
+
+        <p>In <code class="interfacename">Convert Source Files to XLIFF </code>
+        dialog box, there are following parameters available for configuration
+        in: </p>
+<div class="figure">
+<a name="idp607168"></a><p class="title"><b>Figure 47. Convert Source Files to XLIFF dialog box</b></p>
+<div class="figure-contents">
+            
+
+            <div class="screenshot">
+              <div class="mediaobject"><img src="images/convert-source-to-xliff-2.png" alt="Convert Source Files to XLIFF dialog box"></div>
+            </div>
+          </div>
+</div>
+<p><br class="figure-break"></p>
+
+        <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+            <p>Properties</p>
+
+            <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: circle; ">
+<li class="listitem">
+                <p><span class="guilabel">Format</span></p>
+
+                <p>The format of the source files.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Encoding</span></p>
+
+                <p>The encoding of the source files.</p>
+              </li>
+</ul></div>
+          </li>
+<li class="listitem">
+            <p>Conversion Options</p>
+
+            <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: circle; ">
+<li class="listitem">
+                <p><span class="guilabel">Overwrite files with the same
+                name</span></p>
+
+                <p>HSTS will not overwrite existing files by default. If
+                the XLIFF file that needs to be generated already exists, the
+                only way to continue the conversion is to overwrite the
+                existing file. Before choosing this option make sure that the
+                file to be overwritten does not contain useful data. Back it
+                up first if it does.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Pre-translate</span></p>
+
+                <p>This will enable pre-translation of the XLIFF file after
+                conversion, which can facilitate the translation
+                process. </p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Target Languages</span></p>
+
+                <p>This will convert your source files to XLIFF files with
+                multiple target languages. Here, the option can be selected by
+                pressing <span class="keycap"><strong>Ctrl</strong></span>/<span class="keycap"><strong>Shift</strong></span> plus the
+                left mouse button.</p>
+              </li>
+</ul></div>
+          </li>
+<li class="listitem">
+            <p><span class="guilabel">Segmentation Rules</span></p>
+
+            <p>SRX (Segmentation Rules eXchange) files define how a
+            paragraph will be split up into sentences. Users can choose
+            different segmentation rules to meet the particular requirements
+            of clients, languages or files. For custom segmentation rules, you
+            can refer to "<a class="link" href="ch09.html#segmentation-rule-manager">Configure
+            segmentation rules</a>".</p>
+          </li>
+</ul></div>
+      </div>
+
+      <div class="sect2">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="lock-repetition"></a>Lock Repetitions</h3></div></div></div>
+        
+
+        <p>Some sentences (text segments) might appear in one project
+        repeatedly. To provide consistent translation for these repeated text
+        segments and to also save time handling them, it is recommended that
+        these repetitions are locked and that the "duplicate translation"
+        feature is used after translation has been completed. In this way,
+        identical translations will be applied to the repetitions.</p>
+
+        <p>HSTS enables automatic locking of repetitions. This convenient
+        feature keeps the first occurrence of the segment unlocked, but locks
+        the second and later occurrences (the repetitions). This makes it easy
+        to translate the first occurrence, while preventing inconsistent
+        translations for the repetitions. The step-by-step procedure is
+        described as follows:</p>
+
+        <div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem">
+            <p>Select one or more files/folders in the project's
+            <span class="quote">“<span class="quote">XLIFF</span>”</span> folder, then from the right-click menu or
+            <span class="guimenu">Translation</span> menu, select <span class="guimenuitem">Lock
+            Repetitions</span>.</p>
+<div class="figure">
+<a name="idp629616"></a><p class="title"><b>Figure 48. Lock Repetitions</b></p>
+<div class="figure-contents">
+                
+
+                <div class="screenshot">
+                  <div class="mediaobject"><img src="images/lock-repetition-1.png" alt="Lock Repetitions"></div>
+                </div>
+              </div>
+</div>
+<p><br class="figure-break"></p>
+          </li>
+<li class="listitem">
+            <p><code class="interfacename">Lock Repetitions</code>dialog box is
+            displayed in which list all selected files just now, select
+            segment status level you want to lock：</p>
+<div class="figure">
+<a name="idp634560"></a><p class="title"><b>Figure 49. Lock Repetitions dialog box</b></p>
+<div class="figure-contents">
+                
+
+                <div class="screenshot">
+                  <div class="mediaobject"><img src="images/lock-repetition-2.png" alt="Lock Repetitions dialog box"></div>
+                </div>
+              </div>
+</div>
+<p><br class="figure-break"></p>
+
+            <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+                <p><span class="guilabel">Internal Repetitions</span></p>
+
+                <p>Segments with identical source text within the same file
+                or across multiple files will be locked.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Exact Matches</span></p>
+
+                <p>Segments with a 100% match in the TM will be
+                locked.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Context Matches</span></p>
+
+                <p>Segments with a 101% match in the TM will be
+                locked.</p>
+              </li>
+</ul></div>
+          </li>
+<li class="listitem">
+            <p>Click the <span class="guibutton">OK</span> button to start locking
+            the repetitions and the result will be shown at the end.</p>
+<div class="figure">
+<a name="idp643664"></a><p class="title"><b>Figure 50. Results of locking repetitions</b></p>
+<div class="figure-contents">
+                
+
+                <div class="screenshot">
+                  <div class="mediaobject"><img src="images/lock-repetition-3.png" alt="Results of locking repetitions"></div>
+                </div>
+              </div>
+</div>
+<p><br class="figure-break"></p>
+          </li>
+</ol></div>
+      </div>
+
+      <div class="sect2">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="pre-translation"></a>Pre-translate</h3></div></div></div>
+        
+
+        <p>Pre-translation will automatically translate all segments in the
+        selected XLIFF where matches are found in the TM. It also facilitates
+        more accurate implementation of matches-based features, such as word
+        count analysis or the <span class="quote">“<span class="quote">repetitions</span>”</span> in the segment filter
+        of the editor.</p>
+
+        <p>Apart from TM pre-translation, HSTS also <span class="emphasis"><em>supports
+        MT-based pre-translation</em></span>.How it works:</p>
+
+        <div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem">
+            <p>Before pre-translating from a TM, at least one TM should be
+            added to the project. The TM cannot be empty (matches must have
+            been added by importing TMX or translated segments to the
+            TM).</p>
+<div class="figure">
+<a name="idp651552"></a><p class="title"><b>Figure 51. Open Project Settings</b></p>
+<div class="figure-contents">
+                
+
+                <div class="screenshot">
+                  <div class="mediaobject"><img src="images/pre-translate-1-tm-1.png" alt="Open Project Settings"></div>
+                </div>
+              </div>
+</div>
+<p><br class="figure-break"></p>
+
+            <div class="figure">
+<a name="project-setting-tm"></a><p class="title"><b>Figure 52. Project Settings: TM</b></p>
+<div class="figure-contents">
+              
+
+              <div class="screenshot">
+                <div class="mediaobject"><img src="images/pre-translate-1-tm-2.png" alt="Project Settings: TM"></div>
+              </div>
+            </div>
+</div>
+<br class="figure-break">
+          </li>
+<li class="listitem">
+            <p>Select one or more files/folders in the project's
+            <span class="quote">“<span class="quote">XLIFF</span>”</span> folder, then from the right click menu or
+            <span class="guimenu">Translation</span> menu, select
+            <span class="guimenuitem">Pretranslation</span>.</p>
+<div class="figure">
+<a name="idp660896"></a><p class="title"><b>Figure 53. Pre-translate</b></p>
+<div class="figure-contents">
+                
+
+                <div class="screenshot">
+                  <div class="mediaobject"><img src="images/pre-translate-2-1.png" alt="Pre-translate"></div>
+                </div>
+              </div>
+</div>
+<p><br class="figure-break">The <code class="interfacename">Pretranslation</code>
+            dialog will pop up listing all of the selected XLIFF files.</p>
+
+            <div class="figure">
+<a name="idp663072"></a><p class="title"><b>Figure 54. Pre-translate</b></p>
+<div class="figure-contents">
+              
+
+              <div class="screenshot">
+                <div class="mediaobject"><img src="images/pre-translate-2-2.png" alt="Pre-translate"></div>
+              </div>
+            </div>
+</div>
+<br class="figure-break">
+          </li>
+<li class="listitem">
+            <p>Clicking the <span class="guibutton">Options</span> button will open
+            the Preferences related to pre-translation:</p>
+
+            <div class="figure">
+<a name="idp669728"></a><p class="title"><b>Figure 55. Options: Pre-translate</b></p>
+<div class="figure-contents">
+              
+
+              <div class="screenshot">
+                <div class="mediaobject"><img src="images/pre-translate-3-option.png" alt="Options: Pre-translate"></div>
+              </div>
+            </div>
+</div>
+<br class="figure-break">
+
+            <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+                <p>Pre-translate</p>
+
+                <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: circle; ">
+<li class="listitem">
+                    <p>Also lock following segments:</p>
+
+                    <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: square; ">
+<li class="listitem">
+                        <p><span class="guilabel">Exact Matches</span></p>
+                      </li>
+<li class="listitem">
+                        <p><span class="guilabel">Context Matches</span></p>
+                      </li>
+</ul></div>
+                  </li>
+<li class="listitem">
+                    <p>How to handle existing translations:</p>
+
+                    <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: square; ">
+<li class="listitem">
+                        <p><span class="guilabel">Keep existing
+                        translations</span></p>
+                      </li>
+<li class="listitem">
+                        <p><span class="guilabel">Overwrite if translations found with
+                        higher match value</span></p>
+                      </li>
+<li class="listitem">
+                        <p><span class="guilabel">Always overwrite existing
+                        translations</span></p>
+                      </li>
+</ul></div>
+                  </li>
+</ul></div>
+              </li>
+<li class="listitem">
+                <p>Google Translate</p>
+
+                <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: circle; ">
+<li class="listitem">
+                    <p><span class="guilabel">Key</span></p>
+
+                    <p>Need to purchase from Google, please refer to <a class="xref" href="ch09.html#how-to-use-mt" title="1.2.">Q: 1.2</a>.</p>
+                  </li>
+<li class="listitem">
+                    <p>Automatic Machine Translation</p>
+
+                    <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: square; ">
+<li class="listitem">
+                        <p><span class="guilabel">When no pre-stored translations from
+                        Google Translate</span></p>
+                      </li>
+<li class="listitem">
+                        <p><span class="guilabel">Always</span></p>
+                      </li>
+<li class="listitem">
+                        <p><span class="guilabel">Never, I'll do that
+                        manually</span></p>
+                      </li>
+</ul></div>
+                  </li>
+<li class="listitem">
+                    <p><span class="guilabel">Pre-store Google Translate
+                    translations</span></p>
+                  </li>
+</ul></div>
+              </li>
+<li class="listitem">
+                <p>Bing Translator</p>
+
+                <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: circle; ">
+<li class="listitem">
+                    <p>For authentication, please refer to <a class="xref" href="ch09.html#how-to-use-mt" title="1.2.">Q: 1.2</a> for following
+                    information:</p>
+
+                    <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: square; ">
+<li class="listitem">
+                        <p><span class="guilabel">Client ID</span></p>
+                      </li>
+<li class="listitem">
+                        <p><span class="guilabel">Key</span></p>
+                      </li>
+</ul></div>
+                  </li>
+<li class="listitem">
+                    <p>Automatic Machine Translation</p>
+
+                    <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: square; ">
+<li class="listitem">
+                        <p><span class="guilabel">When no pre-stored translations from
+                        Bing Translator</span></p>
+                      </li>
+<li class="listitem">
+                        <p><span class="guilabel">Always</span></p>
+                      </li>
+<li class="listitem">
+                        <p><span class="guilabel">Never, I'll do that
+                        manually</span></p>
+                      </li>
+</ul></div>
+                  </li>
+<li class="listitem">
+                    <p><span class="guilabel">Pre-store Bing Translator
+                    translations</span></p>
+                  </li>
+</ul></div>
+              </li>
+</ul></div>
+          </li>
+<li class="listitem">
+            <p>Click the <span class="guibutton">OK</span> button to start
+            pre-translation.The operation may take some time to complete
+            depending on the volume of segments in the XLIFF and whether MT
+            has been used for pre-storage.Once the pre translation has
+            finished, the results dialog box will appear, as shown
+            below.</p>
+
+            <div class="figure">
+<a name="idp704432"></a><p class="title"><b>Figure 56. Pre-translation Results</b></p>
+<div class="figure-contents">
+              
+
+              <div class="screenshot">
+                <div class="mediaobject"><img src="images/pre-translate-4-result.png" alt="Pre-translation Results"></div>
+              </div>
+            </div>
+</div>
+<br class="figure-break">
+          </li>
+</ol></div>
+      </div>
+
+      <div class="sect2">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="word-analysis"></a>Analyze Files</h3></div></div></div>
+        
+
+        <p>A word count analysis give users an idea of the volume of the
+        translation project, which helps with billing or with project
+        management when translation assignments have to be split between
+        different translators. HSTS can also calculate equivalent word counts,
+        or "weighted word counts," for a given translation project. This is
+        based on the match values and the corresponding equivalents set by
+        users, and the software will then automatically sum up results across
+        all folders.To do a word count analysis, please follow these
+        steps:</p>
+
+        <div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem">
+            <p>Select <code class="interfacename">Project</code> in the project
+            window, and then from the right-click menu or the
+            <span class="guimenu">Project</span> menu, open <span class="guimenuitem">Project
+            Settings</span> &gt; <span class="guimenuitem">Translation
+            Memory</span> to check that a non-empty TM has been
+            created. Create an empty TM if this has not been done.For details,
+            see <a class="xref" href="ch05s03.html#project-setting-tm" title="Figure 52. Project Settings: TM">Figure 52, “Project Settings: TM”</a>.</p>
+          </li>
+<li class="listitem">
+            <p>From the <span class="quote">“<span class="quote">Project</span>”</span> or XLIFF sub-folder, choose
+            one or multiple <span class="type">.hsxliff</span> files, and from either the
+            right-click menu or the <span class="guimenu">Project</span> menu, select
+            <span class="guimenuitem">Analyze Files</span>.</p>
+<div class="figure">
+<a name="idp731920"></a><p class="title"><b>Figure 57. Analyze Files</b></p>
+<div class="figure-contents">
+                
+
+                <div class="screenshot">
+                  <div class="mediaobject"><img src="images/word-analysis-1-1.png" alt="Analyze Files"></div>
+                </div>
+              </div>
+</div>
+<p><br class="figure-break"></p>
+
+            <div class="figure">
+<a name="idp735840"></a><p class="title"><b>Figure 58. Analyze Files dialog box</b></p>
+<div class="figure-contents">
+              
+
+              <div class="screenshot">
+                <div class="mediaobject"><img src="images/word-analysis-1-2.png" alt="Analyze Files dialog box"></div>
+              </div>
+            </div>
+</div>
+<br class="figure-break">
+          </li>
+<li class="listitem">
+            <p>From the <code class="interfacename">Analyze Files</code> dialog
+            box, you may also choose from these additional options:</p>
+
+            <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+                <p><span class="guilabel">Lock context matches</span></p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Lock exact matches</span></p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Lock Repetitions</span></p>
+              </li>
+</ul></div>
+          </li>
+<li class="listitem">
+            <p>Click the <span class="guibutton">Options</span> button to change
+            settings for the word count analysis:</p>
+
+            <div class="figure">
+<a name="idp744896"></a><p class="title"><b>Figure 59. Options: Analyze Files</b></p>
+<div class="figure-contents">
+              
+
+              <div class="screenshot">
+                <div class="mediaobject"><img src="images/word-analysis-2-option.png" alt="Options: Analyze Files"></div>
+              </div>
+            </div>
+</div>
+<br class="figure-break">
+
+            <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+                <p><span class="guilabel">Ignore case</span></p>
+
+                <p>Ignore by default.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Ignore tags</span></p>
+
+                <p>Ignore by default.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Minimum match value</span></p>
+
+                <p>Valid values range from 1% to 100%. The default value is
+                70%.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Number of context segments</span></p>
+
+                <p>Valid values range from 1 to 100. The default value is
+                1. The previous segment and following segment (if neither are
+                empty) are taken into account for context matching.</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Analysis Report</span></p>
+
+                <p>Whether to include the internal repetitions and internal
+                fuzzy matches in the analysis report:</p>
+
+                <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: circle; ">
+<li class="listitem">
+                    <p><span class="guilabel">Internal Repetitions</span></p>
+                  </li>
+<li class="listitem">
+                    <p><span class="guilabel">Internal fuzzy matches</span></p>
+                  </li>
+</ul></div>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Weighted Factor</span></p>
+
+                <p>Match value range and weighted factors. This setting
+                converts the word counts of specific match values into
+                weighted word counts. For example, a repeated word may be
+                counted as the factor of 0.5 of a word. Settings for this may
+                vary from client to client or agency to agency, and users can
+                change these values as appropriate.</p>
+<div class="figure">
+<a name="idp760480"></a><p class="title"><b>Figure 60. Options: Weighted Factor</b></p>
+<div class="figure-contents">
+                    
+
+                    <div class="screenshot">
+                      <div class="mediaobject"><img src="images/word-analysis-2-option-equivalent.png" alt="Options: Weighted Factor"></div>
+                    </div>
+                  </div>
+</div>
+<p><br class="figure-break"></p>
+              </li>
+</ul></div>
+          </li>
+<li class="listitem">
+            <p>Once you have finished choosing settings, click the
+            <span class="guibutton">OK</span> button and an analysis report in HTML
+            format will be created in the <span class="quote">“<span class="quote">Intermediate/Report</span>”</span>
+            folder and automatically opened.</p>
+
+            <div class="figure">
+<a name="idp766112"></a><p class="title"><b>Figure 61. Results of word analysis</b></p>
+<div class="figure-contents">
+              
+
+              <div class="screenshot">
+                <div class="mediaobject"><img src="images/word-analysis-3-result.png" alt="Results of word analysis"></div>
+              </div>
+            </div>
+</div>
+<br class="figure-break">
+          </li>
+</ol></div>
+      </div>
+
+      <div class="sect2">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="split-xliff-file"></a>Split up a file</h3></div></div></div>
+        
+
+        <p>If an individual file is very large, it can be converted to
+        XLIFF and then split up into multiple smaller files. These can then be
+        assigned to different translators to work on at the same time in order
+        to shorten the project cycle. With other CAT tools, files are usually
+        split up by specifying a certain number of segments, but HSTS takes a
+        more customizable and visible approach:</p>
+
+        <div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem">
+            <p>Double-click to open the XLIFF file to be split up, and
+            browse its contents.</p>
+          </li>
+<li class="listitem">
+            <p>Based on the context, decide which segment the file needs to
+            be split from. Select that segment and use the <span class="guimenuitem">XLIFF
+            Split Point</span> command in the right-click menu to add a
+            split tag to the segment.</p>
+
+            <div class="figure">
+<a name="idp773904"></a><p class="title"><b>Figure 62. Split up XLIFF file - Add split point</b></p>
+<div class="figure-contents">
+              
+
+              <div class="screenshot">
+                <div class="mediaobject"><img src="images/split-xliff-file-1.png" alt="Split up XLIFF file - Add split point"></div>
+              </div>
+            </div>
+</div>
+<br class="figure-break">
+          </li>
+<li class="listitem">
+            <p>Repeat the step above until all split tags have been added
+            at the desired points.</p>
+          </li>
+<li class="listitem">
+            <p>In the <code class="interfacename">Project</code> window, choose
+            this XLIFF file and then, in the right-click menu or the
+            <span class="guimenu">File</span> menu, click <span class="guimenuitem">Split
+            XLIFF</span>.</p>
+
+            <div class="figure">
+<a name="idp780512"></a><p class="title"><b>Figure 63. Split XLIFF file</b></p>
+<div class="figure-contents">
+              
+
+              <div class="screenshot">
+                <div class="mediaobject"><img src="images/split-xliff-file-2-1.png" alt="Split XLIFF file"></div>
+              </div>
+            </div>
+</div>
+<br class="figure-break">
+          </li>
+<li class="listitem">
+            <p>When the <code class="interfacename">Split XLIFF</code> dialog
+            box pops up, check that the split information is correct, then
+            click the <span class="guibutton">OK</span> button to finish splitting up
+            the XLIFF file. The split XLIFF files will be saved in the same
+            folder where the original XLIFF file was saved. The new folder is
+            renamed with <span class="quote">“<span class="quote">_split</span>”</span> as a suffix to the original
+            file name. The split files can be found in this folder and
+            assigned to different translators.</p>
+<div class="figure">
+<a name="idp786368"></a><p class="title"><b>Figure 64. Results of Splitting up XLIFF</b></p>
+<div class="figure-contents">
+                
+
+                <div class="screenshot">
+                  <div class="mediaobject"><img src="images/split-xliff-file-2-2.png" alt="Results of Splitting up XLIFF"></div>
+                </div>
+              </div>
+</div>
+<p><br class="figure-break"></p>
+          </li>
+</ol></div>
+
+        <p>Split XLIFF files need to be merged at the end of the project in
+        order to be converted to the final target file. For details please see
+        <a class="xref" href="ch05s06.html#merge-xliff-files" title="Merge files">the section called “Merge files”</a>.</p>
+      </div>
+
+      <div class="sect2">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="project-setting"></a>Project Settings</h3></div></div></div>
+        
+
+        <p>Data that has been skipped or not entered during <a class="link" href="ch05s02.html#create-project-wizard-project-info" title="Project Information">New Project Wizard</a>
+        can be added or changed after project creation is done. Follow these
+        steps:</p>
+
+        <div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem">
+            <p>Choose the project whose settings you want to change from
+            the <code class="interfacename">Project</code> window, then from the
+            right-click menu or the <span class="guimenu">Project</span> menu, open
+            <span class="guimenuitem">Project Settings</span>.</p>
+
+            <div class="figure">
+<a name="idp796000"></a><p class="title"><b>Figure 65. Project Settings</b></p>
+<div class="figure-contents">
+              
+
+              <div class="screenshot">
+                <div class="mediaobject"><img src="images/project-setting-1.png" alt="Project Settings"></div>
+              </div>
+            </div>
+</div>
+<br class="figure-break">
+          </li>
+<li class="listitem">
+            <p><code class="interfacename">The Project Settings</code> dialog
+            box shows most of the same information that was previously shown
+            in the New Project Wizard:</p>
+
+            <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+                <p><span class="guilabel">Project Information</span>(Note: the
+                Client, Subject in the following figure are customized project
+                properties. For more information, Please see <a class="xref" href="ch05s02.html#create-project-wizard-project-info" title="Project Information">the section called “Project Information”</a>)</p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Project Language</span></p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Translation Memory</span></p>
+              </li>
+<li class="listitem">
+                <p><span class="guilabel">Termbase</span></p>
+              </li>
+</ul></div>
+          </li>
+</ol></div>
+
+        <div class="figure">
+<a name="idp806352"></a><p class="title"><b>Figure 66. Project Settings: Project information</b></p>
+<div class="figure-contents">
+          
+
+          <div class="screenshot">
+            <div class="mediaobject"><img src="images/project-setting-2-basic-info.png" alt="Project Settings: Project information"></div>
+          </div>
+        </div>
+</div>
+<br class="figure-break">
+
+        <div class="figure">
+<a name="idp809872"></a><p class="title"><b>Figure 67. Project Settings: Project language</b></p>
+<div class="figure-contents">
+          
+
+          <div class="screenshot">
+            <div class="mediaobject"><img src="images/project-setting-3-language-pair.png" alt="Project Settings: Project language"></div>
+          </div>
+        </div>
+</div>
+<br class="figure-break">
+
+        <div class="figure">
+<a name="idp813312"></a><p class="title"><b>Figure 68. Project Settings: TM</b></p>
+<div class="figure-contents">
+          
+
+          <div class="screenshot">
+            <div class="mediaobject"><img src="images/project-setting-4-tm.png" alt="Project Settings: TM"></div>
+          </div>
+        </div>
+</div>
+<br class="figure-break">
+
+        <div class="figure">
+<a name="project-setting-tb"></a><p class="title"><b>Figure 69. Project Settings: Termbase </b></p>
+<div class="figure-contents">
+          
+
+          <div class="screenshot">
+            <div class="mediaobject"><img src="images/project-setting-5-tb.png" alt="Project Settings: Termbase "></div>
+          </div>
+        </div>
+</div>
+<br class="figure-break">
+
+        <p>These items can be modified or set in the same way as in New
+        Project Wizard, therefore the instructions are not repeated
+        here.</p>
+
+        <p>There are two features that are present in New Project Wizard
+        but not in Project Settings: <span class="emphasis"><em>Change project name</em></span>
+        and <span class="emphasis"><em>Add/delete source file</em></span>. The "Add/delete
+        source file" feature has been detailed previously in <a class="xref" href="ch05s03.html#add-source-files-drag-and-drop" title="Add Source Files">the section called “Add Source Files”</a>. The project name can be
+        changed by selecting the project that needs to be renamed and then
+        going to the <span class="guimenu">Edit</span> menu and using the
+        <span class="guimenuitem">Rename</span> feature.</p>
+
+        <div class="figure">
+<a name="idp823296"></a><p class="title"><b>Figure 70. Rename Project </b></p>
+<div class="figure-contents">
+          
+
+          <div class="screenshot">
+            <div class="mediaobject"><img src="images/project-rename-1.png" alt="Rename Project "></div>
+          </div>
+        </div>
+</div>
+<br class="figure-break">
+      </div>
+    </div></body>
+</html>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="net.heartsome.cat.ts.edition_ultimate.feature"
+      label="Heartsome Translation Studio Ultimate"
+      version="8.2.2.qualifier"
+      provider-name="Heartsome Technologies Ltd.">
+
+   <description url="http://www.heartsome.net/">
+      [-en-]
+---------------------------------
+New features:
+1. New editing, deleting and copying function for TM match.
+2. New offline activation function, licenses can be activated without network connection.
+---------------------------------
+Improvements:
+1. Improved the display style of internal tag, the new style is cleaner and more beautiful.
+2. Improved the way of displaying QA results, dynamically updating QA results.
+3. Changed the extension of exported project package file from .zip to .hszip, to distinguish them easily.
+4. Optimized the overwriting strategy of existing files when importing project, to streamline project distribution.
+5. Optimized the performance of XLIFF editor, to make it run smoother even there are many internal tags.
+---------------------------------
+Bug-fixes:
+Fixed the bug that unable to activate license on Fedora Linux.
+[-zh-]
+---------------------------------
+新功能：
+1、新增对记忆库匹配的编辑、删除和部分内容复制功能；
+2、新增离线激活功能，可在无网络条件下离线激活许可证。
+---------------------------------
+改进：
+1、优化了内部标记样式，更加简洁和美观；
+2、优化了 QA 结果的展示，能动态更新 QA 检查结果；
+3、将导出的项目包扩展名修改为 .hszip，以区别普通 .zip 压缩包；
+4、优化了导入项目时对重复文件的自动判断和处理策略，使项目流转更加方便；
+5、优化了编辑器的性能，即使内部标记较多也保持流畅。
+---------------------------------
+修复：
+修复了在 Fedora Linux 系统中无法激活许可证的问题。
+   </description>
+
+   <copyright url="http://www.heartsome.net/">
+      Copyright © Heartsome Technologies Ltd. All rights reserved.
+版权所有 © 瀚特盛科技有限公司 保留所有权利
+   </copyright>
+
+   <license url="http://www.heartsome.net/">
+      Please refer to Heartsome Software End User License Agreement (EULA).
+请参考 Heartsome 软件最终用户许可协议。
+   </license>
+
+   <includes
+         id="net.heartsome.cat.ts.edition_lite.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.heartsome.cat.converter.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.heartsome.cat.database.feature"
+         version="0.0.0"/>
+
+   <plugin
+         id="net.heartsome.cat.ts.bingtrans"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.heartsome.cat.ts.googletrans"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.heartsome.cat.ts.pretranslation"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.heartsome.cat.ts.ui.advanced"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.heartsome.cat.ts.ui.plugin"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.heartsome.cat.ts.ui.qa"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.heartsome.cat.ts.ui.rtf"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.heartsome.cat.ts.quicktranslation"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.heartsome.cat.ts.fuzzyTranslation"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.heartsome.cat.ts.importproject"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.heartsome.cat.ts.exportproject"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.heartsome.cat.ts.handlexlf"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.heartsome.cat.ts.lockrepeat"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.heartsome.cat.database.mssql"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.heartsome.cat.database.mysql"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.heartsome.cat.database.oracle"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.heartsome.cat.database.postgreSQL"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.heartsome.cat.ts.jumpsegment"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="net.heartsome.cat.te.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         id="tmx_editor_product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="net.heartsome.cat.te.application"
+            name="Heartsome TMX Editor">
+         <property
+               name="appName"
+               value="Heartsome TMX Editor">
+         </property>
+         <property
+               name="preferenceCustomization"
+               value="plugin_customization.ini">
+         </property>
+         <property
+               name="aboutImage"
+               value="images/tmx_128.png">
+         </property>
+         <property
+               name="windowImages"
+               value="images/tmx_16.png,images/tmx_32.png,images/tmx_48.png,images/tmx_64.png,images/tmx_128.png">
+         </property>
+         <property
+               name="startupProgressRect"
+               value="0,225,425,15">
+         </property>
+         <property
+               name="startupForegroundColor"
+               value="000000">
+         </property>
+         <property
+               name="startupMessageRect"
+               value="0,208,425,20">
+         </property>
+         <property
+               name="aboutText"
+               value="%about">
+               
+         </property>
+      </product>
+   </extension>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="net.heartsome.cat.te.TeStartup">
+      </startup>
+   </extension>
+
+</plugin>

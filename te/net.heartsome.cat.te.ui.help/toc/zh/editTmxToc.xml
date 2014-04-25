@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+<toc label="编辑TMX" topic="html/zh/ch03.html#create_tmx_id" sort='false'>
+   <topic href="html/zh/ch03.html#create_tmx_id" label="如何新建一个标准 TMX">
+   </topic>
+   <topic href="html/zh/ch03.html#mutil_lang_tmx_id" label="支持多语言的 TMX 编辑">
+      <topic href="html/zh/ch03.html#mutil_lang_tmx_id" label="如何支持多语">
+      </topic>
+      <topic label="编辑源文和译文" href="html/zh/ch03.html#edit_seg_tmx_id">
+      </topic>
+      <topic label="编辑翻译单元属性" href="html/zh/ch03.html#edit_tu_tmx_id">
+      </topic>
+      <topic label="编辑翻译单元批注" href="html/zh/ch03.html#edit_note_tmx_id">
+      </topic>
+   </topic>
+   <topic href="html/zh/ch03.html#tmx_merge_id" label="TMX 高级编辑">
+      <topic label="分割和合并 TMX" href="html/zh/ch03.html#tmx_merge_id">
+      </topic>
+      <topic label="更改语言代码" href="html/zh/ch03.html#edit_lang_id">
+      </topic>
+      <topic label="删除指定语言" href="html/zh/ch03.html#del_lang_id">
+      </topic>
+      <topic label="清除所有标记" href="html/zh/ch03.html#clean_tag_id">
+      </topic>
+      <topic label="TMX 冗余内容清理" href="html/zh/ch03.html#clean_tmx_id">
+      </topic>
+   </topic>
+</toc>
+

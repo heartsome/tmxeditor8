@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="插图清单" topic="">
+	<topic label="3.1. 全新购买的许可证处理流程" href="html/zh/ch03.html#idp102256" />
+	<topic label="3.2. 重装系统/更换电脑的许可证处理流程" href="html/zh/ch03.html#idp107088" />
+	<topic label="4.1. Heartsome Translation Studio 主界面" href="html/zh/ch04.html#idp143664" />
+	<topic label="4.2. 主菜单" href="html/zh/ch04.html#idp148544" />
+	<topic label="4.3. 工具栏" href="html/zh/ch04.html#idp153296" />
+	<topic label="4.4. 状态栏" href="html/zh/ch04.html#idp162128" />
+	<topic label="4.5. 状态栏提示" href="html/zh/ch04.html#idp164512" />
+	<topic label="4.6. 项目" href="html/zh/ch04s02.html#idp187696" />
+	<topic label="4.7. 记忆库" href="html/zh/ch04s02.html#idp192352" />
+	<topic label="4.8. 术语" href="html/zh/ch04s02.html#idp196448" />
+	<topic label="4.9. 品质检查结果" href="html/zh/ch04s02.html#idp200768" />
+	<topic label="4.10. XLIFF 编辑器" href="html/zh/ch04s03.html#idp219248" />
+	<topic label="4.11. XLIFF 编辑器：垂直布局" href="html/zh/ch04s03.html#idp223056" />
+	<topic label="5.1. Heartsome Translation Studio 项目翻译流程" href="html/zh/ch05.html#idp246256" />
+	<topic label="5.2. 从主菜单创建项目" href="html/zh/ch05s02.html#idp314800" />
+	<topic label="5.3. 从工具栏创建项目" href="html/zh/ch05s02.html#idp316912" />
+	<topic label="5.4. 从右键菜单创建项目" href="html/zh/ch05s02.html#idp319552" />
+	<topic label="5.5. 新建项目：项目信息" href="html/zh/ch05s02.html#idp325328" />
+	<topic label="5.6. 选项：项目属性" href="html/zh/ch05s02.html#idp332752" />
+	<topic label="5.7. 新建项目：语言对" href="html/zh/ch05s02.html#idp337072" />
+	<topic label="5.8. 添加自定义语言" href="html/zh/ch05s02.html#idp345472" />
+	<topic label="5.9. 新建项目：记忆库" href="html/zh/ch05s02.html#idp350560" />
+	<topic label="5.10. 新建项目：术语库" href="html/zh/ch05s02.html#idp363648" />
+	<topic label="5.11. 新建项目：添加源文件" href="html/zh/ch05s02.html#idp377184" />
+	<topic label="5.12. 项目目录结构" href="html/zh/ch05s02.html#idp385696" />
+	<topic label="5.13. 新建记忆库：记忆库信息" href="html/zh/ch05s03.html#idp405248" />
+	<topic label="5.14. 新建记忆库：导入 TMX 文件" href="html/zh/ch05s03.html#idp451472" />
+	<topic label="5.15. 选项：记忆库 重复项处理" href="html/zh/ch05s03.html#idp455728" />
+	<topic label="5.16. 新建术语库：基本信息" href="html/zh/ch05s03.html#idp466464" />
+	<topic label="5.17. 新建术语库：导入 TBX 文件" href="html/zh/ch05s03.html#idp471744" />
+	<topic label="5.18. 选项：术语库 重复项处理" href="html/zh/ch05s03.html#idp475936" />
+	<topic label="5.19. 拖放文件夹" href="html/zh/ch05s03.html#idp489008" />
+	<topic label="5.20. 转换源文件为 XLIFF" href="html/zh/ch05s03.html#idp499840" />
+	<topic label="5.21. 转换源文件为 XLIFF 对话框" href="html/zh/ch05s03.html#idp503504" />
+	<topic label="5.22. 锁定重复文本段" href="html/zh/ch05s03.html#idp524304" />
+	<topic label="5.23. 锁定重复文本段对话框" href="html/zh/ch05s03.html#idp528640" />
+	<topic label="5.24. 锁定重复文本段结果" href="html/zh/ch05s03.html#idp536928" />
+	<topic label="5.25. 打开项目设置" href="html/zh/ch05s03.html#idp544000" />
+	<topic label="5.26. 项目设置：记忆库" href="html/zh/ch05s03.html#project-setting-tm" />
+	<topic label="5.27. 预翻译" href="html/zh/ch05s03.html#idp552080" />
+	<topic label="5.28. 预翻译对话框" href="html/zh/ch05s03.html#idp555424" />
+	<topic label="5.29. 选项：预翻译" href="html/zh/ch05s03.html#idp575552" />
+	<topic label="5.30. 预翻译结果" href="html/zh/ch05s03.html#idp609184" />
+	<topic label="5.31. 字数分析" href="html/zh/ch05s03.html#idp619296" />
+	<topic label="5.32. 字数分析对话框" href="html/zh/ch05s03.html#idp621488" />
+	<topic label="5.33. 选项：字数分析" href="html/zh/ch05s03.html#idp630784" />
+	<topic label="5.34. 选项：加权系数" href="html/zh/ch05s03.html#idp641376" />
+	<topic label="5.35. 字数分析结果" href="html/zh/ch05s03.html#idp646192" />
+	<topic label="5.36. 分割 XLIFF 文件 添加分割点" href="html/zh/ch05s03.html#idp653216" />
+	<topic label="5.37. 分割 XLIFF 文件" href="html/zh/ch05s03.html#idp659024" />
+	<topic label="5.38. 分割 XLIFF 文件结果" href="html/zh/ch05s03.html#idp664160" />
+	<topic label="5.39. 项目设置" href="html/zh/ch05s03.html#idp672864" />
+	<topic label="5.40. 项目设置：项目信息" href="html/zh/ch05s03.html#idp681568" />
+	<topic label="5.41. 项目设置：项目语言" href="html/zh/ch05s03.html#idp683264" />
+	<topic label="5.42. 项目设置：记忆库" href="html/zh/ch05s03.html#idp685920" />
+	<topic label="5.43. 项目设置：术语库" href="html/zh/ch05s03.html#project-setting-tb" />
+	<topic label="5.44. 项目重命名" href="html/zh/ch05s03.html#idp693952" />
+	<topic label="5.45. 合并打开" href="html/zh/ch05s04.html#idp705584" />
+	<topic label="5.46. 合并打开的效果" href="html/zh/ch05s04.html#idp707776" />
+	<topic label="5.47. XLIFF 编辑器：显示模式与编辑模式" href="html/zh/ch05s04.html#idp714640" />
+	<topic label="5.48. 插入内部标记" href="html/zh/ch05s04.html#idp722672" />
+	<topic label="5.49. 右键菜单：文本段状态" href="html/zh/ch05s04.html#idp736096" />
+	<topic label="5.50. 记忆库匹配" href="html/zh/ch05s04.html#idp758912" />
+	<topic label="5.51. 选项：记忆库" href="html/zh/ch05s04.html#idp765184" />
+	<topic label="5.52. 选项：颜色" href="html/zh/ch05s04.html#idp781728" />
+	<topic label="5.53. 接受匹配" href="html/zh/ch05s04.html#idp788688" />
+	<topic label="5.54. XLIFF 编辑器：选择待搜索内容" href="html/zh/ch05s04.html#idp796368" />
+	<topic label="5.55. 相关搜索" href="html/zh/ch05s04.html#idp812432" />
+	<topic label="5.56. 添加术语" href="html/zh/ch05s04.html#idp822368" />
+	<topic label="5.57. 添加术语对话框 1" href="html/zh/ch05s04.html#idp830096" />
+	<topic label="5.58. 添加术语对话框 2" href="html/zh/ch05s04.html#idp837200" />
+	<topic label="5.59. 术语匹配" href="html/zh/ch05s04.html#idp847056" />
+	<topic label="5.60. 插入术语" href="html/zh/ch05s04.html#idp853168" />
+	<topic label="5.61. XLIFF 编辑器：选择待搜索内容" href="html/zh/ch05s04.html#idp860048" />
+	<topic label="5.62. 搜索术语" href="html/zh/ch05s04.html#idp865968" />
+	<topic label="5.63. 选项：品质检查" href="html/zh/ch05s04.html#idp880416" />
+	<topic label="5.64. 快速翻译：记忆库" href="html/zh/ch05s04.html#idp906128" />
+	<topic label="5.65. 快速翻译：术语库" href="html/zh/ch05s04.html#idp911488" />
+	<topic label="5.66. 快速翻译" href="html/zh/ch05s04.html#idp917168" />
+	<topic label="5.67. 机器翻译：Google Translate" href="html/zh/ch05s04.html#idp932352" />
+	<topic label="5.68. 机器翻译：Bing Translator" href="html/zh/ch05s04.html#idp934480" />
+	<topic label="5.69. XLIFF 编辑器：文本段过滤器" href="html/zh/ch05s04.html#xliff-editor-filter-segments" />
+	<topic label="5.70. XLIFF 编辑器：添加自定义文本段过滤器" href="html/zh/ch05s04.html#idp967888" />
+	<topic label="5.71. 管理自定义过滤器" href="html/zh/ch05s04.html#idp969936" />
+	<topic label="5.72. 文本段自定义过滤器" href="html/zh/ch05s04.html#idp984080" />
+	<topic label="5.73. 翻译进度分析" href="html/zh/ch05s04.html#idp990864" />
+	<topic label="5.74. 翻译进度分析对话框" href="html/zh/ch05s04.html#idp995088" />
+	<topic label="5.75. 翻译进度分析结果" href="html/zh/ch05s04.html#idp998736" />
+	<topic label="5.76. 添加批注" href="html/zh/ch05s05.html#idp1012256" />
+	<topic label="5.77. 添加批注对话框" href="html/zh/ch05s05.html#idp1014416" />
+	<topic label="5.78. 编辑批注" href="html/zh/ch05s05.html#idp1027120" />
+	<topic label="5.79. 编辑批注对话框" href="html/zh/ch05s05.html#idp1029312" />
+	<topic label="5.80. 导出 RTF" href="html/zh/ch05s05.html#idp1042352" />
+	<topic label="5.81. 将 XLIFF 文件导出为 RTF" href="html/zh/ch05s05.html#idp1046576" />
+	<topic label="5.82. 导入 RTF" href="html/zh/ch05s05.html#idp1066208" />
+	<topic label="5.83. 导入 RTF 以更新 XLIFF" href="html/zh/ch05s05.html#idp1070512" />
+	<topic label="5.84. 单项品质检查" href="html/zh/ch05s05.html#idp1079264" />
+	<topic label="5.85. 品质检查" href="html/zh/ch05s05.html#idp1085456" />
+	<topic label="5.86. 品质检查对话框" href="html/zh/ch05s05.html#idp1087632" />
+	<topic label="5.87. 选项：品质检查" href="html/zh/ch05s05.html#idp1090352" />
+	<topic label="5.88. 品质检查结果" href="html/zh/ch05s05.html#idp1097520" />
+	<topic label="5.89. 预览翻译" href="html/zh/ch05s05.html#idp1105568" />
+	<topic label="5.90. 合并 XLIFF 文件" href="html/zh/ch05s06.html#idp1114688" />
+	<topic label="5.91. 合并 XLIFF 文件对话框" href="html/zh/ch05s06.html#idp1128208" />
+	<topic label="5.92. 已合并的 XLIFF 文件" href="html/zh/ch05s06.html#idp1132496" />
+	<topic label="5.93. 解锁文本段：过滤已锁定文本段" href="html/zh/ch05s06.html#idp1141696" />
+	<topic label="5.94. 解锁文本段" href="html/zh/ch05s06.html#idp1148080" />
+	<topic label="5.95. 繁殖翻译" href="html/zh/ch05s06.html#idp1155920" />
+	<topic label="5.96. 转换 XLIFF 为目标文件" href="html/zh/ch05s06.html#idp1168992" />
+	<topic label="5.97. 转换 XLIFF 为目标文件对话框" href="html/zh/ch05s06.html#idp1173104" />
+	<topic label="5.98. 由 XLIFF 转换而成的目标文件" href="html/zh/ch05s06.html#idp1184608" />
+	<topic label="6.1. 更新记忆库" href="html/zh/ch06.html#idp1206896" />
+	<topic label="6.2. 更新记忆库对话框" href="html/zh/ch06.html#idp1210928" />
+	<topic label="6.3. 记忆库管理" href="html/zh/ch06s02.html#idp1229680" />
+	<topic label="6.4. 记忆库管理对话框" href="html/zh/ch06s02.html#idp1233408" />
+	<topic label="6.5. 创建记忆库" href="html/zh/ch06s02.html#idp1239952" />
+	<topic label="6.6. 将记忆库导出为 TMX" href="html/zh/ch06s03.html#idp1251824" />
+	<topic label="6.7. 将记忆库导出为 TMX" href="html/zh/ch06s03.html#idp1255888" />
+	<topic label="6.8. 选择要导出的记忆库" href="html/zh/ch06s03.html#idp1262160" />
+	<topic label="6.9. 导出 TMX 选项" href="html/zh/ch06s03.html#idp1270000" />
+	<topic label="6.10. 导出 TMX：过滤规则" href="html/zh/ch06s03.html#idp1276608" />
+	<topic label="6.11. 术语库管理对话框" href="html/zh/ch06s04.html#idp1306320" />
+	<topic label="6.12. 导出术语库为 TBX" href="html/zh/ch06s05.html#idp1312144" />
+	<topic label="6.13. 导出术语库为 TBX" href="html/zh/ch06s05.html#idp1316448" />
+	<topic label="6.14. 选择要导出的术语库" href="html/zh/ch06s05.html#idp1322608" />
+	<topic label="6.15. 导出 TBX：过滤规则" href="html/zh/ch06s05.html#idp1333744" />
+	<topic label="7.1. 导出整个项目" href="html/zh/ch07s02.html#idp1367408" />
+	<topic label="7.2. 导出项目对话框" href="html/zh/ch07s02.html#idp1372192" />
+	<topic label="7.3. 导出项目的部分文件" href="html/zh/ch07s02.html#idp1381344" />
+	<topic label="7.4. 导出项目：部分文件" href="html/zh/ch07s02.html#idp1385808" />
+	<topic label="7.5. 导入项目" href="html/zh/ch07s03.html#idp1397632" />
+	<topic label="7.6. 导入项目对话框" href="html/zh/ch07s03.html#idp1401936" />
+	<topic label="8.1. 选项：翻译" href="html/zh/ch08.html#idp1421696" />
+	<topic label="8.2. 选项：Excel 转换参数" href="html/zh/ch08.html#idp1427456" />
+	<topic label="8.3. 选项：PowerPoint 转换参数" href="html/zh/ch08.html#idp1429232" />
+	<topic label="8.4. 选项：MIF 转换参数" href="html/zh/ch08.html#idp1445712" />
+	<topic label="8.5. 配置 XML 转换器" href="html/zh/ch08.html#idp1461136" />
+	<topic label="8.6. XML 转换器配置对话框" href="html/zh/ch08.html#idp1465296" />
+	<topic label="8.7. 配置 XML 元素" href="html/zh/ch08.html#idp1469008" />
+	<topic label="8.8. 元素配置" href="html/zh/ch08.html#idp1473296" />
+	<topic label="9.1. 合并文本段" href="html/zh/ch09.html#idp1500672" />
+	<topic label="9.2. 合并文本段结果" href="html/zh/ch09.html#idp1502864" />
+	<topic label="9.3. 分割文本段" href="html/zh/ch09.html#idp1508384" />
+	<topic label="9.4. 分割文本段结果" href="html/zh/ch09.html#idp1510496" />
+	<topic label="9.5. 分段规则管理器" href="html/zh/ch09.html#idp1518656" />
+	<topic label="9.6. 分段规则管理器对话框" href="html/zh/ch09.html#idp1525040" />
+	<topic label="9.7. 配置分段规则" href="html/zh/ch09.html#idp1529648" />
+	<topic label="9.8. 配置语言规则" href="html/zh/ch09.html#idp1534144" />
+	<topic label="9.9. 配置映射规则" href="html/zh/ch09.html#idp1548272" />
+	<topic label="9.10. 编辑映射规则" href="html/zh/ch09.html#idp1552496" />
+</toc>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+<toc label="关于版本和许可" topic="html/zh/ch08.html" sort='false'>
+   <topic label="版本介绍" href="html/zh/ch08.html#version_id"/>
+   <topic label="关于许可" href="html/zh/ch08.html#license_id">
+   </topic>
+   <topic label="如何激活产品" href="html/zh/ch08.html#active_id">
+   </topic>
+   <topic label="如何取消激活" href="html/zh/ch08.html#cancel_active_id">
+   </topic>
+</toc>
+

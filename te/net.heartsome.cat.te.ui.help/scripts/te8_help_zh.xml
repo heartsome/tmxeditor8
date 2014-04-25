@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book version="5.0" xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:m="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+  <info>
+    <title>TMX Editor 8.0 用户手册</title>
+
+    <productname/>
+
+    <subtitle><personname><firstname>TMX Editor 8
+    </firstname></personname></subtitle>
+
+    <pubdate>2013-10-31</pubdate>
+  </info>
+
+  <chapter xml:id="wel_id">
+    <title>欢迎使用 Heartsome TMX Editor 8</title>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="images/main.png" width="400"/>
+        </imageobject>
+      </inlinemediaobject></para>
+
+    <para><emphasis role="bold"><link linkend="new_feature_id">Heartsome TMX
+    Editor 8 新特性</link></emphasis></para>
+
+    <para><emphasis role="bold">使用入门</emphasis></para>
+
+    <para><link linkend="use_guide_id">快速入门</link></para>
+
+    <para><emphasis role="bold"> 设置选项</emphasis></para>
+
+    <para><link linkend="sys_para_id">系统参数设置</link></para>
+
+    <para><link linkend="key_set_id">快捷键设置</link></para>
+
+    <para><link linkend="net_set_id">网络连接设置</link></para>
+
+    <para><emphasis role="bold"> 视图</emphasis></para>
+
+    <para><link linkend="view_intr_id">视图简介</link></para>
+
+    <para><link linkend="change_lang_id">更改视图语言</link></para>
+
+    <para><link linkend="edit_view_id">关于编辑视图</link></para>
+
+    <para><link linkend="qa_viewer_id">关于 QA 视图</link></para>
+
+    <para><link linkend="att_view_id">关于属性编辑视图</link></para>
+
+    <para><emphasis role="bold">编辑 TMX </emphasis></para>
+
+    <para><emphasis role="bold"> </emphasis> <link
+    linkend="create_tmx_id">如何新建一个标准<emphasis role="bold">
+    </emphasis></link></para>
+
+    <para><emphasis role="bold"> TMX 支持多语言的 TMX 编辑</emphasis></para>
+
+    <para><link linkend="mutil_lang_tmx_id">如何支持多语</link></para>
+
+    <para><link linkend="edit_seg_tmx_id">编辑源文和译文</link></para>
+
+    <para><link linkend="edit_tu_tmx_id">编辑翻译单元属性</link></para>
+
+    <para><link linkend="edit_note_tmx_id">编辑翻译单元批注</link></para>
+
+    <para><emphasis role="bold"> TMX 高级编辑</emphasis></para>
+
+    <para><link linkend="tmx_merge_id">分割和合并 TMX</link></para>
+
+    <para><link linkend="edit_lang_id">更改语言代码</link></para>
+
+    <para><link linkend="del_lang_id">删除指定语言</link></para>
+
+    <para><link linkend="clean_tag_id"> 清除所有标记</link></para>
+
+    <para><link linkend="clean_tmx_id">TMX 无用内容清理</link></para>
+
+    <para><emphasis role="bold">编辑 Heartsome Translation Studio 8
+    记忆库</emphasis></para>
+
+    <para><emphasis role="bold"> </emphasis> <link
+    linkend="conn_tm_id">如何连接记忆库</link></para>
+
+    <para><emphasis role="bold"> 支持多语言的记忆库编辑</emphasis></para>
+
+    <para><link linkend="mutil_lang_id">如何支持多语</link></para>
+
+    <para><link linkend="edit_seg_tm_id">编辑源文和译文</link></para>
+
+    <para><link linkend="edit_tu_tm_id">编辑翻译单元属性</link></para>
+
+    <para><link linkend="edit_note_tm_id">编辑翻译单元批注</link></para>
+
+    <para><emphasis role="bold"> </emphasis><link
+    linkend="clean_tm_id">无用内容清理</link></para>
+
+    <para><emphasis role="bold">搜索和过滤</emphasis></para>
+
+    <para><link linkend="keyword_id">关键字搜索</link></para>
+
+    <para><link linkend="filter_id">快速过滤</link></para>
+
+    <para><link linkend="filter_set_id">自定义过滤条件</link></para>
+
+    <para><emphasis role="bold">QA</emphasis></para>
+
+    <para><link linkend="qa_list_id">选择 QA 检查项</link></para>
+
+    <para><link linkend="qa_report_id">执行 QA 生成 QA 报告</link></para>
+
+    <para><link linkend="qa_deal_id">如何根据报告处理 QA 结果</link></para>
+
+    <para><emphasis role="bold">实用工具介绍</emphasis></para>
+
+    <para><link linkend="tmx_to_id">TMX 转换为其他格式文件</link></para>
+
+    <para><link linkend="to_tmx_id">其他格式文件转换为 TMX 文件</link></para>
+
+    <para><link linkend="code_trans_id">文件编码转换器</link></para>
+
+    <para><emphasis role="bold">关于版本和许可</emphasis></para>
+
+    <para><link linkend="version_id">版本介绍</link></para>
+
+    <para><link linkend="license_id">关于许可</link></para>
+
+    <para><link linkend="active_id">如何激活产品</link></para>
+
+    <para><link linkend="cancel_active_id">如何取消激活</link></para>
+
+    <para><link linkend="term_table_id">术语表</link></para>
+
+    <para><link linkend="copyright_id">版权说明</link></para>
+  </chapter>
+
+  <chapter xml:id="new_feature_id">
+    <title>Heartsome TMX Editor 8 新特性</title>
+
+    <para>如下是此发行版的新特性完整列表：</para>
+
+    <itemizedlist>
+      <listitem>
+        <para><link linkend="title_1">TMX 文件高性能编辑和维护</link></para>
+      </listitem>
+
+      <listitem>
+        <para><link linkend="title_2">TMX 与其他格式文件的轻松转换</link></para>
+      </listitem>
+
+      <listitem>
+        <para><link linkend="title_3">TMX 的 QA 功能</link></para>
+      </listitem>
+
+      <listitem>
+        <para><link linkend="title_4">Heartsome Translation Studio 8
+        记忆库专用编辑和维护</link></para>
+      </listitem>
+
+      <listitem>
+        <para><link linkend="title_5">TMX 和 Heartsome Translation Studio 8
+        记忆库无用内容清理</link></para>
+      </listitem>
+    </itemizedlist>
+
+    <glosslist>
+      <glossentry xml:id="title_1">
+        <glossterm>TMX 文件高性能编辑和维护</glossterm>
+
+        <glossdef>
+          <para>TMX 源文和译文编辑</para>
+
+          <para>翻译单元属性编辑</para>
+
+          <para>翻译单元批注编辑</para>
+
+          <para>关键字搜索</para>
+
+          <para>内置快速过滤器</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="title_2">
+        <glossterm>TMX 与其他格式文件的轻松转换</glossterm>
+
+        <glossdef>
+          <para>TMX 转换为 DOCX / XLSX / TXT / TBX / HSTM</para>
+
+          <para>DOCX / XLSX / TXT / TBX / HSTM 转换为 TMX</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="title_3">
+        <glossterm>TMX 的 QA 功能</glossterm>
+
+        <glossdef>
+          <para>多种 QA 检查项</para>
+
+          <para>生成 QA 报告</para>
+
+          <para>处理 QA 结果</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="title_4">
+        <glossterm>Heartsome Translation Studio 8 记忆库专用编辑和维护</glossterm>
+
+        <glossdef>
+          <para>记忆库源文和译文编辑</para>
+
+          <para>翻译单元属性编辑</para>
+
+          <para>翻译单元批注编辑</para>
+
+          <para>关键字搜索</para>
+
+          <para>内置快速过滤器</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="title_5">
+        <glossterm>TMX 和 Heartsome Translation Studio 8 记忆库无用内容清理</glossterm>
+
+        <glossdef>
+          <para>内置无用内容批量清理</para>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+  </chapter>
+
+  <chapter>
+    <title>使用入门</title>
+
+    <para>以下是 Heartsome TMX Editor 8 快速入门和常规配置的介绍：</para>
+
+    <glosslist>
+      <glossentry xml:id="use_guide_id">
+        <glossterm>快速入门</glossterm>
+
+        <glossdef>
+          <para>我们这里介绍如何快速编辑一个 TMX 文件和 Heartsome Translation Studio 8
+          记忆库。</para>
+
+          <itemizedlist>
+            <listitem>
+              <para xml:id="edit_tmx_intro_id"><emphasis role="bold">快速编辑
+              TMX</emphasis></para>
+
+              <para>1、通过菜单“文件”-“打开 TMX”，在弹出的对话框中选择 TMX 文件。</para>
+
+              <para>2、在编辑器中打开 TMX 文件后，单击任一单元格即可进行编辑。</para>
+
+              <para>3、每选中一行，右边的“属性编辑”视图都将刷新当前行的属性，您可以通过<emphasis
+              role="bold">双击</emphasis>或单击【添加】【编辑】【删除】按钮对所有属性进行操作。</para>
+
+              <para>4、TMX 内容编辑后，需要手动点击菜单栏的<inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/save.png" width="15"/>
+                  </imageobject>
+                </inlinemediaobject>按钮，或使用快捷键 CTRL+S
+              进行保存操作，让最终编辑结果生效。但即使没有手动保存，编辑结果也不会丢失，因为我们进行了缓存。</para>
+
+              <para>5、属性的编辑及时生效，无需手动保存。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">快速编辑 Heartsome Translation Studio 8
+              记忆库</emphasis></para>
+
+              <para>1、通过菜单“文件”-“连接记忆库”，选择记忆库类型进行连接打开。</para>
+
+              <para>2、如果选择“文件型记忆库”，那么直接选择计算机上的记忆库打开即可；如果选择“服务型记忆库”，需要根据记忆库的类型填写好服务器相关参数，如：IP地址、端口、用户、密码等，在查询的结果列表中选择您想要编辑的记忆库即可。</para>
+
+              <para>3、对于内容和属性的编辑与 <link linkend="edit_tmx_intro_id">TMX
+              编辑</link>方法相同。</para>
+
+              <para>4、Heartsome Translation Studio 8
+              记忆库的编辑为实时保存，无需手动操作。</para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="sys_para_id">
+        <glossterm>系统参数设置</glossterm>
+
+        <glossdef>
+          <para><emphasis role="bold">系统</emphasis>参数里您可以设置<emphasis
+          role="bold">自动更新</emphasis>的频率、软件<emphasis
+          role="bold">界面语言</emphasis>、软件界面字体以及当前<emphasis
+          role="bold">用户名</emphasis>。</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis
+              role="bold">自动更新</emphasis>：软件根据您的设置，定期连接服务器检查是否有版本更新。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis
+              role="bold">界面语言</emphasis>：软件提供了英文和简体中文两种界面语言供选择。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">用户名</emphasis>：用户名将默认作为 TMX 翻译单元的
+              changeid 存入记忆库。</para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="key_set_id">
+        <glossterm>快捷键设置</glossterm>
+
+        <glossdef>
+          <para>您可以在这里为软件的所有功能设置您想要绑定的快捷键。如果您需要修改某一个功能的快捷键：</para>
+
+          <para>1、点击该功能对应的<emphasis
+          role="bold">快捷键</emphasis>单元格，此时会进入编辑状态<inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/key_1.png" width="80"/>
+              </imageobject>
+            </inlinemediaobject>。</para>
+
+          <para>2、在键盘按下所需组合快捷键。</para>
+
+          <para>3、点击界面其他地方，自动退出编辑状态。</para>
+
+          <para>4、重要的一步：点击【应用】按钮，或【确定】按钮进行保存。</para>
+
+          <para>5、如果设置的快捷键与其他功能设置有冲突，系统会以红色背景标示出有冲突两个功能<inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/key_2.png" width="150"/>
+              </imageobject>
+            </inlinemediaobject>。</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="net_set_id">
+        <glossterm>网络连接设置</glossterm>
+
+        <glossdef>
+          <para>网络连接为您提供使用代理服务器连接 Internet。您可以根据您的实际情况设置代理服务器的配置方式：</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis
+              role="bold">系统默认代理</emphasis>：如果您的操作系统已经配置好代理服务器，请选择该配置。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold"
+              xml:id="net_proxy_id">自定义代理</emphasis>：如果您想专门为 Heartsome TMX
+              Editor 8 设置代理服务器，请选择该配置。然后在<emphasis
+              role="bold">代理服务器列表</emphasis>中双击要配置的代理服务器类型（HTTP<emphasis
+              role="bold">、</emphasis>HTTPS 或 SOCKS），输入代理服务的<emphasis
+              role="bold">主机地址</emphasis>、<emphasis
+              role="bold">端口</emphasis>。而<emphasis
+              role="bold">用户名</emphasis>和<emphasis
+              role="bold">密码</emphasis>则取决于您的代理服务器是否<emphasis
+              role="bold">要求身份验证</emphasis>。</para>
+
+              <para>此外，您还可以为自定义代理设置一些特殊的<emphasis
+              role="bold">例外</emphasis>主机地址，即仅在访问这些<emphasis
+              role="bold">例外</emphasis>主机地址时不使用代理服务器、而是直接连接。需要设置为<emphasis
+              role="bold">例外</emphasis>的情况，通常是本机（localhost 或
+              127.0.0.1）和局域网（192.168.*.*）地址。</para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="view_intr_id">
+        <glossterm>视图简介</glossterm>
+
+        <glossdef>
+          <para>Heartsome TMX Editor 8 包含以下视图：</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/view_main.png" width="350"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <itemizedlist>
+            <listitem>
+              <para>工具栏：这里是常用的一些功能快捷方式，您也可以通过相应的快捷键来执行相关功能。</para>
+            </listitem>
+
+            <listitem>
+              <para>搜索与 QA：这里提供关键字搜索以及 TMX 文件的 QA 执行，以两个 TAB 来切换显示。</para>
+            </listitem>
+
+            <listitem>
+              <para>编辑器：是软件的主编辑区，主要进行源文和译文的编辑以及关键属性的显示。</para>
+            </listitem>
+
+            <listitem>
+              <para>属性编辑：这里可编辑翻译单元的所有属性。</para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="change_lang_id">
+        <glossterm>更改视图语言</glossterm>
+
+        <glossdef>
+          <para>您可以通过菜单“工具”-“选项”-“系统”，找到“界面语言”设置选项来更改视图语言。</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="edit_view_id">
+        <glossterm xml:id="editor_view_id">关于编辑视图</glossterm>
+
+        <glossdef>
+          <para>编辑视图分“搜索过滤”和“编辑器”两个视图区域。在搜索过滤区域中，您可以切换语言对（如果是多语言），可以搜索关键字，也可以根据内置的快速过滤条件过滤您关心的内容，同时还提供了更加灵活强大的自定义组合条件。</para>
+
+          <para><emphasis role="bold"><inlinemediaobject>
+              <imageobject>
+                <imagedata align="left" fileref="images/mark-icons-info.png"
+                           width="10"/>
+              </imageobject>
+            </inlinemediaobject>
+          特别说明</emphasis>：“搜索”与“过滤器”之间没有互相关联，任何一个条件改变都会以原始 TMX
+          文件内容或记忆库内容重新刷新结果。</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/view_edit.png" width="350"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis
+              role="bold">搜索</emphasis>：提供语言对的切换和关键字的搜索。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">过滤器</emphasis>：提供快速过滤和自定义过滤。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">编辑器</emphasis>：编译 TMX
+              文件的源文和译文。</para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="qa_view_id">
+        <glossterm xml:id="qa_viewer_id">关于 QA 视图</glossterm>
+
+        <glossdef>
+          <para>QA 视图分“QA 执行”和 “QA 结果显示”两个区域视图。双击 QA 结果可定位到编辑器中的相关行。</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/view_QA.png" width="350"/>
+              </imageobject>
+            </inlinemediaobject></para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="att_view_id">
+        <glossterm>关于属性编辑视图</glossterm>
+
+        <glossdef>
+          <para>属性编辑视图中您可以编辑翻译单元固定属性、翻译单元自定义属性、翻译单元变量属性和翻译单元批注。四种属性分别置于四个不同的表格中显示和操作。</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/view_attr.png" width="250"/>
+              </imageobject>
+            </inlinemediaobject></para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="create_tmx_id">
+        <glossterm>如何创建一个标准 TMX</glossterm>
+
+        <glossdef>
+          <para>1、通过菜单“文件”-“新建 TMX 文件”或点击工具栏<inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/tool_new.png" width="15"/>
+              </imageobject>
+            </inlinemediaobject>按钮或使用快捷键 Ctrl+N，打开新建 TMX 文件的操作对话框</para>
+
+          <para>2、选择“保存位置”，设置该 TMX 文件的“源语言”和“目标语言”，单击【确定】按钮，完成 TMX
+          文件的创建</para>
+
+          <para>3、创建成功后，软件默认打开该空 TMX 文件，进入编辑状态</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="mutil_lang_tmx_id">
+        <glossterm>如何支持多语言</glossterm>
+
+        <glossdef>
+          <para>Heartsome TMX Editor 8 支持多语言的 TMX
+          文件，您可以随时切换语言对进行显示和编辑操作。</para>
+
+          <para>1、打开多语言的 TMX 文件。</para>
+
+          <para>2、如<link
+          linkend="edit_view_id">关于编辑视图</link>的介绍中，在搜索区域对“源”和“目标”进行语言对的选择。</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/lang_select.png" width="250"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <para>3、点击【搜索】按钮，即可显示当前语言对内容。</para>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+
+    <itemizedlist>
+      <listitem>
+        <para xml:id="edit_seg_tmx_id"><emphasis
+        role="bold">编辑源文和译文</emphasis></para>
+
+        <para>单击编辑器中源文单元格或译文单元格即可进入编辑模式，编辑完成后需要注意2个操作：</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>编辑完成后，点击其他位置，软件会自动缓存该内容，但并未保存到原始 TMX 文件中（Heartsome
+            Translation Studio 8 记忆库除外），但数据已缓存，不会因意外事故而丢失。</para>
+          </listitem>
+
+          <listitem>
+            <para>编辑完成后，点击<inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="images/save.png" width="15">
+                    <info>
+                      <author>
+                        <personname/>
+                      </author>
+
+                      <pubdate>f范德萨 撒旦法倒萨dsa sda</pubdate>
+                    </info>
+                  </imagedata>
+                </imageobject>
+              </inlinemediaobject><date>或快捷键Ctrl+S才能使修改内容及时保存到原始 TMX
+            文件。</date></para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para xml:id="edit_tu_tmx_id"><emphasis
+        role="bold">编辑翻译单元属性</emphasis></para>
+
+        <para>翻译单元属性的编辑均提供了“当前选中行”、“所有过滤结果”以及“整个 TMX
+        /记忆库”三个应用范围，以实现批量操作。以下是具体说明：</para>
+
+        <itemizedlist>
+          <listitem>
+            <para xml:id="tu_atts_id"><emphasis
+            role="bold">编辑翻译单元固定属性</emphasis></para>
+
+            <para><inlinemediaobject>
+                <imageobject>
+                  <imagedata align="left" fileref="images/mark-icons-info.png"
+                             width="10"/>
+                </imageobject>
+              </inlinemediaobject><emphasis role="bold">
+            特别说明</emphasis>：固定属性只允许编辑和删除，且编辑和删除均只针对<emphasis
+            role="bold">固定属性的值。</emphasis></para>
+
+            <para>1、编辑固定属性值：选中要编辑的属性行，单击<inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="images/icons_edit.png" width="15"/>
+                </imageobject>
+              </inlinemediaobject>按钮，在弹出的对话框中输入属性值，点击【确定】完成编辑。</para>
+
+            <para>2、删除固定属性值：选中要删除的属性行，单击<inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="images/icons_del.png" width="15"/>
+                </imageobject>
+              </inlinemediaobject>按钮，即可完成属性值的删除。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">编辑翻译单元自定义属性</emphasis></para>
+
+            <para><inlinemediaobject>
+                <imageobject>
+                  <imagedata align="left" fileref="images/mark-icons-info.png"
+                             width="10"/>
+                </imageobject>
+              </inlinemediaobject><emphasis role="bold">
+            特别说明：</emphasis>自定义属性允许添加、编辑和删除属性<emphasis
+            role="bold">名称和属性值。</emphasis></para>
+
+            <para>1、添加自定义属性：选中“翻译单元自定义属性”表格中的任一一行，点击<inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="images/icons_add.png" width="15"/>
+                </imageobject>
+              </inlinemediaobject>按钮，在弹出的对话框中输入“自定义属性名称”和“自定义属性内容”，单击【确定】完成添加操作。</para>
+
+            <para>2、编辑自定义属性：选中“翻译单元自定义属性”表格中需要编辑的行，点击<inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="images/icons_edit.png" width="15"/>
+                </imageobject>
+              </inlinemediaobject>按钮，在弹出的对话框中编辑“自定义属性名称”和“自定义属性内容”，单击【确定】完成编辑操作。</para>
+
+            <para>3、删除自定义属性：选中“翻译单元自定义属性”表格中需要删除的行，点击<inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="images/icons_del.png" width="15"/>
+                </imageobject>
+              </inlinemediaobject>按钮，即可完成删除操作。</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">编辑翻译单元变量属性</emphasis></para>
+
+            <para>操作方式同：<link linkend="tu_atts_id">编辑翻译单元固定属性</link></para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para xml:id="edit_note_tmx_id"><emphasis role="bold"
+        xml:id="tu_att_2">编辑翻译单元批注</emphasis></para>
+
+        <para>1、添加批注：选中“批注”表格中的任一一行，点击<inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="images/icons_add.png" width="15"/>
+            </imageobject>
+          </inlinemediaobject>按钮，在弹出的对话框中输入批注内容，单击【确定】完成添加操作。</para>
+
+        <para>2、编辑批注：选中“批注”表格中需要编辑的行，点击<inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="images/icons_edit.png" width="15"/>
+            </imageobject>
+          </inlinemediaobject>按钮，在弹出的对话框中编辑批注内容，单击【确定】完成编辑操作。</para>
+
+        <para>3、删除批注：选中“批注”表格中需要删除的行，点击<inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="images/icons_del.png" width="15"/>
+            </imageobject>
+          </inlinemediaobject>按钮，即可完成删除操作。</para>
+      </listitem>
+    </itemizedlist>
+
+    <glosslist>
+      <glossentry xml:id="tmx_merge_id">
+        <glossterm>分割和合并 TMX</glossterm>
+
+        <glossdef>
+          <para>分割和合并 TMX 功能，为您提供了多人合作编辑文件的方式。</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">分割 TMX</emphasis></para>
+
+              <para>1、菜单“编辑”-“分割 TMX ”，打开分割对话框。</para>
+
+              <para>2、选择需要分割成的“子文件”个数。</para>
+
+              <para>3、选择需要分割的原 TMX 文件。</para>
+
+              <para>4、选择存储方式：“原文件路径”将分割后的子文件与原文件放置在一个目录；“另存为”则会将子文件放置在此指定的目录。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">合并 TMX</emphasis></para>
+
+              <para>1、菜单“编辑”-“合并 TMX”，打开分割对话框。</para>
+
+              <para>2、点击【添加】按钮，将需要合并的子文件添加到列表。</para>
+
+              <para>3、选择合并的 TMX 存储路径。</para>
+
+              <para>4、点击【确定】按钮，执行合并操作。</para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="edit_lang_id">
+        <glossterm>更改语言代码</glossterm>
+
+        <glossdef>
+          <para>此功能提供批量更改 TMX 文件中每一个翻译单元的语言代码。</para>
+
+          <para>1、菜单“编辑”-“更改语言代码”，打开更改语言代码的对话框。</para>
+
+          <para>2、对应源语言和目标语言，选择更改后的语言对。</para>
+
+          <para>3、点击【确定】按钮，完成批量修改。</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="del_lang_id">
+        <glossterm>删除指定语言</glossterm>
+
+        <glossdef>
+          <para>此功能提供批量删除 TMX 文件中某一种语言的翻译单元变量（tuv）的功能。需要注意是的：<emphasis
+          role="bold">不能删除源语言</emphasis>。</para>
+
+          <para>1、菜单“编辑”-“删除指定语言”，打开删除指定语言对话框。</para>
+
+          <para>2、选择需要删除的某一种或多种语言。</para>
+
+          <para>3、点击【确定】按钮，完成删除操作。</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="clean_tag_id">
+        <glossterm>清除所有标记</glossterm>
+
+        <glossdef>
+          <para>此功能提供批量清除 TMX 文件中的所有内容标记，<emphasis
+          role="bold">保留纯文本</emphasis>功能。</para>
+
+          <para>1、菜单“编辑”-“清除所有标记”，弹出提示框。</para>
+
+          <para>2、确认提示后，执行清除操作。清除后将无法恢复。</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="clean_tmx_id">
+        <glossterm>TMX 无用内容清理</glossterm>
+
+        <glossdef>
+          <para>TMX 文件的无用内容包含：空行、重复行、相同源文不同译文行等。Heartsome TMX Editor 8
+          提供了批量清理这些无用内容的功能。</para>
+
+          <para>1、菜单“编辑”-“清理 TM”，打开批量清理的对话框。</para>
+
+          <para>2、在对话框里选择需要清理的无用项：</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/clean_tm.png" width="250"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <itemizedlist>
+            <listitem>
+              <para>删除空行：指删除译文为空的翻译单元</para>
+            </listitem>
+
+            <listitem>
+              <para>删除重复行，保留最新文本段：指删除源文和译文均相同的翻译单元，但保留时间最近的一个</para>
+            </listitem>
+
+            <listitem>
+              <para>删除相同源文不同译文行，保留最新文本段：只删除源文相同但译文不同的翻译单元，但保留时间最近的一个</para>
+            </listitem>
+
+            <listitem>
+              <para>删除段首/段末空格：只删除翻译单元首位的空格</para>
+            </listitem>
+          </itemizedlist>
+
+          <para>3、选择比较源文是否相同时，是否需要忽略标记。</para>
+
+          <para>4、执行清理操作。</para>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+  </chapter>
+
+  <chapter>
+    <title>编辑 Heartsome Translation Studio 8 记忆库</title>
+
+    <para>Heartsome TMX Editor 8 是Heartsome Translation Studio 8
+    记忆库的专用编辑软件。以下介绍二者的配套使用方法：</para>
+
+    <glosslist>
+      <glossentry xml:id="conn_tm_id">
+        <glossterm xml:id="link_datase_id">如何连接记忆库</glossterm>
+
+        <glossdef>
+          <para>Heartsome Translation Studio 8 记忆库分<emphasis
+          role="bold">文件型记忆库</emphasis>和<emphasis
+          role="bold">服务型记忆库</emphasis>两类。</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">文件型记忆库</emphasis></para>
+
+              <para>1、菜单“文件”-“连接记忆库”，选择二级菜单“文件型记忆库”。</para>
+
+              <para>2、在弹出的浏览选择框中，选择Heartsome Translation Studio 8
+              记忆库（.hstm）。</para>
+
+              <para>3、点击【确定】按钮后，编辑器将加载记忆库中所有的内容。</para>
+            </listitem>
+
+            <listitem>
+              <para xml:id="link_servertm_id"><emphasis
+              role="bold">服务型记忆库</emphasis></para>
+
+              <para>1、菜单“文件”-“连接记忆库”，选择二级菜单“服务型记忆库”。</para>
+
+              <para>2、在打开的服务型记忆库选择框中，在类型树上选择要连接的记忆库类型：</para>
+
+              <para><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/database_1.png" width="150"/>
+                  </imageobject>
+                </inlinemediaobject></para>
+
+              <para>3、输入该类型的记忆库连接参数（IP地址、端口、用户、密码等），点击【搜索】按钮：</para>
+
+              <para><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/database_2.png" width="300"/>
+                  </imageobject>
+                </inlinemediaobject></para>
+
+              <para>4、在搜索出的记忆库中，选中您需要编辑的那一个，单击右下角的【确定】按钮，即可加载该记忆库的所有内容。</para>
+
+              <para><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/database_3.png" width="200"/>
+                  </imageobject>
+                </inlinemediaobject></para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="mutil_lang_id">
+        <glossterm>如何支持多语</glossterm>
+
+        <glossdef>
+          <para>1、Heartsome Translation Studio 8 记忆库是支持多语的，在<link
+          linkend="link_servertm_id">连接服务型记忆库</link>后的记忆库列表的“语言”列中可以看到语言的情况：</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/database_4.png" width="200"/>
+              </imageobject>
+            </inlinemediaobject>可以看到，“bug2422”这个记忆库包含“en-US”、“zh”、“zh-HK”3种语言。</para>
+
+          <para>2、当打开多语的记忆库后，您可以从“编辑视图”中的“源”和“目标”下拉列表中选择需要显示和编辑的语言对：</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/database_5.png" width="200"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <para>3、选择好语言对后，点击【搜索】即可加载显示该语言对的所有内容。</para>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+
+    <glosslist>
+      <glossentry xml:id="edit_seg_tm_id">
+        <glossterm>编辑记忆库源文和译文</glossterm>
+
+        <glossdef>
+          <para>单击编辑器中源文单元格或译文单元格即可进入编辑模式。需要注意的是：记忆库的编辑是<emphasis
+          role="bold">实时保存</emphasis>的，因此不需要手动保存。</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="edit_tu_tm_id">
+        <glossterm>编辑记忆库的翻译单元属性</glossterm>
+
+        <glossdef>
+          <para>同“<link linkend="edit_tu_tmx_id">TMX 翻译单元属性编辑</link>”。</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="edit_note_tm_id">
+        <glossterm>编辑记忆库的翻译单元批注</glossterm>
+
+        <glossdef>
+          <para>同“<link linkend="edit_note_tmx_id">TMX
+          翻译单元批注编辑</link>”。</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="clean_tm_id">
+        <glossterm>无用内容清理</glossterm>
+
+        <glossdef>
+          <para>同“<link linkend="clean_tmx_id">TMX 无用内容清理</link>”。</para>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+  </chapter>
+
+  <chapter>
+    <title>搜索和过滤</title>
+
+    <para>Heartsome TMX Editor 8 提供了搜索和过滤 的功能，最大程度的提高您维护 TMX
+    文件和记忆库的效率。以下是使用方法介绍：</para>
+
+    <glosslist>
+      <glossentry xml:id="keyword_id">
+        <glossterm>关键字搜索</glossterm>
+
+        <glossdef>
+          <para>您可以针对当前 TMX
+          文件或记忆库的源文或译文内容进行关键字的搜索，过滤出预期的内容。您只需要在“编辑”视图的“搜索”模块中，针对源文或译文输入关键字，点击【搜索】按钮即可。</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/search_key.png" width="350"/>
+              </imageobject>
+            </inlinemediaobject></para>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+
+    <glosslist>
+      <glossentry xml:id="filter_id">
+        <glossterm>快速过滤</glossterm>
+
+        <glossdef>
+          <para>您可以通过“编辑”视图的“条件筛选”下拉列表内容，快速过滤出相关内容。下拉列表的内容分两个部分：软件内置的常用过滤条件和用户<link
+          linkend="filter_set_id">自定义的过滤条件</link>。</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/search_quick.png" width="250"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <para>其中，软件的内置的过滤条件中，对于文本段内容的比较，我们提供了是否“<emphasis
+          role="bold">忽略大小</emphasis>”和是否“<emphasis
+          role="bold">忽略标记</emphasis>”两个选项，以得到更加精确的过滤结果。</para>
+
+          <para><emphasis role="bold"><inlinemediaobject>
+              <imageobject>
+                <imagedata align="left" fileref="images/mark-icons-info.png"
+                           width="10"/>
+              </imageobject>
+            </inlinemediaobject>
+          特别说明</emphasis>：“关键字搜索”与“快速过滤”之间没有互相关联，任何一个条件改变都会以原始 TMX
+          文件内容或记忆库内容重新刷新结果。</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="filter_set_id">
+        <glossterm>自定义过滤条件</glossterm>
+
+        <glossdef>
+          <para>软件为您提供了灵活的自定义过滤器，您可以根据自己的需要来设置过滤条件，这些过滤条件您还可以选择<emphasis
+          role="bold">启用</emphasis>或<emphasis
+          role="bold">不启用</emphasis>。我们建议您将常用的自定义过滤条件设置为<emphasis
+          role="bold">启用</emphasis>状态，这样您就可以在条件筛选的</para>
+
+          <para>下拉列表中选择并自动执行该条件，过滤出相关内容。</para>
+
+          <para>1、点击“条件筛选”模块中的<inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/set.png"/>
+              </imageobject>
+            </inlinemediaobject>按钮，打开自定义过滤条件列表。</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/set_1.png" width="300"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <para>2、点击【新建】按钮，弹出自定义条件的定义操作对话框。</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/set_2.png" width="350"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis
+              role="bold">过滤器名称</emphasis>：您的自定义条件名称，用于该条件“启用”后显示在“条件筛选”的下拉列表中。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis
+              role="bold">条件组合方式</emphasis>：提供满足所有条件（AND）或任一条件（OR）的组合方式选择。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis
+              role="bold">自定义的内容</emphasis>：您可以对源文、译文、批注、固定属性和自定义属性进行自定义。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis
+              role="bold">操作符</emphasis>：系统默认带了包含、不包含、等于和不等于四种操作符。</para>
+            </listitem>
+          </itemizedlist>
+
+          <para>对列表中已有的自定义条件，同样可以进行【编辑】和【删除】。</para>
+
+          <para>3、列表中“启用”一列，是提供您设置是否启用这个条件，以避免部分暂时不需要的条件出现的“条件筛选”的下拉列表中，产生混淆和干扰。</para>
+
+          <para>例如：第1点描述中启用“Kevin创建的句子”后：</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/set_3.png" width="250"/>
+              </imageobject>
+            </inlinemediaobject></para>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+  </chapter>
+
+  <chapter>
+    <title>QA</title>
+
+    <para>Heartsome TMX Editor 8 为您提供了针对 TMX 文件的 QA 功能，也能根据生成的 QA
+    报告，对错误内容做快速处理。以下详细介绍：</para>
+
+    <glosslist>
+      <glossentry xml:id="qa_list_id">
+        <glossterm>选择 QA 检查项</glossterm>
+
+        <glossdef>
+          <para>在 <link linkend="qa_view_id">QA 视图</link>的“检查项”模块，提供了6种 QA
+          检查项供选择：</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/QA1.png" width="350"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <itemizedlist>
+            <listitem>
+              <para>标记一致性：源文和译文的内部标记个数是否相同，内容是否相同。</para>
+            </listitem>
+
+            <listitem>
+              <para>数字一致性：源文和译文中的数字是否相同。</para>
+            </listitem>
+
+            <listitem>
+              <para>段首/段末空格：源文和译文在段首/段末的空格是否一致。</para>
+            </listitem>
+
+            <listitem>
+              <para>译文为空：是否有未翻译的文本段。</para>
+            </listitem>
+
+            <listitem>
+              <para>源文和译文相同：源文和译文相同的文本段。</para>
+            </listitem>
+
+            <listitem>
+              <para>相同源文，不同译文：源文相同，却有不同译文的文本段。</para>
+            </listitem>
+
+            <listitem>
+              <para>相同译文，不同源文：相同的译文却来自不同的源文的文本段。</para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="qa_report_id">
+        <glossterm>执行 QA 生成 QA 报告</glossterm>
+
+        <glossdef>
+          <para>1、在<link linkend="qa_view_id"> QA
+          视图</link>的“操作”模块中，选择是否“<emphasis
+          role="bold">忽略大小写</emphasis>”和是否“<emphasis
+          role="bold">忽略标记</emphasis>”，来确定是否以更加精确的方式来进行内容对比。</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/QA2.png" width="250"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <para>2、点击【执行所选】按钮，软件自动打开 QA 结果视图，生成相应的 QA 报告。</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/QA3.png" width="350"/>
+              </imageobject>
+            </inlinemediaobject></para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="qa_deal_id">
+        <glossterm>如何根据 QA 报告处理错误</glossterm>
+
+        <glossdef>
+          <para>您只需要双击 QA 结果中的错误信息，便会自动定位到<link
+          linkend="editor_view_id">编辑器</link>中对应的行，进而快速进行错误的修复。</para>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+  </chapter>
+
+  <chapter>
+    <title>实用工具介绍</title>
+
+    <para>Heartsome TMX Editor 8 提供了几款非常实用的工具，为您轻松解决 TMX 的转换和维护问题。</para>
+
+    <glosslist>
+      <glossentry xml:id="tmx_to_id">
+        <glossterm>TMX 转换为指定格式文件</glossterm>
+
+        <glossdef>
+          <para>Heartsome TMX Editor 8 支持由 TMX <emphasis
+          role="bold">批量</emphasis>转换为 DOCX、XLSX、TXT、TBX 以及 HSTM（Heartsome
+          Translation Studio 8 记忆库 ）5种外部文件。</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/trans_1.png" width="350"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">使用方法：</emphasis></para>
+
+              <para>1、菜单“工具”-“TMX 转换为指定格式”，打开转换对话框。</para>
+
+              <para>2、点击【添加】按钮，批量添加待转换的 TMX 文件，您也可以对已添加的文件进行选中【移除】操作。</para>
+
+              <para>3、选择“<emphasis role="bold">转换为</emphasis>”的目标文件类型。</para>
+
+              <para>4、当“<emphasis
+              role="bold">转换为</emphasis>”的目标文件类型为“<emphasis
+              role="bold">HS记忆库文件（.hstm）</emphasis>”时，可选择是否在“<emphasis
+              role="bold">包含翻译单元属性</emphasis>（仅限 *.hstm）”，或忽略属性。</para>
+
+              <para>5、选择“<emphasis role="bold">保存到</emphasis>”的保存方式。</para>
+
+              <para>6、点击【确定】按钮执行转换操作。</para>
+            </listitem>
+
+            <listitem>
+              <para xml:id="file_type_id"><emphasis
+              role="bold">转换后的目标文件类型介绍：</emphasis></para>
+
+              <itemizedlist>
+                <listitem>
+                  <para><emphasis role="bold">转换为 DOCX 文件：</emphasis></para>
+
+                  <para><inlinemediaobject>
+                      <imageobject>
+                        <imagedata fileref="images/trans_docx.png" width="350"/>
+                      </imageobject>
+                    </inlinemediaobject></para>
+
+                  <para><emphasis
+                  role="bold">说明：</emphasis>表格的第一列为源语言，第二列为目标语言。如果原 TMX
+                  文件是多语言，那么会在表格的第三列继续列出第三种语言。</para>
+                </listitem>
+
+                <listitem>
+                  <para><emphasis role="bold">转换为 XLSX 文件：</emphasis></para>
+
+                  <para><inlinemediaobject>
+                      <imageobject>
+                        <imagedata fileref="images/trans_xlsx.png" width="350"/>
+                      </imageobject>
+                    </inlinemediaobject></para>
+
+                  <para><emphasis
+                  role="bold">说明：</emphasis>第一列为源语言，第二列为目标语言。如果原 TMX
+                  文件是多语言，那么会在第三列继续列出第三种语言。</para>
+                </listitem>
+
+                <listitem>
+                  <para><emphasis role="bold">转换为 TXT 文件：</emphasis></para>
+
+                  <para><inlinemediaobject>
+                      <imageobject>
+                        <imagedata fileref="images/trans_txt.png" width="350"/>
+                      </imageobject>
+                    </inlinemediaobject></para>
+
+                  <para><emphasis role="bold">说明：</emphasis>TXT 文件中多种语言之间以“TAB
+                  键”为间隔。</para>
+                </listitem>
+
+                <listitem>
+                  <para><emphasis role="bold">转换为标准 TBX 文件：</emphasis></para>
+
+                  <para><inlinemediaobject>
+                      <imageobject>
+                        <imagedata fileref="images/trans_tbx.png" width="350"/>
+                      </imageobject>
+                    </inlinemediaobject></para>
+                </listitem>
+
+                <listitem>
+                  <para><emphasis role="bold">转换为 HSTM 文件：</emphasis></para>
+
+                  <para>转换的 HSTM 文件是 Heartsome Translation Studio 8
+                  记忆库中的“文件型记忆库”类型。</para>
+                </listitem>
+              </itemizedlist>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="to_tmx_id">
+        <glossterm>指定格式转换为 TMX</glossterm>
+
+        <glossdef>
+          <para>此功能是“TMX 转换为指定格式”功能的逆向使用，因此，也同样支持相同的 DOCX、XLSX、TXT、TBX 以及
+          HSTM（Heartsome Translation Studio 8 记忆库 ）5种外部文件转换为标准 TMX 文件。</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/trans_2.png" width="340"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">使用方法：</emphasis></para>
+
+              <para>1、菜单“工具”-“转换为 TMX”，打开转换对话框。</para>
+
+              <para>2、单击“浏览”按钮，选择待转换的外部文件。<emphasis role="bold">
+              </emphasis></para>
+
+              <para>3、选择是否“添加翻译单元自定义属性”。如果选择添加，那么需要在“浏览”操作区域中动态添加属性和值。</para>
+
+              <para>4、选择存储方式：1）转换成全新的 TMX，指生成一个新的 TMX 文件。2）追加到已有
+              TMX，需要您选择一个已存在的 TMX 文件，将新内容追加到其中。</para>
+
+              <para>5、选择是否“转换成后在 TMX Editor 中打开”。</para>
+
+              <para>6、单击【确定】按钮，执行转换操作。</para>
+            </listitem>
+
+            <listitem>
+              <para xml:id="source_file_id"><emphasis
+              role="bold">源文件格式规范</emphasis></para>
+
+              <para>源文件格式与“<link
+              linkend="file_type_id">转换后的目标文件类型介绍</link>”中介绍的文件格式一样，支持多语言，并且<emphasis
+              role="bold">第一行</emphasis>必须是规范的<emphasis
+              role="bold">语言代码</emphasis>。</para>
+            </listitem>
+          </itemizedlist>
+
+          <para><emphasis role="bold"><inlinemediaobject>
+              <imageobject>
+                <imagedata align="left" fileref="images/mark-icons-info.png"
+                           width="10"/>
+              </imageobject>
+            </inlinemediaobject>特别说明：</emphasis>此功能目前只支持单个外部文件的转换，如果您有多个外部文件需要转换处理，那么您可以有2种方法：</para>
+
+          <para>1）手动将所有外部文件整理在一个文件中，只需进行一次转换。</para>
+
+          <para>2）执行多次转换，在选择保存方式时，勾选“<emphasis role="bold">追加到已有 TMX
+          中</emphasis>”，将多个文件转换入同一个 TMX。</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="code_trans_id">
+        <glossterm>文件编码转换器</glossterm>
+
+        <glossdef>
+          <para>编码转换器为您提供一个<emphasis
+          role="bold">文本文件</emphasis>编码转换的实用小工具。当某些CAT工具只支持导入特定编码的 TMX
+          文件时，此工具能助您轻松地完成编码转换。</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/trans_code.png" width="260"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">使用方法：</emphasis></para>
+
+              <para>1、菜单“工具”-“编码转换器”，打开转换对话框。</para>
+
+              <para>2、选择“源文件”，“源文件编码”会自动检测并选中。如果自动检测有误，也可手动调整。</para>
+
+              <para>3、选择转换后的“目标文件”存放路径和名称。</para>
+
+              <para>4、选择需要转换成的“目标文件编码”。</para>
+
+              <para>5、点击【转换】按钮，执行转换操作。</para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+  </chapter>
+
+  <chapter>
+    <title>关于版本和许可</title>
+
+    <glosslist>
+      <glossentry xml:id="version_id">
+        <glossterm>版本介绍</glossterm>
+
+        <glossdef>
+          <para>以下 Heartsome TMX Editor 8 版本可用：</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>免费版</para>
+            </listitem>
+
+            <listitem>
+              <para>试用版</para>
+            </listitem>
+
+            <listitem>
+              <para>正式版</para>
+            </listitem>
+          </itemizedlist>
+
+          <glosslist>
+            <glossentry>
+              <glossterm>免费版</glossterm>
+
+              <glossdef>
+                <para>Heartsome TMX Editor 8 免费版在功能上与正式版完全一样，只是对处理的 TMX
+                文件的翻译单元个数限制了<emphasis role="bold">10000</emphasis>个。</para>
+              </glossdef>
+            </glossentry>
+
+            <glossentry>
+              <glossterm>试用版</glossterm>
+
+              <glossdef>
+                <para>试用版的有效期是3个月，无任何限制。试用期到期后，会自动以免费版方式继续永久使用。</para>
+              </glossdef>
+            </glossentry>
+
+            <glossentry>
+              <glossterm>正式版</glossterm>
+
+              <glossdef>
+                <para>由 Heartsome
+                公司的商业许可证激活后的版本。当您购买了商业许可证后，当前正在使用的“免费版”、“试用版”均可直接激活升级为“正式版”。</para>
+              </glossdef>
+            </glossentry>
+          </glosslist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="license_id">
+        <glossterm>如何申请试用和购买许可</glossterm>
+
+        <glossdef>
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">申请试用：</emphasis></para>
+
+              <para>1、访问试用申请网站<link
+              xlink:href="https://lic.heartsome.net/webbuy/r8trial.jsp">https://lic.heartsome.net/webbuy/r8trial.jsp</link>。</para>
+
+              <para>2、输入姓名、电子邮箱，及其他选填信息。</para>
+
+              <para>3、提交申请表单，系统会自动发送试用许可证到您的填写的电子邮箱。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">购买许可证：</emphasis></para>
+
+              <para>1、访问购买网站<link
+              xlink:href="https://lic.heartsome.net/webbuy/r8buy.jsp">https://lic.heartsome.net/webbuy/r8buy.jsp</link>。</para>
+
+              <para>2、输入姓名、电子邮箱，及其他选填信息。</para>
+
+              <para>3、选择要购买的产品及版本类型，并输入购买数量。</para>
+
+              <para>4、点击<guibutton>提交</guibutton>按钮，再次确认订单信息无误后，点击<guibutton>通过
+              Paypal 支付</guibutton>按钮，并按相应的提示进行支付。</para>
+
+              <para>5、支付成功后，我们的许可证服务器会自动将许可证发送到您填写的邮箱。</para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="active_id">
+        <glossterm>如何激活许可证</glossterm>
+
+        <glossdef>
+          <para>不论是试用许可还是正式许可，均需要激活软件才能正常使用。Heartsome TMX Editor 8
+          有“在线激活（推荐）”和“离线激活”两种方式可选。以下介绍激活方法：</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">在线激活：</emphasis></para>
+
+              <para>1、在<interfacename>许可证管理</interfacename>对话框中，将从邮件中复制的许可证号码粘贴到第一个文本框，其余文本框将自动填充。</para>
+
+              <para><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/lic1.png" width="300"/>
+                  </imageobject>
+                </inlinemediaobject></para>
+
+              <para>2、确认网络连接。如果您通过代理服务器连接 Internet，请点击【网络连接】按钮，进入<link
+              linkend="net_proxy_id">自定义代理</link>设置。</para>
+
+              <para>3、点击【激活】按钮。</para>
+
+              <para>4、若无异常情况发生，则会提示已成功激活，重新打开“帮助”-“许可证管理”即可看到许可状态为“已激活”。</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">离线激活：</emphasis></para>
+
+              <para>在使用离线激活方式之前，请先确认您已购买商业许可证，而非试用许可证。离线激活需要如下四个步骤来完成：</para>
+
+              <para>1、输入您购买的商业许可证序列号，点击【下一步】按钮。</para>
+
+              <para>2、获取激活码：</para>
+
+              <para>下图所示的界面上，显示了软件自动生成的激活码，您只需将其复制到邮件或文本文件中，将其发送到<emphasis
+              role="bold">
+              licensing@heartsome.net</emphasis>，然后等待我们的处理。这时您可以退出本软件。</para>
+
+              <para><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/lic2.png" width="350"/>
+                  </imageobject>
+                </inlinemediaobject></para>
+
+              <para>3、获取授权文件：</para>
+
+              <para>Heartsome
+              在收到您提供的激活码之后，会将相应的授权文件（文件名为“<type>序列号.lic</type>”形式）以附件形式发送到您的邮箱。请将收到的授权文件从邮件中保存到您的本地硬盘中，然后重复上述第一、二步操作，</para>
+
+              <para>并在上图的界面中直接点击【下一步】按钮。</para>
+
+              <para><inlinemediaobject>
+                  <imageobject>
+                    <imagedata align="left"
+                               fileref="images/mark-icons-info.png" width="10"/>
+                  </imageobject>
+                </inlinemediaobject> <emphasis
+              role="bold">特别说明：</emphasis>如果您想一次性以离线方式激活多个许可证，也可以用 Excel
+              文件（.xls格式）保存激活码。 <emphasis role="bold">请将激活码放在 Excel
+              表格的第一列、且每行只放一个激活码。</emphasis>为方便识别和管理多个许可证，您还可以在表格的第二、三列保存与激活码相对应的许可证序列号、使用者姓名或计算机名等附加信息，但只有第一列的激活码是必需的。</para>
+
+              <para>4、点击【浏览】按钮，选择收到的 <type>.lic</type>
+              文件，然后单击【激活】按钮，执行激活操作。若无异常情况发生，则会提示已成功激活。</para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="cancel_active_id">
+        <glossterm>如何取消激活</glossterm>
+
+        <glossdef>
+          <para>如果属于如下情况之一，则需要先进行“取消激活”许可证的操作：</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>打算将当前的“试用许可”换成购买的“商业许可”。</para>
+            </listitem>
+
+            <listitem>
+              <para>打算重新安装操作系统。</para>
+            </listitem>
+
+            <listitem>
+              <para>打算将当前使用的许可证转移到另一台计算机上使用。</para>
+            </listitem>
+          </itemizedlist>
+
+          <para>取消激活许可证的步骤如下：</para>
+
+          <para>1、菜单“帮助”-“许可证管理”，打开许可证管理对话框。</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/lic3.png" width="200"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <para>2、确认已连接网络后（如需设置代理服务器，请参考<link
+          linkend="net_proxy_id">自定义代理</link>），点击【取消激活】按钮。</para>
+
+          <para>3、待操作完成后，软件将自动重新启动，重启后<guilabel>许可证状态</guilabel>变为<emphasis
+          role="bold">无许可证</emphasis>。</para>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+  </chapter>
+
+  <chapter xml:id="term_table_id">
+    <title>术语表</title>
+
+    <glosslist>
+      <glossentry>
+        <glossterm>TMX文件</glossterm>
+
+        <glossdef>
+          <para>TMX（TM 交换）是用于交换翻译记忆库的行业标准格式。Heartsome TMX Editor 8 可编辑和维护 TMX
+          文件。同时，Heartsome Translation Studio 8 记忆库也支持 TMX 文件的导入和导出。</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry>
+        <glossterm>TBX文件</glossterm>
+
+        <glossdef>
+          <para>TBX 是术语标记语言。它是开放的、基于 XML
+          的标准，用于交换结构化术语数据，实现将信息从一个术语库传送到另一个术语库。</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry>
+        <glossterm>翻译单元</glossterm>
+
+        <glossdef>
+          <para>翻译记忆库 (TM) 中的条目，包含原文本句段、其翻译文本和补充的 TM 数据，例如翻译日期。在 TMX
+          中，翻译单元等同于元素&lt; tu&gt;（较不常见）文本，它是用于匹配的单个单元，等同于翻译文本段。</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry>
+        <glossterm>翻译单元变量</glossterm>
+
+        <glossdef>
+          <para>文本片断包含在翻译单元（&lt;tu&gt; 元素）中，每个
+          &lt;tu&gt;元素包含一个或多个&lt;tuv&gt;元素的翻译单元变量，而这些翻译单元变量分别是同一个翻译单元不同语言的译文。每个&lt;tuv&gt;元素包含片断和给定语言相关的片断信息。</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry>
+        <glossterm>内部标记</glossterm>
+
+        <glossdef>
+          <para>可翻译项目中不应提供给译员进行翻译的内容。这包括布局和格式设置信息、样式定义和字体信息。</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry>
+        <glossterm>源</glossterm>
+
+        <glossdef>
+          <para>描述原始的未翻译项目。例如：源文、源语言。与目标相比较。另请参阅语言对。</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry>
+        <glossterm>目标</glossterm>
+
+        <glossdef>
+          <para>描述已翻译或目标项目，例如：目标内容、目标语言、目标句段。与源相比较。另请参阅语言对。</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry>
+        <glossterm>语言对</glossterm>
+
+        <glossdef>
+          <para>源语言和目标语言，例如英语到法语，或者英语（英国）到法语（瑞士）。
+          语言对具有方向：英语到法语与法语到英语不同。</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry>
+        <glossterm>过滤器</glossterm>
+
+        <glossdef>
+          <para>对内容进行过滤提取的规则组合。过滤器包含一个或多个规则。过滤器规则根据引用值来比较内容。当您应用过滤器时，应用程序将仅显示或处理符合这些规则的内容。</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry>
+        <glossterm>HS</glossterm>
+
+        <glossdef>
+          <para>Heartsome，公司名称缩写。</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry>
+        <glossterm>HSTM</glossterm>
+
+        <glossdef>
+          <para>Heartsome Translation Studio 8 记忆库。</para>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+  </chapter>
+
+  <chapter xml:id="copyright_id">
+    <title>版权</title>
+
+    <para>版权所有© 2013瀚特盛科技有限公司。</para>
+
+    <para>本软件的任何授权副本的知识产权及相关软件的结构、组织和代码的有价知识产权（例如商业秘密和保密信息）均属于
+    HEARTSOME。本软件中所使用到的第三方软件的知识产权归该第三方所有。</para>
+
+    <para>本软件受法律（包括但不限于香港特别行政区和其他国家的版权法）以及国际协约条款保护。除非明确表述，否则不授予用户对本软件的任何知识产权，且
+    HEARTSOME 及其供应商保留未明确授予的其他所有权利。</para>
+  </chapter>
+</book>

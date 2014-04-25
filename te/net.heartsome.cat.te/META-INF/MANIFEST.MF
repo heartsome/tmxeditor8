@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Heartsome CAT TE
+Bundle-SymbolicName: net.heartsome.cat.te; singleton:=true
+Bundle-Version: 8.0.0.R8b_v20140106
+Bundle-Activator: net.heartsome.cat.te.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ net.heartsome.cat.te.tmxeditor;bundle-version="1.0.0",
+ net.heartsome.cat.thirdpartlibrary;bundle-version="8.0.0",
+ net.heartsome.cat.te.ui;bundle-version="1.0.0",
+ net.heartsome.cat.p2update;bundle-version="8.0.1"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Localization: plugin
+Bundle-Vendor: Heartsome Technologies Ltd.
+Import-Package: net.heartsome.cat.common.bean,
+ net.heartsome.cat.te.core,
+ net.heartsome.cat.te.core.utils

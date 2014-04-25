@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="List of Figures" topic="">
+	<topic label="3.1. Flow chart for a newly purchased license" href="html/en/ch03.html#id1172417237095" />
+	<topic label="3.2. Flow chart for reactivating a license due to re-installation or change of computer" href="html/en/ch03.html#id1172417237134" />
+	
+	<topic label="4.1. Heartsome Translation Studio's main interface" href="html/en/ch04.html#id1172417237442" />
+	<topic label="4.2. Main menu" href="html/en/ch04.html#id1172417237482" />
+	<topic label="4.3. Toolbar" href="html/en/ch04.html#id1172417237517" />
+	<topic label="4.4. Status Bar" href="html/en/ch04.html#id1172417237590" />
+	<topic label="4.5. Status bar prompts" href="html/en/ch04.html#id1172417237604" />
+	<topic label="4.6. Project" href="html/en/ch04s02.html#id1172417237794" />
+	<topic label="4.7. Translation memory" href="html/en/ch04s02.html#id1172417237830" />
+	<topic label="4.8. Termbase" href="html/en/ch04s02.html#id1172417237863" />
+	<topic label="4.9. QA results" href="html/en/ch04s02.html#id1172417237897" />
+	<topic label="4.10. XLIFF editor" href="html/en/ch04s03.html#id1172417238048" />
+	
+	<topic label="4.11. XLIFF editor: vertical layout" href="html/en/ch04s03.html#id1172417238078" />
+	
+	<topic label="5.1. Translation Workflow for Heartsome Translation Studio Projects" href="html/en/ch05.html#id1172417238399" />
+	<topic label="5.2. Create a project from the main menu" href="html/en/ch05s02.html#id1172417239048" />
+	<topic label="5.3. Create a project from the toolbar" href="html/en/ch05s02.html#id1172417239063" />
+	<topic label="5.4. Create a project from the right-click menu" href="html/en/ch05s02.html#id1172417239083" />
+	<topic label="5.5. Create new project: project information" href="html/en/ch05s02.html#id1172417239133" />
+	<topic label="5.6. Create new project: language pairs" href="html/en/ch05s02.html#id1172417239213" />
+	<topic label="5.7. Add custom languages" href="html/en/ch05s02.html#id1172417239282" />
+	<topic label="5.8. Create new project: TM" href="html/en/ch05s02.html#id1172417239328" />
+	<topic label="5.9. Create new project: Termbase" href="html/en/ch05s02.html#id1172417239437" />
+	<topic label="5.10. Create new project: Add source files" href="html/en/ch05s02.html#id1172417239551" />
+	
+	<topic label="5.11. Project folders" href="html/en/ch05s02.html#id1172417239624" />
+	<topic label="5.12. Create a new TM: TM information" href="html/en/ch05s03.html#id1172417239793" />
+	<topic label="5.13. Create new TM: Import TMX file" href="html/en/ch05s03.html#id1172417240218" />
+	<topic label="5.14. Option: TM - Handling duplicate entries" href="html/en/ch05s03.html#id1172417240251" />
+	<topic label="5.15. Create new termbase: Basic information" href="html/en/ch05s03.html#id1172417240346" />
+	<topic label="5.16. Create new termbase: Import TBX file" href="html/en/ch05s03.html#id1172417240391" />
+	<topic label="5.17. Option: Termbase - Handling duplicate entries" href="html/en/ch05s03.html#id1172417240425" />
+	<topic label="5.18. Drag-and-drop a folder" href="html/en/ch05s03.html#id1172417240538" />
+	<topic label="5.19. Convert source file to XLIFF" href="html/en/ch05s03.html#id1172417240637" />
+	<topic label="5.20. Convert Source Files to XLIFFs dialog box" href="html/en/ch05s03.html#id1172417240668" />
+	
+	<topic label="5.21. Lock repetitions" href="html/en/ch05s03.html#id1172417240852" />
+	<topic label="5.22. Lock Repetitions dialog box" href="html/en/ch05s03.html#id1172417240886" />
+	<topic label="5.23. Results of lock repetitions" href="html/en/ch05s03.html#id1172417240958" />
+	<topic label="5.24. Open Project Settings" href="html/en/ch05s03.html#id1172417241020" />
+	<topic label="5.25. Project Settings: TM" href="html/en/ch05s03.html#project-setting-tm" />
+	<topic label="5.26. Pre-translation" href="html/en/ch05s03.html#id1172417241087" />
+	<topic label="5.27. Pretranslation dialog box" href="html/en/ch05s03.html#id1172417241113" />
+	<topic label="5.28. Options: Pre-translation" href="html/en/ch05s03.html#id1172417241147" />
+	<topic label="5.29. Pre-translation results" href="html/en/ch05s03.html#id1172417241430" />
+	<topic label="5.30. Word count analysis" href="html/en/ch05s03.html#id1172417241522" />
+	
+	<topic label="5.31. Analyze Files dialog box" href="html/en/ch05s03.html#id1172417241540" />
+	<topic label="5.32. Options: Word count analysis" href="html/en/ch05s03.html#id1172417241617" />
+	<topic label="5.33. Options: Equivalent values" href="html/en/ch05s03.html#id1172417241708" />
+	<topic label="5.34. Results of the word count analysis" href="html/en/ch05s03.html#id1172417241748" />
+	<topic label="5.35. Split up XLIFF file - Add split point" href="html/en/ch05s03.html#id1172417241811" />
+	<topic label="5.36. Split up XLIFF" href="html/en/ch05s03.html#id1172417241860" />
+	<topic label="5.37. Results of Splitting up XLIFF" href="html/en/ch05s03.html#id1172417241905" />
+	<topic label="5.38. Project settings" href="html/en/ch05s03.html#id1172417241977" />
+	<topic label="5.39. Project Settings: Project information" href="html/en/ch05s03.html#id1172417242051" />
+	<topic label="5.40. Project Settings: Project language" href="html/en/ch05s03.html#id1172417242066" />
+	
+	<topic label="5.41. Project Settings: TM" href="html/en/ch05s03.html#id1172417242088" />
+	<topic label="5.42. Project Settings: Termbase" href="html/en/ch05s03.html#project-setting-tb" />
+	<topic label="5.43. Rename Project" href="html/en/ch05s03.html#id1172417242169" />
+	<topic label="5.44. Open in One Tab" href="html/en/ch05s04.html#id1172417242254" />
+	<topic label="5.45. The effect of opening files in one tab" href="html/en/ch05s04.html#id1172417242273" />
+	<topic label="5.46. XLIFF editor: display mode and edit mode" href="html/en/ch05s04.html#id1172417242331" />
+	<topic label="5.47. Insert internal tags" href="html/en/ch05s04.html#id1172417242402" />
+	<topic label="5.48. Right-click menu: Segment status" href="html/en/ch05s04.html#id1172417242522" />
+	<topic label="5.49. TM match" href="html/en/ch05s04.html#id1172417242724" />
+	<topic label="5.50. Options: TM" href="html/en/ch05s04.html#id1172417242765" />
+	
+	<topic label="5.51. Options: Colors" href="html/en/ch05s04.html#id1172417242903" />
+	<topic label="5.52. Accept match" href="html/en/ch05s04.html#id1172417242942" />
+	<topic label="5.53. XLIFF editor: Select text to search" href="html/en/ch05s04.html#id1172417243006" />
+	<topic label="5.54. Concordance" href="html/en/ch05s04.html#id1172417243043" />
+	<topic label="5.55. Add term" href="html/en/ch05s04.html#id1172417243224" />
+	<topic label="5.56. " href="html/en/ch05s04.html#id1172417243286" />
+	<topic label="5.57. Term match" href="html/en/ch05s04.html#id1172417243371" />
+	<topic label="5.58. Insert term" href="html/en/ch05s04.html#id1172417243409" />
+	<topic label="5.59. XLIFF editor: Select text to search" href="html/en/ch05s04.html#id1172417243468" />
+	<topic label="5.60. Search term" href="html/en/ch05s04.html#id1172417243519" />
+	
+	<topic label="5.61. Options: QA" href="html/en/ch05s04.html#id1172417243639" />
+	<topic label="5.62. Quick translation: TM" href="html/en/ch05s04.html#id1172417243861" />
+	<topic label="5.63. Quick translation: Termbase" href="html/en/ch05s04.html#id1172417243906" />
+	<topic label="5.64. Quick translation" href="html/en/ch05s04.html#id1172417243953" />
+	<topic label="5.65. Machine translation: Google Translate" href="html/en/ch05s04.html#id1172417244090" />
+	<topic label="5.66. Machine translation: Bing Translator" href="html/en/ch05s04.html#id1172417244108" />
+	<topic label="5.67. XLIFF editor: Segments filter" href="html/en/ch05s04.html#xliff-editor-filter-segments" />
+	<topic label="5.68. XLIFF editor: Add your own custom segment filter" href="html/en/ch05s04.html#id1172417244391" />
+	<topic label="5.69. Manage custom filters" href="html/en/ch05s04.html#id1172417244409" />
+	<topic label="5.70. Segment custom filters" href="html/en/ch05s04.html#id1172417244528" />
+	
+	<topic label="5.71. Translation Progress Analysis." href="html/en/ch05s04.html#id1172417244585" />
+	<topic label="5.72. Translation progress analysis" href="html/en/ch05s04.html#id1172417244619" />
+	<topic label="5.73. Results of translation progress analysis" href="html/en/ch05s04.html#id1172417244651" />
+	<topic label="5.74. Add Comment" href="html/en/ch05s05.html#id1172417244755" />
+	<topic label="5.75. Add Comment dialog box" href="html/en/ch05s05.html#id1172417244774" />
+	<topic label="5.76. Edit comment" href="html/en/ch05s05.html#id1172417244882" />
+	<topic label="5.77. Edit Comment dialog box" href="html/en/ch05s05.html#id1172417244901" />
+	<topic label="5.78. Export RTF" href="html/en/ch05s05.html#id1172417245019" />
+	<topic label="5.79. Export XLIFF files as RTF" href="html/en/ch05s05.html#id1172417245054" />
+	<topic label="5.80. Import RTF" href="html/en/ch05s05.html#id1172417245219" />
+	
+	<topic label="5.81. Import RTF to update XLIFF" href="html/en/ch05s05.html#id1172417245249" />
+	<topic label="5.82. Individual QA check" href="html/en/ch05s05.html#id1172417245329" />
+	<topic label="5.83. QA" href="html/en/ch05s05.html#id1172417245380" />
+	<topic label="5.84. QA dialog" href="html/en/ch05s05.html#id1172417245408" />
+	<topic label="5.85. Options: QA" href="html/en/ch05s05.html#id1172417245438" />
+	<topic label="5.86. QA Results" href="html/en/ch05s05.html#id1172417245480" />
+	<topic label="5.87. Preview translation" href="html/en/ch05s05.html#id1172417245550" />
+	<topic label="5.88. Merge XLIFF files" href="html/en/ch05s06.html#id1172417245624" />
+	<topic label="5.89. Merge XLIFF files" href="html/en/ch05s06.html#id1172417245741" />
+	<topic label="5.90. The merged XLIFF file" href="html/en/ch05s06.html#id1172417245774" />
+	
+	<topic label="5.91. Unlock segments: Filter locked segments" href="html/en/ch05s06.html#id1172417245852" />
+	<topic label="5.92. Unlock segments" href="html/en/ch05s06.html#id1172417245906" />
+	<topic label="5.93. Duplicate translation" href="html/en/ch05s06.html#id1172417245972" />
+	<topic label="5.94. Convert XLIFF to target file" href="html/en/ch05s06.html#id1172417246082" />
+	<topic label="5.95. Convert XLIFF to target files" href="html/en/ch05s06.html#id1172417246117" />
+	<topic label="5.96. Target file converted from XLIFF" href="html/en/ch05s06.html#id1172417246216" />
+	
+	<topic label="6.1. Update Translation Memory" href="html/en/ch06.html#id1172417246410" />
+	<topic label="6.2. Update Translation Memory" href="html/en/ch06.html#id1172417246442" />
+	<topic label="6.3. Translation Memory Management" href="html/en/ch06s02.html#id1172417246602" />
+	<topic label="6.4. Translation Memory Management" href="html/en/ch06s02.html#id1172417246633" />
+	<topic label="6.5. Create Translation Memory" href="html/en/ch06s02.html#id1172417246690" />
+	<topic label="6.6. Export TM as TMX" href="html/en/ch06s03.html#id1172417246792" />
+	<topic label="6.7. Export TM as TMX files" href="html/en/ch06s03.html#id1172417246824" />
+	<topic label="6.8. Select the TM to be exported" href="html/en/ch06s03.html#id1172417246880" />
+	<topic label="6.9. Export TMX options" href="html/en/ch06s03.html#id1172417246946" />
+	<topic label="6.10. Export TMX: Filter rules" href="html/en/ch06s03.html#id1172417247136" />
+
+	<topic label="6.11. Export Termbases as TBX files" href="html/en/ch06s05.html#id1172417247421" />
+	<topic label="6.12. Export termbase as TBX" href="html/en/ch06s05.html#id1172417247455" />
+	<topic label="6.13. Select the termbase to be exported" href="html/en/ch06s05.html#id1172417247509" />
+	<topic label="6.14. Export TBX: Filter rules" href="html/en/ch06s05.html#id1172417247603" />
+	
+	<topic label="7.1. Export whole project" href="html/en/ch07s02.html#id1172417247905" />
+	<topic label="7.2. Export project dialog" href="html/en/ch07s02.html#id1172417247945" />
+	<topic label="7.3. Export specific project files" href="html/en/ch07s02.html#id1172417248020" />
+	<topic label="7.4. Export specific project files" href="html/en/ch07s02.html#id1172417248057" />
+	<topic label="7.5. Import project" href="html/en/ch07s03.html#id1172417248156" />
+	<topic label="7.6. Import project dialog" href="html/en/ch07s03.html#id1172417248192" />
+	
+	<topic label="8.1. Options: Translate" href="html/en/ch08.html#id1172417248321" />
+	<topic label="8.2. Options: Excel conversion settings" href="html/en/ch08.html#id1172417248448" />
+	<topic label="8.3. Option: PowerPoint conversion settings" href="html/en/ch08.html#id1172417248489" />
+	<topic label="8.4. Options: MIF conversion settings" href="html/en/ch08.html#id1172417248690" />
+	<topic label="8.5. Configure XML converter" href="html/en/ch08.html#id1172417248836" />
+	<topic label="8.6. Configure XML Converter" href="html/en/ch08.html#id1172417248870" />
+	<topic label="8.7. Configure XML Element" href="html/en/ch08.html#id1172417248901" />
+	<topic label="8.8. Element configuration" href="html/en/ch08.html#id1172417248936" />
+	
+	<topic label="9.1. Merge segments" href="html/en/ch09.html#id1172417249166" />
+	<topic label="9.2. Merge segments" href="html/en/ch09.html#id1172417249143" />
+	<topic label="9.3. Split segments" href="html/en/ch09.html#id1172417249230" />
+	<topic label="9.4. Split segments" href="html/en/ch09.html#id1172417249248" />
+	<topic label="9.5. Segmentation Rule Manager" href="html/en/ch09.html#id1172417249316" />
+	<topic label="9.6. Segmentation Rule Manager" href="html/en/ch09.html#id1172417249370" />
+	<topic label="9.7. Segmentation Rule" href="html/en/ch09.html#id1172417249406" />
+	<topic label="9.8. Configure language rules" href="html/en/ch09.html#id1172417249448" />
+	<topic label="9.9. Edit mapping rules" href="html/en/ch09.html#id1172417249569" />
+	<topic label="9.10. Edit mapping rules" href="html/en/ch09.html#id1172417249603" />
+
+</toc>
+
+
+
+
+
+
+
+
+
+
+

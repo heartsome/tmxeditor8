@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+<toc label="Version and License" topic="html/en/ch08.html" sort='false'>
+   <topic label="Version Introduction" href="html/en/ch08.html#version_id"/>
+   <topic label="How to apply for a trial and purchase a license" href="html/en/ch08.html#license_id">
+   </topic>
+   <topic label="How to activate a license" href="html/en/ch08.html#active_id">
+   </topic>
+   <topic label="How to deactivate a license" href="html/en/ch08.html#cancel_active_id">
+   </topic>
+</toc>
+

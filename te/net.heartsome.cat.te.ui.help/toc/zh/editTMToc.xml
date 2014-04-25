@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+<toc label="编辑 Heartsome Translation Studio 8 记忆库" topic="html/zh/ch04.html" sort='false'>
+   <topic label="如何连接记忆库" href="html/zh/ch04.html#conn_tm_id"/>
+   <topic href="html/zh/ch04.html#mutil_lang_id" label="支持多语言的记忆库编辑">
+      <topic label="如何支持多语" href="html/zh/ch04.html#mutil_lang_id">
+      </topic>
+      <topic label="编辑源文和译文" href="html/zh/ch04.html#edit_seg_tm_id">
+      </topic>
+      <topic label="编辑翻译单元属性" href="html/zh/ch04.html#edit_tu_tm_id">
+      </topic>
+      <topic label="编辑翻译单元批注" href="html/zh/ch04.html#edit_note_tm_id">
+      </topic>
+   </topic>
+   <topic label="冗余内容清理" href="html/zh/ch04.html#clean_tm_id">
+   </topic>
+</toc>
+

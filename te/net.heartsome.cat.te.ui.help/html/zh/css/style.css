@@ -1,0 +1,247 @@
+/*
+Product: Heartsome Translation Studio
+Author: Jacky Zeng
+Date: 2012-11-25
+Version: 1.1
+*/
+
+
+body {
+	font-size: 13px;
+	color: #000;
+	font-family: Arial, Helvetica, 宋体, simsun, sans-serif;
+}
+
+ a:visited {
+	color: gray;
+}
+a:link{
+	text-decoration: none;
+}
+a:hover, a:active {
+	text-decoration: underline;
+	color: blue;
+}
+
+p {
+	font-size: 13px;
+	line-height: 1;
+	margin-left:20px;
+
+}
+
+em {
+	font-style: normal;
+}
+/*
+Page Header
+*/
+.navheader {
+	font-size: 13px;
+}
+.navheader  a:link {
+	text-decoration: none;
+	font-size: 13px;
+	color: #000;
+}
+.navheader  a:hover {
+	text-decoration: underline;
+	color: #ff0000;
+	font-size: 13px;
+}
+.navheader  a:visited {
+	text-decoration: none;
+	color: #000;
+	font-size: 13px;
+}
+
+.navheader  th {
+	color: #1B5874;
+	font-size: 20px;
+}
+/*
+Page Footer 
+*/
+.navfooter {
+	font-size: 13px;
+}
+
+.navfooter table tr th td {
+	font-size: 13px;
+	color: #000;
+}
+.navfooter a:link {
+	text-decoration: none;
+	color: #000;
+	font-size: 13px;
+}
+.navfooter a:hover {
+	text-decoration: underline;
+	color: #ff0000;
+	font-size: 13px;
+}
+.navfooter  a:visited {
+	text-decoration: none;
+	color: #000;
+	font-size: 13px;
+}
+
+/*
+Chapter title
+Level 1
+*/
+h1 {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: #1B5874;
+}
+
+/*
+Section title
+Level 2
+*/
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #1B5874;
+}
+
+h2.title {
+	font-size: 18px;
+	font-weight: bold;
+	color: #1B5874;
+}
+/*
+Section title
+Level 3
+*/
+h3 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #1B5874;
+}
+
+h3.title {
+	font-weight: bold;
+	font-size: 16px;
+	color: #1B5874;
+
+}
+
+/*
+Section title
+Level 4
+*/
+h4 {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+h4.title {
+	font-weight: bold;
+	font-size: 13px;
+	color: #1B5874;
+}
+
+.sect2 {
+	margin-left: 20px;
+}
+
+.sect3 {
+	margin-left: 30px;
+}
+
+span.emphasis, .emphasis {
+	font-weight: bold;
+	line-height: 1.0;
+}
+
+div.glosslist {
+	margin-left: 20px;
+}
+
+div.glossary_item_title {
+	font-weight: bold;
+	font-size: 13px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #1b5874;
+}
+
+
+
+div.note, div.warning {
+	background-image: url(../images/mark-icons-warn.png);
+	background-repeat: no-repeat;
+	background-position: 0px center;
+	padding-left: 45px;
+	margin-left: -10px;
+}
+
+div.tip {
+	background-image: url(../images/mark-icons-info.png);
+	background-repeat: no-repeat;
+	background-position: 0px center;
+	padding-left: 45px;
+	margin-left: -10px;
+}
+
+div.question {
+	background-image: url(../images/mark-icons-questions.png);
+	background-repeat: no-repeat;
+	background-position: 0px center;
+	padding-left: 45px;
+	margin-left: -10px;
+}
+
+ol.orderedlist, li.listitem {
+	margin-left: 0px;
+
+}
+
+.interfacename {
+	font-weight: bold;
+	font-size: 13px;
+}
+
+span.guilabel, span.type {
+	font-size: 13px;
+	font-weight: normal;
+}
+dd {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+dl {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -1;
+}
+li p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+	margin-left:0px;
+	line-height: 2;
+}
+div p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+	margin-left:0px;
+	line-height: 2;
+}
+li strong {
+    color: rgb(47, 105, 86);
+	font-family: Verdana, Arial, Helv, Helvetica, sans-serif;
+	font-size:14px;
+}
+strong {
+    color: black;
+}
+
+.tableStyle{width: 400px;background-color: #95A5D2;}
+.headerTd{background-color: #F3F8FD;font-size: 9pt;height: 25;text-align: center;font-weight:bold;COLOR: #1b5874;}
+.fileTd {height: 24;padding-left:6px ;font-size: 9pt;}
+

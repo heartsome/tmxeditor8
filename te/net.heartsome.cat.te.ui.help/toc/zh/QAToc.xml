@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+<toc label="QA" topic="html/zh/ch06.html" sort='false'>
+   <topic label="选择QA检查项" href="html/zh/ch06.html#qa_list_id"/>
+   <topic href="html/zh/ch06.html#qa_report_id" label="执行QA 生成QA报告">
+   </topic>
+   <topic href="html/zh/ch06.html#qa_deal_id" label="如何根据报告处理 QA 结果">
+   </topic>
+</toc>
+

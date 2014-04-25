@@ -1,0 +1,174 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Conventions and Glossary</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<meta name="generator" content="DocBook XSL Stylesheets V1.77.1">
+<link rel="home" href="index.html" title="Heartsome Translation Studio Release 8 Help">
+<link rel="up" href="index.html" title="Heartsome Translation Studio Release 8 Help">
+<link rel="prev" href="ch01.html" title="New Features">
+<link rel="next" href="ch03.html" title="License">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="chapter">
+<div class="titlepage"><div><div><h1 class="title">
+<a name="chapter-convention-glossaries"></a>Conventions and Glossary</h1></div></div></div>
+    
+
+    <div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem">
+        <p><span class="emphasis"><em>Conventions</em></span></p>
+
+        <p>Below are the text styles used in this Help manual:</p>
+
+        <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+            <p><span class="guibutton">Button</span></p>
+          </li>
+<li class="listitem">
+            <p><span class="guiicon">Icon</span></p>
+          </li>
+<li class="listitem">
+            <p><span class="guilabel">Text labels</span></p>
+          </li>
+<li class="listitem">
+            <p><span class="guimenu">Menu</span></p>
+          </li>
+<li class="listitem">
+            <p><span class="guimenuitem">Menu items</span></p>
+          </li>
+<li class="listitem">
+            <p><span class="guisubmenu">Submenu</span></p>
+          </li>
+<li class="listitem">
+            <p><code class="interfacename">Dialog title</code></p>
+          </li>
+<li class="listitem">
+            <p><span class="keycap"><strong>Key name</strong></span></p>
+          </li>
+<li class="listitem">
+            <p><span class="emphasis"><em>Emphasis</em></span></p>
+          </li>
+<li class="listitem">
+            <p><span class="quote">“<span class="quote">Quote</span>”</span></p>
+          </li>
+<li class="listitem">
+            <p><span class="type">File Types</span></p>
+          </li>
+</ul></div>
+      </li>
+<li class="listitem">
+        <p><span class="emphasis"><em>Glossary</em></span></p>
+
+        <p>Terms and acronyms used in the Help manual:</p>
+      </li>
+</ol></div>
+
+    <div class="glossary">
+<div class="titlepage"><div><div><h2 class="title">
+<a name="idp48528"></a>Glossary</h2></div></div></div>
+      <div class="glosslist"><dl>
+<div class="glossary_item_title">HSTS</div>
+<div class="glossary_item"><p>Abbreviation of Heartsome Translation Studio.</p></div>
+<div class="glossary_item_title">CAT</div>
+<div class="glossary_item"><p>Abbreviation of Computer-Assisted Translation, or
+            Computer-Aided Translation.Heartsome Translation Studio is an
+            example of a CAT tool.</p></div>
+<div class="glossary_item_title">Project</div>
+<div class="glossary_item"><p>A translation assignment that involves phased work, or a
+            series of relevant translation assignments are referred to as a
+            project in Heartsome Translation Studio.A project consists of at
+            least three elements, namely: an input (source file), an
+            intermediate working file (XLIFF) and an output (target file).
+            There might be auxiliary elements such as a translation memory
+            (TMX file), a termbase (TBX file) and reports (word count
+            statistics).</p></div>
+<div class="glossary_item_title">Source File</div>
+<div class="glossary_item"><p>In a translation project, the source file contains the
+            content to be translated, and is written in the source language.
+            The content of the source file is translated into one or more
+            target languages throughout the project.</p></div>
+<div class="glossary_item_title">XLIFF Files</div>
+<div class="glossary_item"><p>This is a bilingual file in an open standard localisation
+            file format. It is the major file format used in Heartsome
+            Translation Studio and all source files are converted to XLIFF
+            files.Apart from source content, XLIFF files also contain the
+            complete translation workflow data, which includes the processing
+            status of translated text and text segments. This is the output as
+            translation results and are converted as a target file upon
+            completion of a project.</p></div>
+<div class="glossary_item_title">Target file</div>
+<div class="glossary_item"><p>Once the source file has been translated, the target file is
+            created by converting the bilingual file back into the source file
+            format, but with translated text instead of the source
+            text.</p></div>
+<div class="glossary_item_title">Translation memory</div>
+<div class="glossary_item"><p>A database where source text and the respective translations
+            are saved. This is abbreviated as TM.</p></div>
+<div class="glossary_item_title">Termbase</div>
+<div class="glossary_item"><p>A database where source terminology and the respective
+            translations are saved.</p></div>
+<div class="glossary_item_title">Databases</div>
+<div class="glossary_item"><p>The collective term for both translation memory and
+            termbases.</p></div>
+<div class="glossary_item_title">Database Server</div>
+<div class="glossary_item"><p>A separate hardware/software platform that runs a database
+            system such as MySQL, PostgreSQL, Oracle, Microsoft SQL Server.
+            This can be used by HSTS to create TM and termbase
+            databases.</p></div>
+<div class="glossary_item_title">TMX files</div>
+<div class="glossary_item"><p>A translation memory exchange file based on the TMX open
+            standard. When TM segments and their respective translations are
+            exported to a TMX file, it is possible to import the TM and then
+            use it across different CAT tools.</p></div>
+<div class="glossary_item_title">TBX files</div>
+<div class="glossary_item"><p>A termbase exchange file based on the TBX open standard.
+            When termbase terms and their respective translations are exported
+            to a TBX file, it is possible to import the termbase and then use
+            it across different CAT tools.</p></div>
+<div class="glossary_item_title">Segment</div>
+<div class="glossary_item"><p>A translation unit in an XLIFF file, consisting of the
+            source text (e.g., a sentence), the translation (can be empty),
+            notes and the relevant status (draft, translated, etc.). A source
+            or target text segment is usually a complete sentence, but can be
+            several sentences or table cell, etc.</p></div>
+<div class="glossary_item_title">Match rate</div>
+<div class="glossary_item"><p>The similarity of two text segments measured by a percentage
+            between 0% and 101%.</p></div>
+<div class="glossary_item_title">Match</div>
+<div class="glossary_item"><p>A text segment in the TM, satisfying specific match rate
+            criteria. Attributes of a match include the source text, the
+            translation, match rate, date created, etc.</p></div>
+<div class="glossary_item_title">Exact Matches</div>
+<div class="glossary_item"><p>A 100% match.</p></div>
+<div class="glossary_item_title">Context Matches</div>
+<div class="glossary_item"><p>A match where the context (usually based on the previous and
+            following sentence) also matches, on top of a perfect match (100%
+            match) of the text segment itself. A context match is defined as a
+            101% match.</p></div>
+<div class="glossary_item_title">Pre-translate</div>
+<div class="glossary_item"><p>Automatic translation utilising matches found in the TM. It
+            is usually performed prior to manual translation by the
+            translator.Although lower match rates can be specified,
+            pre-translation is usually used to apply 100% and 101% matches
+            from the TM.</p></div>
+<div class="glossary_item_title">Fuzzy match</div>
+<div class="glossary_item"><p>A match at a lower rate than 100% (not including
+            100%).</p></div>
+<div class="glossary_item_title">Internal
+          Repetitions</div>
+<div class="glossary_item"><p>A text segment which is repeated two or more times within
+            one project (within one file or across multiple files).</p></div>
+<div class="glossary_item_title">Exact Match
+          Segments</div>
+<div class="glossary_item"><p>A text segment that has a 100% match in the TM.</p></div>
+<div class="glossary_item_title">Context Match
+          Segments</div>
+<div class="glossary_item"><p>A text segment that has a context match (101% match) in the
+            TM.</p></div>
+<div class="glossary_item_title">Fuzzy Match
+          Segments</div>
+<div class="glossary_item"><p>A text segment that has a fuzzy match in the TM.</p></div>
+</dl></div>
+    </div>
+  </div></body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+<toc label="Editing TMX files" topic="html/en/ch03.html#create_tmx_id" sort='false'>
+   <topic href="html/en/ch03.html#create_tmx_id" label="Create a standard TMX">
+   </topic>
+   <topic href="html/en/ch03.html#mutil_lang_tmx_id" label="Editing multilingual TMX files">
+      <topic href="html/en/ch03.html#mutil_lang_tmx_id" label="How to handle multilingual TMX files">
+      </topic>
+      <topic label="Editing the source text and translation" href="html/en/ch03.html#edit_seg_tmx_id">
+      </topic>
+      <topic label="Editing TU attributes" href="html/en/ch03.html#edit_tu_tmx_id">
+      </topic>
+      <topic label="Editing translation unit comments" href="html/en/ch03.html#edit_note_tmx_id">
+      </topic>
+   </topic>
+   <topic href="html/en/ch03.html#tmx_merge_id" label="TMX Advanced Editing">
+      <topic label="Split and merge TMX files" href="html/en/ch03.html#tmx_merge_id">
+      </topic>
+      <topic label="Change language code" href="html/en/ch03.html#edit_lang_id">
+      </topic>
+      <topic label="Delete the specified language" href="html/en/ch03.html#del_lang_id">
+      </topic>
+      <topic label="Delete all tags" href="html/en/ch03.html#clean_tag_id">
+      </topic>
+      <topic label="Clean up TMX redundant content" href="html/en/ch03.html#clean_tmx_id">
+      </topic>
+   </topic>
+</toc>
+

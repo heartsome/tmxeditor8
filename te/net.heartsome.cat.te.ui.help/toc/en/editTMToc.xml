@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+<toc label="Edit Heartsome Translation 8 TM" topic="html/en/ch04.html" sort='false'>
+   <topic label="How to connect with TM" href="html/en/ch04.html#conn_tm_id"/>
+   <topic href="html/en/ch04.html#mutil_lang_id" label="Support for multilingual TM editing">
+      <topic label="How to handle multilingual TM" href="html/en/ch04.html#mutil_lang_id">
+      </topic>
+      <topic label="Edit the source text and the translation" href="html/en/ch04.html#edit_seg_tm_id">
+      </topic>
+      <topic label="Edit TU attributes" href="html/en/ch04.html#edit_tu_tm_id">
+      </topic>
+      <topic label="Edit comments of translation units" href="html/en/ch04.html#edit_note_tm_id">
+      </topic>
+   </topic>
+   <topic label="Cleaning up TM redundant content" href="html/en/ch04.html#clean_tm_id">
+   </topic>
+</toc>
+

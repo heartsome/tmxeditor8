@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Heartsome CAT TE Editor
+Bundle-SymbolicName: net.heartsome.cat.te.tmxeditor;singleton:=true
+Bundle-Version: 8.0.0.R8b_v20140103
+Bundle-Activator: net.heartsome.cat.te.tmxeditor.Activator
+Bundle-Vendor: Heartsome Technologies Ltd.
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ net.sourceforge.nattable.core;bundle-version="8.0.0",
+ net.heartsome.cat.te.core;bundle-version="1.0.0",
+ org.eclipse.jface.text;bundle-version="3.7.0",
+ net.heartsome.cat.thirdpartlibrary;bundle-version="8.0.0",
+ org.eclipse.core.resources;bundle-version="3.7.100",
+ net.heartsome.xml;bundle-version="8.0.1",
+ org.eclipse.core.expressions;bundle-version="3.4.300"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-Localization: plugin
+Import-Package: net.heartsome.cat.common.bean,
+ net.heartsome.cat.common.innertag,
+ net.heartsome.cat.common.innertag.factory,
+ net.heartsome.cat.common.ui.dialog,
+ net.heartsome.cat.common.ui.innertag,
+ net.heartsome.cat.common.ui.utils,
+ net.heartsome.cat.common.util
+Export-Package: net.heartsome.cat.te.tmxeditor,
+ net.heartsome.cat.te.tmxeditor.editor,
+ net.heartsome.cat.te.tmxeditor.editor.history,
+ net.heartsome.cat.te.tmxeditor.view
+Bundle-ClassPath: lib/KTable.jar,
+ .
+

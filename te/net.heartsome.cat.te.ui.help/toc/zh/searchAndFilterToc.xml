@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+<toc label="搜索和过滤" topic="html/zh/ch05.html" sort='false'>
+   <topic label="关键字搜索" href="html/zh/ch05.html#keyword_id"/>
+   <topic href="html/zh/ch05.html#filter_id" label="快速过滤">
+   </topic>
+   <topic href="html/zh/ch05.html#filter_set_id" label="自定义过滤条件">
+   </topic>
+</toc>
+

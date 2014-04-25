@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+<toc label="Utilities" topic="html/en/ch07.html" sort='false'>
+   <topic label="Conversion TMX to other file formats" href="html/en/ch07.html#tmx_to_id"/>
+   <topic href="html/en/ch07.html#to_tmx_id" label="Convert specified format to TMX">
+   </topic>
+   <topic href="html/en/ch07.html#code_trans_id" label="File encoding converter">
+   </topic>
+</toc>
+

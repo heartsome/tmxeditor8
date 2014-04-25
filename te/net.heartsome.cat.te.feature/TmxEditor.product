@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="Heartsome TMX Editor" id="net.heartsome.cat.te.tmx_editor_product" application="net.heartsome.cat.te.application" version="8.0.1.20140110" useFeatures="true" includeLaunchers="true">
+
+   <aboutInfo>
+      <image path="/net.heartsome.cat.te/images/tmx_128.png"/>
+      <text>
+         %about
+      </text>
+   </aboutInfo>
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <programArgs>--launcher.defaultAction
+openFile</programArgs>
+      <vmArgs>-Dfile.encoding=UTF-8
+-Xms512m
+-Xmx512m
+-XX:PermSize=96m
+-XX:MaxPermSize=96m
+-Xmn256m
+-Dversion=8.0.1
+-Ddate=20140110</vmArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
+   </launcherArgs>
+
+   <windowImages i16="/net.heartsome.cat.te/images/tmx_16.png" i32="/net.heartsome.cat.te/images/tmx_32.png" i48="/net.heartsome.cat.te/images/tmx_48.png" i64="/net.heartsome.cat.te/images/tmx_64.png" i128="/net.heartsome.cat.te/images/tmx_128.png"/>
+
+   <splash
+      location="net.heartsome.cat.te"
+      startupProgressRect="0,225,425,15"
+      startupMessageRect="0,208,425,20"
+      startupForegroundColor="000000" />
+   <launcher name="Heartsome TMX Editor">
+      <linux icon="/net.heartsome.cat.te.feature/icons/linux/tmx.xpm"/>
+      <macosx icon="/net.heartsome.cat.te.feature/icons/macosx/tmx.icns"/>
+      <solaris/>
+      <win useIco="false">
+         <bmp
+            winSmallHigh="/net.heartsome.cat.te.feature/icons/win/tmx_16.bmp"
+            winMediumHigh="/net.heartsome.cat.te.feature/icons/win/tmx_32.bmp"
+            winLargeHigh="/net.heartsome.cat.te.feature/icons/win/tmx_48.bmp"/>
+      </win>
+   </launcher>
+
+   <vm>
+   </vm>
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="net.heartsome.cat.te.feature"/>
+   </features>
+
+   <configurations>
+      <plugin id="net.heartsome.cat.database" autoStart="true" startLevel="0" />
+      <plugin id="net.heartsome.cat.database.hsql" autoStart="true" startLevel="0" />
+      <plugin id="net.heartsome.cat.database.mssql" autoStart="true" startLevel="0" />
+      <plugin id="net.heartsome.cat.database.mysql" autoStart="true" startLevel="0" />
+      <plugin id="net.heartsome.cat.database.oracle" autoStart="true" startLevel="0" />
+      <plugin id="net.heartsome.cat.database.postgreSQL" autoStart="true" startLevel="0" />
+      <plugin id="net.heartsome.cat.database.sqlite" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.core.net" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="4" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+      <plugin id="org.eclipse.update.configurator" autoStart="true" startLevel="4" />
+      <property name="osgi.clean" value="true" />
+      <property name="osgi.instance.area.default" value="@user.home/TMX Editor Workspace" />
+      <property name="osgi.nl" value="en" />
+   </configurations>
+
+</product>

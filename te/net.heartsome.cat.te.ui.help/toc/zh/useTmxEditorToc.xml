@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+<toc label="使用入门" topic="html/zh/ch03.html" sort='false'>
+   <topic href="html/zh/ch03.html#use_guide_id" label="快速入门">
+   </topic>
+   <topic href="html/zh/ch03.html#sys_para_id" label="设置选项">
+      <topic href="html/zh/ch03.html#sys_para_id" label="系统参数设置">
+      </topic>
+      <topic label="快捷键设置" href="html/zh/ch03.html#key_set_id">
+      </topic>
+      <topic label="网络连接设置" href="html/zh/ch03.html#net_set_id">
+      </topic>
+   </topic>
+   <topic href="html/zh/ch03.html#view_intr_id" label="视图">
+      <topic label="视图简介" href="html/zh/ch03.html#view_intr_id">
+      </topic>
+      <topic label="更改视图语言" href="html/zh/ch03.html#change_lang_id">
+      </topic>
+      <topic label="关于编辑视图" href="html/zh/ch03.html#edit_view_id">
+      </topic>
+      <topic label="关于QA视图" href="html/zh/ch03.html#qa_view_id">
+      </topic>
+      <topic label="关于属性编辑视图" href="html/zh/ch03.html#att_view_id">
+      </topic>
+   </topic>
+</toc>
+

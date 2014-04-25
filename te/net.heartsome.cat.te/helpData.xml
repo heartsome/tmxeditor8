@@ -1,0 +1,29 @@
+<extensions>
+	<tocOrder>
+
+		<toc id="/net.heartsome.cat.te.ui.help/toc/en/indexToc.xml" />
+		<toc id="/net.heartsome.cat.te.ui.help/toc/en/newFetureToc.xml" />
+		<toc id="/net.heartsome.cat.te.ui.help/toc/en/useTmxEditorToc.xml" />
+		<toc id="/net.heartsome.cat.te.ui.help/toc/en/editTmxToc.xml" />
+		<toc id="/net.heartsome.cat.te.ui.help/toc/en/editTMToc.xml" />
+		<toc id="/net.heartsome.cat.te.ui.help/toc/en/searchAndFilterToc.xml" />
+		<toc id="/net.heartsome.cat.te.ui.help/toc/en/QAToc.xml" />
+		<toc id="/net.heartsome.cat.te.ui.help/toc/en/toolsDesToc.xml" />
+		<toc id="/net.heartsome.cat.te.ui.help/toc/en/aboutToc.xml" />
+		<toc id="/net.heartsome.cat.te.ui.help/toc/en/termTableToc.xml" />
+		<toc id="/net.heartsome.cat.te.ui.help/toc/en/copyrigthToc.xml" />
+
+		<toc id="/net.heartsome.cat.te.ui.help/toc/zh/indexToc.xml" />
+		<toc id="/net.heartsome.cat.te.ui.help/toc/zh/newFetureToc.xml" />
+		<toc id="/net.heartsome.cat.te.ui.help/toc/zh/useTmxEditorToc.xml" />
+		<toc id="/net.heartsome.cat.te.ui.help/toc/zh/editTmxToc.xml" />
+		<toc id="/net.heartsome.cat.te.ui.help/toc/zh/editTMToc.xml" />
+		<toc id="/net.heartsome.cat.te.ui.help/toc/zh/searchAndFilterToc.xml" />
+		<toc id="/net.heartsome.cat.te.ui.help/toc/zh/QAToc.xml" />
+		<toc id="/net.heartsome.cat.te.ui.help/toc/zh/toolsDesToc.xml" />
+		<toc id="/net.heartsome.cat.te.ui.help/toc/zh/aboutToc.xml" />
+		<toc id="/net.heartsome.cat.te.ui.help/toc/zh/termTableToc.xml" />
+		<toc id="/net.heartsome.cat.te.ui.help/toc/zh/copyrigthToc.xml" />
+
+	</tocOrder>
+</extensions>

@@ -1,0 +1,1869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book version="5.0" xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:m="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+  <info>
+    <title>TMX Editor 8 User Manual</title>
+
+    <productname/>
+
+    <subtitle><personname><firstname>TMX Editor
+    8</firstname></personname></subtitle>
+
+    <pubdate>2013-10-31</pubdate>
+  </info>
+
+  <chapter xml:id="wel_id">
+    <title>Welcome to Heartsome TMX Editor 8</title>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="images/main.png"/>
+        </imageobject>
+      </inlinemediaobject></para>
+
+    <para><emphasis role="bold"><link linkend="new_feature_id">What's new in
+    Heartsome TMX Editor 8</link></emphasis></para>
+
+    <para><emphasis role="bold">Getting Started</emphasis></para>
+
+    <para><link linkend="use_guide_id">Getting Started</link></para>
+
+    <para><emphasis role="bold">Settings</emphasis></para>
+
+    <para><link linkend="sys_para_id">System Preferences</link></para>
+
+    <para><link linkend="key_set_id">Custom Shortcuts</link></para>
+
+    <para><link linkend="net_set_id">Network Connection Settings</link></para>
+
+    <para><emphasis role="bold">View</emphasis></para>
+
+    <para><link linkend="view_intr_id">Views</link></para>
+
+    <para><link linkend="change_lang_id">Change UI</link></para>
+
+    <para><link linkend="edit_view_id">Editing View</link></para>
+
+    <para><link linkend="qa_viewer_id">QA View</link></para>
+
+    <para><link linkend="att_view_id">Attributes Editor View</link></para>
+
+    <para><emphasis role="bold">Editing TMX files</emphasis></para>
+
+    <para><emphasis role="bold"> </emphasis> <link
+    linkend="create_tmx_id">Create a standard TMX<emphasis role="bold">
+    </emphasis></link></para>
+
+    <para><emphasis role="bold">Editing multilingual TMX
+    files</emphasis></para>
+
+    <para><link linkend="mutil_lang_tmx_id">How to handle multilingual TMX
+    files</link></para>
+
+    <para><link linkend="edit_seg_tmx_id">Editing the source text and
+    translation</link></para>
+
+    <para><link linkend="edit_tu_tmx_id">Editing TU attributes</link></para>
+
+    <para><link linkend="edit_note_tmx_id">Editing translation unit comments
+    </link></para>
+
+    <para><emphasis role="bold">TMX Advanced Editing</emphasis></para>
+
+    <para><link linkend="tmx_merge_id">Split and merge TMX files</link></para>
+
+    <para><link linkend="edit_lang_id">Change language code</link></para>
+
+    <para><link linkend="del_lang_id">Delete the specified
+    language</link></para>
+
+    <para><link linkend="clean_tag_id">Delete all tags</link></para>
+
+    <para><link linkend="clean_tmx_id">Clean up TMX redundant
+    content</link></para>
+
+    <para><emphasis role="bold">Editing a Heartsome Translation Studio 8
+    TM</emphasis></para>
+
+    <para><emphasis role="bold"> </emphasis> <link linkend="conn_tm_id">How to
+    connect to a TM</link></para>
+
+    <para><emphasis role="bold">Support for multilingual TM
+    editing</emphasis></para>
+
+    <para><link linkend="mutil_lang_id">How to handle multilingual
+    TM</link></para>
+
+    <para><link linkend="edit_seg_tm_id">Edit the source text and the
+    translation</link></para>
+
+    <para><link linkend="edit_tu_tm_id">Edit TU attributes</link></para>
+
+    <para><link linkend="edit_note_tm_id">Edit comments of translation
+    units</link></para>
+
+    <para><emphasis role="bold"> </emphasis><link
+    linkend="clean_tm_id">Cleaning up TM redundant content</link></para>
+
+    <para><emphasis role="bold">Search and Filter</emphasis></para>
+
+    <para><link linkend="keyword_id">Keyword search</link></para>
+
+    <para><link linkend="filter_id">Filter</link></para>
+
+    <para><link linkend="filter_set_id">Customizing filters</link></para>
+
+    <para><emphasis role="bold">QA</emphasis></para>
+
+    <para><link linkend="qa_list_id">Selecting QA check items</link></para>
+
+    <para><link linkend="qa_report_id">Performing QA and generating QA
+    reports</link></para>
+
+    <para><link linkend="qa_deal_id">How to correct errors from the QA
+    report</link></para>
+
+    <para><emphasis role="bold">Utilities</emphasis></para>
+
+    <para><link linkend="tmx_to_id">Converting TMX files to other file
+    formats</link></para>
+
+    <para><link linkend="to_tmx_id">Converting other file formats to
+    TMX</link></para>
+
+    <para><link linkend="code_trans_id">File encoding converter</link></para>
+
+    <para><emphasis role="bold">Version and License</emphasis></para>
+
+    <para><link linkend="version_id">Version Introduction</link></para>
+
+    <para><link linkend="license_id">About Licensing</link></para>
+
+    <para><link linkend="active_id">How to activate the product</link></para>
+
+    <para><link linkend="cancel_active_id">How to deactivate the
+    product</link></para>
+
+    <para><link linkend="term_table_id">Glossary</link></para>
+
+    <para><link linkend="copyright_id">Copyright</link></para>
+  </chapter>
+
+  <chapter xml:id="new_feature_id">
+    <title>What's new in Heartsome TMX Editor 8</title>
+
+    <para>The following is a complete list of new features in this
+    release:</para>
+
+    <itemizedlist>
+      <listitem>
+        <para><link linkend="title_1">High-performance TMX editing and
+        maintenance</link></para>
+      </listitem>
+
+      <listitem>
+        <para><link linkend="title_2">Conversion of TMX to and from other file
+        formats</link></para>
+      </listitem>
+
+      <listitem>
+        <para><link linkend="title_3">TMX QA</link></para>
+      </listitem>
+
+      <listitem>
+        <para><link linkend="title_4">Editing and maintenance of Heartsome
+        Translation Studio 8 TMs </link></para>
+      </listitem>
+
+      <listitem>
+        <para><link linkend="title_5">Redundant contents cleanup of TMX and
+        Heartsome Translation Studio 8 TM</link></para>
+      </listitem>
+    </itemizedlist>
+
+    <glosslist>
+      <glossentry xml:id="title_1">
+        <glossterm>High performance TMX editing and maintenance</glossterm>
+
+        <glossdef>
+          <para>TMX source text and translation editing</para>
+
+          <para>TU attributes editing</para>
+
+          <para>TU comments editing</para>
+
+          <para>Keyword search</para>
+
+          <para>Built-in filters</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="title_2">
+        <glossterm>Conversion TMX to and from other file formats</glossterm>
+
+        <glossdef>
+          <para>Conversion of TMX to DOCX / XLSX / TXT / TBX / HSTM</para>
+
+          <para>Conversion of DOCX / XLSX / TXT / TBX / HSTM to TMX</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="title_3">
+        <glossterm>TMX QA</glossterm>
+
+        <glossdef>
+          <para>Extensive QA checks</para>
+
+          <para>QA reports</para>
+
+          <para>Work directly with QA results</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="title_4">
+        <glossterm>Editing and maintenance of Heartsome Translation Studio 8
+        TM</glossterm>
+
+        <glossdef>
+          <para>TM editing of both source text and translation</para>
+
+          <para>TU attributes editing</para>
+
+          <para>TU comments editing</para>
+
+          <para>Keyword search</para>
+
+          <para>Built-in filters</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="title_5">
+        <glossterm>Redundant contents cleanup of TMX and Heartsome Translation
+        Studio 8 TM</glossterm>
+
+        <glossdef>
+          <para>Built-in batch cleanup of redundant content</para>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+  </chapter>
+
+  <chapter>
+    <title>Getting Started</title>
+
+    <para>The following tells you how to get started with and configure
+    Heartsome TMX Editor 8.</para>
+
+    <glosslist>
+      <glossentry xml:id="use_guide_id">
+        <glossterm>Getting Started</glossterm>
+
+        <glossdef>
+          <para>This introduces you to Heartsome Translation Studio 8 TM and
+          shows you how to quickly edit TMX files.</para>
+
+          <itemizedlist>
+            <listitem xml:id="edit_tmx_intro_id">
+              <para><emphasis role="bold">To quickly edit a TMX file:
+              </emphasis></para>
+
+              <para>1. Select File &gt; Open TMX, then select a TMX file from
+              the pop-up dialog box.</para>
+
+              <para>2. After your TMX file is open in the editor, click any
+              cell to edit.</para>
+
+              <para>3. Every time you click on a segment, the Attributes
+              Editor panel will display the attribute information of the
+              currently selected segment. You can <emphasis
+              role="bold">edit</emphasis> attribute information using the
+              Add/Edit/Delete button.</para>
+
+              <para>4. When you edit the TMX, remember to click on
+              the<inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/save.png" width="20"/>
+                  </imageobject>
+                </inlinemediaobject> button or press CTRL + S to save your
+              changes. But even without doing this, your changes will not be
+              lost because they are cached.</para>
+
+              <para>5, Any changes to attributes will be saved automatically
+              without you having to save them manually.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">To quickly edit a Heartsome
+              Translation Studio 8 TM</emphasis></para>
+
+              <para>1. Select File &gt; Connect to TM, then select a TM
+              type.</para>
+
+              <para>When you select a File-based TM, you can browse to the
+              directory where TM is saved. When you select a Server-based TM,
+              you will have to enter the IP address, port, username, password
+              etc., to connect to your desired server-based TM</para>
+
+              <para>3. You can edit the connected Heartsome TM in the same way
+              as editing a TMX file.</para>
+
+              <para>Changes to a Heartsome TM will be saved in real time,
+              without having to manually save.</para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="sys_para_id">
+        <glossterm>System Parameter Setting</glossterm>
+
+        <glossdef>
+          <para>In <emphasis role="bold">System</emphasis> settings, you can
+          set the frequency of <emphasis role="bold">Auto Update</emphasis>,
+          and change the <emphasis role="bold">User Interface
+          Language</emphasis>, <emphasis role="bold">Fonts</emphasis> and your
+          current Username.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">Auto Update</emphasis>: Use this to
+              periodically check for updates on Heartsome's server.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">User Interface Language</emphasis>:
+              English and Simplified Chinese UIs are available.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Username</emphasis>:Your username is
+              used as the default changeid for TUsin TMX files.</para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="key_set_id">
+        <glossterm>Custom Shortcuts</glossterm>
+
+        <glossdef>
+          <para>You can customize shortcuts for any function. To do
+          this:</para>
+
+          <para>1. Click on the <emphasis role="bold">shortcut​</emphasis>
+          field of the corresponding function to enter edit
+          mode<inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/key_1.png" width="80"/>
+              </imageobject>
+            </inlinemediaobject>.</para>
+
+          <para>2. Press your desired shortcut key combination on the
+          keyboard.</para>
+
+          <para>3. Click anywhere else in the interface to automatically exit
+          edit mode.</para>
+
+          <para>4. Click the Apply or OK button to save your changes.</para>
+
+          <para>5. If your customized shortcuts conflict with other shortcuts,
+          the conflicts will be highlighted in red<inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/key_2.png" width="150"/>
+              </imageobject>
+            </inlinemediaobject>.</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="net_set_id">
+        <glossterm>Network Connection Settings</glossterm>
+
+        <glossdef>
+          <para>In the Network Connection settings, you can configure a proxy
+          server for your Internet connection. Choose one of the following
+          proxy server configurations according to your actual
+          situation:</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">System default proxy</emphasis>:If
+              the proxy server has been configured in your operating system,
+              select the Native option.</para>
+            </listitem>
+
+            <listitem>
+              <para xml:id="net_proxy_id"><emphasis role="bold">Custom
+              proxy</emphasis>:If you want to set up a proxy server
+              specifically for Heartsome TMX Editor 8, select the Manual
+              option. Then Click the proxy server type (HTTP, HTTPS or SOCKS)
+              under the <emphasis role="bold">Proxy entries</emphasis>, then
+              enter the <emphasis role="bold"/>proxy <emphasis
+              role="bold">host address</emphasis> and <emphasis
+              role="bold">port</emphasis>. You may need to enter a <emphasis
+              role="bold">username</emphasis> and <emphasis
+              role="bold">password</emphasis> depending on whether your proxy
+              server requires <emphasis
+              role="bold">authentication</emphasis>.</para>
+
+              <para>In addition, you can also set some <emphasis
+              role="bold">exceptions</emphasis> for host addresses. When you
+              access these host addresses, the software will connect to them
+              directly without the proxy server.<emphasis role="bold"/> The
+              <emphasis role="bold">exceptions</emphasis> usually include your
+              machine (localhost or 127.0.0.1) and LAN (192.168.*.*).</para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="view_intr_id">
+        <glossterm>About Views</glossterm>
+
+        <glossdef>
+          <para>Heartsome TMX Editor 8 contains the following views:</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/view_main.png" width="350"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <itemizedlist>
+            <listitem>
+              <para>Toolbar: Here you can find some shortcuts for commonly
+              used functions. You can also use the corresponding shortcut keys
+              to perform related functions.</para>
+            </listitem>
+
+            <listitem>
+              <para>Search and QA: Here you can find a keyword search and TMX
+              QA in two tabs.</para>
+            </listitem>
+
+            <listitem>
+              <para>Source and translation editor: This is the main editing
+              area where you can edit the source text and translations.</para>
+            </listitem>
+
+            <listitem>
+              <para>Attribute editor: Here you can edit all the TU
+              attributes.</para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="change_lang_id">
+        <glossterm>Change UI</glossterm>
+
+        <glossdef>
+          <para>Select Tools &gt; Options &gt; System, then go to the User
+          Interface Language field to change the UI.</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="edit_view_id">
+        <glossterm xml:id="editor_view_id">Editing View</glossterm>
+
+        <glossdef>
+          <para>The Edit View consists of two views, one is Search and Filter,
+          and the other is the Editor. In the Search and Filter panel, you can
+          switch languages (if available) and search for keywords throughout
+          the TMX. You can also filter specific segments with the built-in and
+          customized filter.</para>
+
+          <para><emphasis role="bold"><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/mark-icons-info.png" width="10"/>
+              </imageobject>
+            </inlinemediaobject>Note:</emphasis> The Search panel and Filter
+          panel function are independent from each other.</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/view_edit.png" width="350"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">Search:</emphasis> Here you can
+              switch languages and perform keyword searches.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Filters</emphasis>: Choose between
+              built-in filters and custom filters.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Editor:</emphasis> This the editing
+              area of the TMX.</para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="qa_view_id">
+        <glossterm xml:id="qa_viewer_id">QA View</glossterm>
+
+        <glossdef>
+          <para>The QA View consists of the QA Options and QA Results panels.
+          Double-clicking on QA result takes you straight to the relevant line
+          in the editor.</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/view_QA.png" width="350"/>
+              </imageobject>
+            </inlinemediaobject></para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="att_view_id">
+        <glossterm>Attributes Editor View</glossterm>
+
+        <glossdef>
+          <para>In this panel, you can edit a TU's system attributes, custom
+          attributes, language-specific attributes and comments. The four
+          attributes groups are located in four different forms for viewing
+          and editing.</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/view_attr.png" width="250"/>
+              </imageobject>
+            </inlinemediaobject></para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="create_tmx_id">
+        <glossterm>How to create a standard TMX</glossterm>
+
+        <glossdef>
+          <para>1. Select File &gt; New TMX File, click the <inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/tool_new.png" width="15"/>
+              </imageobject>
+            </inlinemediaobject>button or press Ctrl + N to open the New TMX
+          File dialog box.</para>
+
+          <para>2. Select "Save path", then set the source language and target
+          language for the new TMX. Click the OK button to complete the TMX
+          file creation.</para>
+
+          <para>3. Once the TMX has been successfully created, it will open,
+          but the TMX will be empty. You have to enter content according to
+          the TMX standard.</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="mutil_lang_tmx_id">
+        <glossterm>How to handle multilingual TMX files</glossterm>
+
+        <glossdef>
+          <para>Heartsome TMX Editor 8 supports multilingual TMX files. You
+          can switch languages at any time for viewing and editing.</para>
+
+          <para>1. Open the multilingual TMX files.</para>
+
+          <para>2. As descripted in the <link linkend="edit_view_id">Editor
+          View</link> section above, you can switch source and target
+          languages as needed.</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/lang_select.png" width="250"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <para>3. Click the Search button to display the content of your
+          selected language pair.</para>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+
+    <itemizedlist>
+      <listitem>
+        <para xml:id="edit_seg_tmx_id"><emphasis role="bold">Edit the source
+        text and the translation</emphasis></para>
+
+        <para>To enter editing mode, you can just click a source or target
+        cell. Once you have finished editing, remember the following
+        points:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para>If you click in another location, the software will
+            automatically cache the changes, but these changes will not be
+            saved to the original TMX file (excluding Heartsome Translation
+            Studio 8 TM). The cached content will not be lost if you forget to
+            save.</para>
+          </listitem>
+
+          <listitem>
+            <para>After editing, click<inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="images/save.png" width="15">
+                    <info>
+                      <author>
+                        <personname/>
+                      </author>
+
+                      <pubdate>f范德萨 撒旦法倒萨dsa sda</pubdate>
+                    </info>
+                  </imagedata>
+                </imageobject>
+              </inlinemediaobject><date>or press CTRL + s to save changes to
+            your original TMX files.</date></para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para xml:id="edit_tu_tmx_id"><emphasis role="bold">Edit TU
+        attributes</emphasis></para>
+
+        <para>When you want to make changes to TU attributes, you can do this
+        in the following ranges: "Currently selected row", "All filtered
+        results" and "Whole file/TM". Read on for further details:</para>
+
+        <itemizedlist>
+          <listitem>
+            <para xml:id="tu_atts_id"><emphasis role="bold">Editing TU system
+            attributes</emphasis></para>
+
+            <para><inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="images/mark-icons-info.png" width="10"/>
+                </imageobject>
+              </inlinemediaobject><emphasis role="bold">Special
+            note:</emphasis>For system attributes, only attribute values can
+            be edited.</para>
+
+            <para>1. To edit system attribute values: Select the attribute row
+            you want to edit, click the <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="images/icons_edit.png" width="15"/>
+                </imageobject>
+              </inlinemediaobject>button. In the pop-up dialog box, edit the
+            attribute value, then click OK to finish editing.</para>
+
+            <para>2. To delete system attribute values: Select the attribute
+            row with the value you want to delete, click the
+            <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="images/icons_del.png" width="15"/>
+                </imageobject>
+              </inlinemediaobject>button to delete the value.</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">Editing TU custom
+            attributes</emphasis></para>
+
+            <para><inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="images/mark-icons-info.png" width="10"/>
+                </imageobject>
+              </inlinemediaobject><emphasis role="bold">Special
+            note:</emphasis>For custom attributes, you can add, edit and
+            delete attribute names and their values.</para>
+
+            <para>1. To add custom attributes: Select any row in the Custom
+            Attributes panel, then click the <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="images/icons_add.png" width="15"/>
+                </imageobject>
+              </inlinemediaobject>button, In the pop-up dialog box, enter a
+            custom attribute name and attribute value, then click OK to
+            complete the operation.</para>
+
+            <para>2. To edit custom attributes: Select any row in the Custom
+            Attributes panel, then click the <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="images/icons_edit.png" width="15"/>
+                </imageobject>
+              </inlinemediaobject>button, In the pop-up dialog box, enter a
+            custom attribute name and attribute value, then click OK to
+            complete the operation.</para>
+
+            <para>3. To delete custom attributes: Select any row in the Custom
+            Attributes panel, then click the <inlinemediaobject>
+                <imageobject>
+                  <imagedata fileref="images/icons_del.png" width="15"/>
+                </imageobject>
+              </inlinemediaobject>Button to delete.</para>
+          </listitem>
+
+          <listitem>
+            <para><emphasis role="bold">To edit language-specific attributes:
+            </emphasis></para>
+
+            <para>Editing language-specific attributes is the same as <link
+            linkend="tu_atts_id">editing system attriubute.</link></para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+
+      <listitem>
+        <para xml:id="edit_note_tmx_id"><emphasis role="bold"
+        xml:id="tu_att_2">Editing TU comments</emphasis></para>
+
+        <para>1. To add a comment: Select any row in the Comments panel, Click
+        the <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="images/icons_add.png" width="15"/>
+            </imageobject>
+          </inlinemediaobject>button. In the pop-up dialog box, enter the
+        comment. Then click OK to complete the operation.</para>
+
+        <para>2. To edit a comment: Select any row in the Comments panel,
+        Click the <inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="images/icons_edit.png" width="15"/>
+            </imageobject>
+          </inlinemediaobject>button. In the pop-up dialog box, enter the
+        comment. Then click OK to complete the operation.</para>
+
+        <para>3. To delete a comment: Select any row in the Comments panel,
+        Click the<inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="images/icons_del.png" width="15"/>
+            </imageobject>
+          </inlinemediaobject>Button to delete.</para>
+      </listitem>
+    </itemizedlist>
+
+    <glosslist>
+      <glossentry xml:id="tmx_merge_id">
+        <glossterm>Split and merge TMX</glossterm>
+
+        <glossdef>
+          <para>The Split and merge feature provide a way for several people
+          working together to edit a TMX file.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">To split TMX</emphasis></para>
+
+              <para>1. Select Edit &gt; Split TMX. The Split TMX dialog box
+              will open.</para>
+
+              <para>2. Specify the number of subfiles.</para>
+
+              <para>3. Select the TMX file to be split.</para>
+
+              <para>4. Set a save path for the subfiles. If you checked
+              Original File Path, the subfiles will be kept in the directory
+              where the master TMX file is located. If you checked "Save as",
+              the subfiles be placed in the specified directory.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">To merge TMX</emphasis></para>
+
+              <para>1. Select Edit &gt; Merge TMX. The Merge TMX dialog box
+              will open.</para>
+
+              <para>2. Click the Add button to add the subfiles to the
+              list.</para>
+
+              <para>3. Select the save path of the TMX to be merged.</para>
+
+              <para>4 Click the OK button to perform the merge.</para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="edit_lang_id">
+        <glossterm>Change Language Code</glossterm>
+
+        <glossdef>
+          <para>This feature can be used to change the language code of each
+          translation unit in the TMX file.</para>
+
+          <para>1. Select Edit &gt; Change Language Code. The Change Language
+          Code dialog box will open.</para>
+
+          <para>2. Select the source and target language you want to
+          change.</para>
+
+          <para>3. Click on the OK button to complete the batch change.</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="del_lang_id">
+        <glossterm>Delete specified language</glossterm>
+
+        <glossdef>
+          <para>This feature can be used to delete a specific language (TUV)
+          from a TMX file. Note: <emphasis role="bold">You can not delete the
+          source language.</emphasis></para>
+
+          <para>1. Select Edit &gt; Delete Specified Language. The Delete
+          Specified Language dialog box will open.</para>
+
+          <para>2. Select one or more languages to be deleted.</para>
+
+          <para>3. Click the OK button to complete the deletion.</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="clean_tag_id">
+        <glossterm>Delete all tags</glossterm>
+
+        <glossdef>
+          <para>This feature can be used to delete all tag information from a
+          TMX file.</para>
+
+          <para>1. Select Edit &gt; Delete All Tags</para>
+
+          <para>2. Click OK to perform the operation. This operation cannot be
+          undone.</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="clean_tmx_id">
+        <glossterm>TMX redundant content cleanup</glossterm>
+
+        <glossdef>
+          <para>The following segments are regarded as redundant content:
+          untranslated segments, repetitions, inconsistent translations and
+          leading/trailing spaces. Heartsome TMX Editor 8 can batch delete
+          these segments.</para>
+
+          <para>1. Select Edit &gt; Clean up TM. The Clean up TM dialog box
+          will open.</para>
+
+          <para>2. Select the redundant items you want to clean in the dialog
+          box.</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/clean_tm.png" width="250"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <itemizedlist>
+            <listitem>
+              <para>Delete untranslated segments:This deletes segments with no
+              translation.</para>
+            </listitem>
+
+            <listitem>
+              <para>Delete repetitions (keep the latest instance): This
+              deletes a set of repetitions, but keeps the most recent
+              one.</para>
+            </listitem>
+
+            <listitem>
+              <para>Delete inconsistency in target (keep the latest instance):
+              This deletes segments that have the same source text but a
+              different translation. The most recent one will be kept.</para>
+            </listitem>
+
+            <listitem>
+              <para>Delete leading/trailing spaces: This deletes spaces at the
+              beginning or end of segments.</para>
+            </listitem>
+          </itemizedlist>
+
+          <para>3. You can also check Ignore tags when finding
+          repetitions.</para>
+
+          <para>4. Perform the clean-up operations.</para>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+  </chapter>
+
+  <chapter>
+    <title>Edit Heartsome Translation Studio 8 TM</title>
+
+    <para>Heartsome TMX Editor 8 is a dedicated editing tool for Heartsome
+    Translation Studio 8 TM. The following shows you how to use Heartsome TMX
+    Editor 8 to edit Heartsome Translation Studio 8 TMs.</para>
+
+    <glosslist>
+      <glossentry xml:id="conn_tm_id">
+        <glossterm xml:id="link_datase_id">How to connect with TM</glossterm>
+
+        <glossdef>
+          <para>Heartsome Translation Studio 8 TM files are either <emphasis
+          role="bold">file based</emphasis> or <emphasis role="bold">server
+          based</emphasis>.</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">File-based TM</emphasis></para>
+
+              <para>1. Select File &gt; Connect to TM &gt; File-based
+              TM.</para>
+
+              <para>2. Browse to Heartsome Translation Studio 8 TM
+              (.hstm).</para>
+
+              <para>3. Click the OK button, the editor will load all contents
+              of the TM.</para>
+            </listitem>
+
+            <listitem>
+              <para xml:id="link_servertm_id"><emphasis
+              role="bold">Server-based TM</emphasis></para>
+
+              <para>1. Select File &gt; Connect to TM &gt; Server-based
+              TM.</para>
+
+              <para>2. Select the TM server type you want to connect
+              to.</para>
+
+              <para><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/database_1.png" width="150"/>
+                  </imageobject>
+                </inlinemediaobject></para>
+
+              <para>3. Enter the IP address, port, username and password, then
+              click the Search button.</para>
+
+              <para><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/database_2.png" width="300"/>
+                  </imageobject>
+                </inlinemediaobject></para>
+
+              <para>4. Once the TM is listed, select the one you want to edit,
+              then click the OK button. The contents of the TM will be
+              loaded.</para>
+
+              <para><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/database_3.png" width="250"/>
+                  </imageobject>
+                </inlinemediaobject></para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="mutil_lang_id">
+        <glossterm>How to handle multilingual TMX</glossterm>
+
+        <glossdef>
+          <para>1. Heartsome Translation Studio 8 is a multilingual tool. When
+          a <link linkend="link_servertm_id">server-based TM</link> is listed,
+          you can see the languages of each TM it contains in the Language
+          column.</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/database_4.png" width="250"/>
+              </imageobject>
+            </inlinemediaobject>As you can see, the TM "bug2422" contains 3
+          languages: "en-us", "zh" and "zh-hk".</para>
+
+          <para>2. When you open a multilingual TM, you can select the
+          language pair that you want to edit from the Source and Target
+          field.</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/database_5.png" width="200"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <para>3. Once this is done, click Search to load the contents of the
+          selected languages in the TM.</para>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+
+    <glosslist>
+      <glossentry xml:id="edit_seg_tm_id">
+        <glossterm>Editing the source text and translations</glossterm>
+
+        <glossdef>
+          <para>To enter editing mode, you can just click a source or target
+          cell.</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="edit_tu_tm_id">
+        <glossterm>Editing TU attributes</glossterm>
+
+        <glossdef>
+          <para>See <link linkend="edit_tu_tmx_id">TU attributes
+          editing</link></para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="edit_note_tm_id">
+        <glossterm>Editing TU comments</glossterm>
+
+        <glossdef>
+          <para>See <link linkend="edit_note_tmx_id">TU comments
+          editing</link></para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="clean_tm_id">
+        <glossterm>Clean up TMX redundant content</glossterm>
+
+        <glossdef>
+          <para>See <link linkend="clean_tmx_id">Clean up TMX redundant
+          content</link></para>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+  </chapter>
+
+  <chapter>
+    <title>Search and Filter</title>
+
+    <para>Heartsome TMX Editor 8 offers search and filter functionality to
+    facilitate your TMX and TM maintenance. Read on for more details.</para>
+
+    <glosslist>
+      <glossentry xml:id="keyword_id">
+        <glossterm>Keyword search</glossterm>
+
+        <glossdef>
+          <para>You can search a loaded TMX and TM to filter out segments
+          thatcontain the keywords you have entered in the Source or Target
+          fields.</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/search_key.png" width="350"/>
+              </imageobject>
+            </inlinemediaobject></para>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+
+    <glosslist>
+      <glossentry xml:id="filter_id">
+        <glossterm>Filter</glossterm>
+
+        <glossdef>
+          <para>Select the built-in filters from the drop-down list under the
+          Filter to filter out the desired content. Your customized filters
+          also are listed here once you have added them from <link
+          linkend="filter_set_id">Customize Filters</link></para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/search_quick.png" width="250"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <para>When you select built-in filters, you may also check <emphasis
+          role="bold">Ignore case</emphasis> and <emphasis role="bold">Ignore
+          tags</emphasis> to get more results.</para>
+
+          <para><emphasis role="bold"><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/mark-icons-info.png" width="10"/>
+              </imageobject>
+            </inlinemediaobject>Special note:</emphasis>Keyword searching and
+          built-in filters are not interrelated.</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="filter_set_id">
+        <glossterm>Customize filters</glossterm>
+
+        <glossdef>
+          <para>The program provides you with flexible custom filters allowing
+          you to set filter conditions according to your needs. You may
+          <emphasis role="bold">enable</emphasis> or disable them.</para>
+
+          <para>To customize filters:</para>
+
+          <para>1. Click on the <inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/set.png" width="15"/>
+              </imageobject>
+            </inlinemediaobject> button. The Custom Filter dialog box will
+          open.</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/set_1.png" width="300"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <para>2. Click the New button. The Add Filter Rule dialog box will
+          open.</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/set_2.png" width="350"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">Filter name</emphasis>:This is the
+              name of your filter. When it is enabled, it will be listed in
+              the Filters drop-down.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Combination of
+              conditions:</emphasis> Meet all of the following conditions or
+              one of the following conditions.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Custom content:</emphasis> You can
+              set conditions for source, translation, comments, system
+              attributes and custom attributes.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Operator:</emphasis> Operators
+              include Contains, Excludes, Equals and Not Equal To.</para>
+            </listitem>
+          </itemizedlist>
+
+          <para>You may add more conditions or delete any condition.</para>
+
+          <para>When you finish creating the filter, the filter will be listed
+          on Customize Filter dialog box, where you can check the filter to
+          enable it from Enable column.</para>
+
+          <para>Example: The customized filter “Kevin创建的句子” is listed under
+          the Filter.</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/set_3.png" width="250"/>
+              </imageobject>
+            </inlinemediaobject></para>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+  </chapter>
+
+  <chapter>
+    <title>QA</title>
+
+    <para>Heartsome TMX Editor 8 provides you with QA functionality for TMX
+    files by generating a QA report and allowing you to edit TMX files based
+    on QA results.</para>
+
+    <glosslist>
+      <glossentry xml:id="qa_list_id">
+        <glossterm>Select QA check items</glossterm>
+
+        <glossdef>
+          <para>Heartsome TMX Editor 8 now provides six QA check options in
+          <link linkend="qa_view_id">QA view</link>:</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/QA1.png" width="350"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <itemizedlist>
+            <listitem>
+              <para>Tag consistency: This checks whether there are the same
+              number of tags in the source as in the translation.</para>
+            </listitem>
+
+            <listitem>
+              <para>Numeral consistency: This checks whether the numerals in
+              the source also exist in the translation.</para>
+            </listitem>
+
+            <listitem>
+              <para>Leading/trailing spaces: This checks whether the spaces at
+              the beginning/end of the source text also appear in the
+              translation.</para>
+            </listitem>
+
+            <listitem>
+              <para>Untranslated: There checks whether there are any
+              untranslated segments.</para>
+            </listitem>
+
+            <listitem>
+              <para>Target same as source: This checks whether the translated
+              text is the same as the source.</para>
+            </listitem>
+
+            <listitem>
+              <para>Inconsistency in target: This checks whether there are
+              multiple segments with the same source text but with different
+              translations.</para>
+            </listitem>
+
+            <listitem>
+              <para>Inconsistency in source:This checks whether there are
+              multiple segments with the same translated text but with
+              different source text.</para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="qa_report_id">
+        <glossterm>Perform QA and generate QA reports</glossterm>
+
+        <glossdef>
+          <para>1. When selecting QA items to check, you may also check <link
+          linkend="qa_view_id">Ignore case</link> and <emphasis
+          role="bold">Ignore tags</emphasis>.</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/QA2.png" width="250"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <para>2. Click the Perform button. The software will open the QA
+          results view.</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/QA3.png" width="350"/>
+              </imageobject>
+            </inlinemediaobject></para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="qa_deal_id">
+        <glossterm>Correcting errors directly from the QA report</glossterm>
+
+        <glossdef>
+          <para>When you double-click any error message in the QA results, you
+          will be automatically taken to the corresponding row in the <link
+          linkend="editor_view_id">Editor</link>, then you can correct the
+          error in this row.</para>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+  </chapter>
+
+  <chapter>
+    <title>Utilities</title>
+
+    <para>Heartsome TMX Editor 8 provides several useful tools for converting
+    and maintaining your TMX files.</para>
+
+    <glosslist>
+      <glossentry xml:id="tmx_to_id">
+        <glossterm>Conversion TMX to other file formats</glossterm>
+
+        <glossdef>
+          <para>Heartsome TMX Editor 8 supports <emphasis
+          role="bold">batch</emphasis> conversion of TMX to DOCX, XLSX, TXT,
+          TBX and HSTM (Heartsome Translation Studio 8 file-based TM).</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/trans_1.png" width="350"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">To do this: </emphasis></para>
+
+              <para>1. Select Tools &gt; Convert TMX to Specified
+              Formats.</para>
+
+              <para>2. Click the Add button to add TMX files for conversion.
+              You can also click the Remove button to delete added TMX
+              files.</para>
+
+              <para>3. Select the file type from the <emphasis
+              role="bold">Convert to</emphasis> field.</para>
+
+              <para>4. When you select Convert to Heartsome file-based TM
+              (*.hstm), you may also check Include attributes, i.e., also add
+              the TU attributes to the *.hstm during conversion.</para>
+
+              <para>5. Select your desired <emphasis role="bold">save
+              path</emphasis>.</para>
+
+              <para>6. Click the OK button to perform the conversion.</para>
+            </listitem>
+
+            <listitem>
+              <para xml:id="file_type_id"><emphasis role="bold">Description of
+              file types available for conversion:</emphasis></para>
+
+              <itemizedlist>
+                <listitem>
+                  <para><emphasis role="bold">DOCX files:</emphasis></para>
+
+                  <para><inlinemediaobject>
+                      <imageobject>
+                        <imagedata fileref="images/trans_docx.png" width="350"/>
+                      </imageobject>
+                    </inlinemediaobject></para>
+
+                  <para>Description:The first column is the source language,
+                  the second is the target language. If the TMX file is
+                  multilingual, the third language will be listed in the third
+                  column, and so on</para>
+                </listitem>
+
+                <listitem>
+                  <para><emphasis role="bold">XLSX files:</emphasis></para>
+
+                  <para><inlinemediaobject>
+                      <imageobject>
+                        <imagedata fileref="images/trans_xlsx.png" width="350"/>
+                      </imageobject>
+                    </inlinemediaobject></para>
+
+                  <para>Description:The first column is the source language,
+                  the second is the target language. If the TMX file is
+                  multilingual, the third language will be listed in the third
+                  column, and so on</para>
+                </listitem>
+
+                <listitem>
+                  <para><emphasis role="bold">TXT files:</emphasis></para>
+
+                  <para><inlinemediaobject>
+                      <imageobject>
+                        <imagedata fileref="images/trans_txt.png" width="350"/>
+                      </imageobject>
+                    </inlinemediaobject></para>
+
+                  <para>Description:All languages are separated by a tab
+                  character.</para>
+                </listitem>
+
+                <listitem>
+                  <para><emphasis role="bold">Standard TBX
+                  files:</emphasis></para>
+
+                  <para><inlinemediaobject>
+                      <imageobject>
+                        <imagedata fileref="images/trans_tbx.png" width="350"/>
+                      </imageobject>
+                    </inlinemediaobject></para>
+                </listitem>
+
+                <listitem>
+                  <para><emphasis role="bold">HSTM files:</emphasis></para>
+
+                  <para>A HSTM file is a Heartsome Translation Studio 8
+                  file-based TM.</para>
+                </listitem>
+              </itemizedlist>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="to_tmx_id">
+        <glossterm>Convert specified format to TMX</glossterm>
+
+        <glossdef>
+          <para>This feature is used to convert DOCX, XLSX, TXT, TBX and HSTM
+          files to standard TMX files.</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/trans_2.png" width="350"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">To do this:</emphasis></para>
+
+              <para>1. Select Tools &gt; Convert Specified Format to
+              TMX</para>
+
+              <para>2. Click the Browse button to select an external file to
+              be converted.<emphasis role="bold"> </emphasis></para>
+
+              <para>3. Choose whether to Add custom attributes.</para>
+
+              <para>4. Set up way of conversion.1) Convert to a new TMX.2)
+              Append the contents to the selected TMX. In this case, you have
+              to select a TMX file before conversion.</para>
+
+              <para>5. Choose whether to open the TMX file after
+              conversion.</para>
+
+              <para>6. Click the OK button to perform the conversion.</para>
+            </listitem>
+
+            <listitem>
+              <para xml:id="source_file_id"><emphasis role="bold">The
+              specification of source file format</emphasis></para>
+
+              <para>The source file format is the same as the file format
+              descripted in the "<link linkend="file_type_id">Description of
+              file types available for conversion</link>" section, which can
+              be multilingual and its <emphasis role="bold">first
+              line</emphasis> must be filled with <emphasis
+              role="bold">language code</emphasis>.</para>
+            </listitem>
+          </itemizedlist>
+
+          <para><emphasis role="bold"><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/mark-icons-info.png" width="10"/>
+              </imageobject>
+            </inlinemediaobject>Special note:</emphasis>This feature currently
+          only supports single external file conversion. if you have more than
+          one external files needing conversion, you can choose one of the
+          following two methods:</para>
+
+          <para>1) Put the contents of all files into one file.</para>
+
+          <para>2) Run the conversion one by one, and check <emphasis
+          role="bold">Append to current TMX file</emphasis>.</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="code_trans_id">
+        <glossterm>File encoding converter</glossterm>
+
+        <glossdef>
+          <para>The Encoding Converter provides you with a <emphasis
+          role="bold">text file</emphasis> encoding conversion tool. When you
+          load a TMX in Heartsome TMX Editor 8, it will convert the encoding
+          of the TMX to UTF-8. Once you have finished editing, you may have to
+          use this tool to convert the UTF-8 encoding of the TMX to an
+          encoding supported by your translation software.</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/trans_code.png" width="300"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">To make encoding
+              conversion:</emphasis></para>
+
+              <para>1. Select Tools &gt; Encoding Converter. The Convert TMX
+              Encoding dialog box will open.</para>
+
+              <para>2. Click Browse to select the source TMX file. The program
+              will detect the encoding of the TMX automatically. You may
+              change the encoding by selecting a encoding from the dropdown in
+              the Source file encoding field.</para>
+
+              <para>3. Select a save path and name for the converted
+              file.</para>
+
+              <para>4. Select Target file encoding.</para>
+
+              <para>5. Click the Convert button to perform the
+              conversion.</para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+  </chapter>
+
+  <chapter>
+    <title>Version and License</title>
+
+    <glosslist>
+      <glossentry xml:id="version_id">
+        <glossterm>Version Introduction</glossterm>
+
+        <glossdef>
+          <para>The following Heartsome TMX Editor 8 versions are
+          available:</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>Free Version</para>
+            </listitem>
+
+            <listitem>
+              <para>Trial Version</para>
+            </listitem>
+
+            <listitem>
+              <para>Paid Version</para>
+            </listitem>
+          </itemizedlist>
+
+          <glosslist>
+            <glossentry>
+              <glossterm>Free Version</glossterm>
+
+              <glossdef>
+                <para>Regarding functionally, the Free Version is the same as
+                the Paid Version, but the number of TMX TUs you can edit in
+                the Free Version is limited to <emphasis
+                role="bold">10,000</emphasis>.</para>
+              </glossdef>
+            </glossentry>
+
+            <glossentry>
+              <glossterm>Trial Version</glossterm>
+
+              <glossdef>
+                <para>The Trial version is valid for 3 months, without any
+                restrictions. After the trial period expires, it will
+                automatically change to the Free version, which can be used
+                permanently.</para>
+              </glossdef>
+            </glossentry>
+
+            <glossentry>
+              <glossterm>Paid Version</glossterm>
+
+              <glossdef>
+                <para>This is a version that has been activated with a
+                Heartsome business license. When you purchase a commercial
+                license, you can directly upgrade your Free Version or Trial
+                Version to the Paid Version</para>
+              </glossdef>
+            </glossentry>
+          </glosslist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="license_id">
+        <glossterm>How to apply for a trial and purchase a license</glossterm>
+
+        <glossdef>
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">Apply for a trial:</emphasis></para>
+
+              <para>1. Go to <link
+              xlink:href="https://lic.heartsome.net/webbuy/r8trial.jsp">https://Lic.heartsome.net/webbuy/r8trial.jsp</link>
+              to apply for a trial.</para>
+
+              <para>2. Enter your name, email address and other optional
+              information.</para>
+
+              <para>3. Once the request form has been submitted, the system
+              will automatically send a trial license to your email
+              address.</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Purchase a
+              license:</emphasis></para>
+
+              <para>1. Go to <link
+              xlink:href="https://lic.heartsome.net/webbuy/r8buy.jsp">https://lic.heartsome.net/webbuy/r8buy.jsp</link></para>
+
+              <para>2. Enter your name, email address and other optional
+              information.</para>
+
+              <para>3. Select the type and version of the product to be
+              purchased, and enter the quantity.</para>
+
+              <para>4. Click the <guibutton>Submit</guibutton> button again to
+              confirm that the order information is correct. Then click on the
+              <guibutton>Pay via Paypal</guibutton> button and make the
+              payment according to the prompts.</para>
+
+              <para>5. After successful payment, our license server will
+              automatically send your license(s) to your email address.</para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="active_id">
+        <glossterm>How to activate a license</glossterm>
+
+        <glossdef>
+          <para>To enable the Trial Version and Paid Version, you have to
+          activate them first. Heartsome TMX Editor 8 provides two optional
+          activation methods, one is Online Activation (recommended) and the
+          other is Offline Activation. The following describes the two
+          activation methods:</para>
+
+          <itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">Online activation:</emphasis></para>
+
+              <para>In the <interfacename>License Management</interfacename>
+              dialog box, copy the license number from the email and paste it
+              into the first text field.</para>
+
+              <para><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/lic1.png" width="300"/>
+                  </imageobject>
+                </inlinemediaobject></para>
+
+              <para>2. Make sure you are connected to the network. If you
+              connect to the Internet through a proxy server, click the <link
+              linkend="net_proxy_id">Network Connections</link> button to open
+              the settings interface.</para>
+
+              <para>3. Click the Activate button.</para>
+
+              <para>If no error occurs, it will inform you that the software
+              has been successfully activated. When you re-open and go to Help
+              &gt; License Management, the license status should have changed
+              to "Activated".</para>
+            </listitem>
+
+            <listitem>
+              <para><emphasis role="bold">Offline
+              activation:</emphasis></para>
+
+              <para>Before performing offline activation, make sure you have
+              purchased a commercial license instead of a Trial license. To
+              perform offline activation:</para>
+
+              <para>1) Enter the commercial license serial number you have
+              purchased. Click the Next button.</para>
+
+              <para>2). Obtain the activation code</para>
+
+              <para>The following figure shows the activation code generated
+              by the software. You need to copy it to an email or text file,
+              then send it to <emphasis role="bold">
+              licensing@heartsome.net</emphasis>. We will handle the rest.
+              After this, you can exit the software.</para>
+
+              <para><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/lic2.png" width="350"/>
+                  </imageobject>
+                </inlinemediaobject></para>
+
+              <para>3. Obtain a license file</para>
+
+              <para>Once we have received your activation code, Heartsome will
+              send you a license file (the file name will be <type>your serial
+              number.lic</type>) as an attachment to your email address. When
+              you get the email sent by Heartsome, save the license file to
+              your local hard disk, then repeat the above two steps.</para>
+
+              <para>Click the Next button on the interface.</para>
+
+              <para><inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/mark-icons-info.png" width="10"/>
+                  </imageobject>
+                </inlinemediaobject> <emphasis role="bold">Special
+              note:</emphasis>If you want to activate multiple licenses
+              one-time through offline activation, you can put all the
+              activation codes in an Excel file (.xls). Starting from very
+              first column of the Excel spreadsheet, <emphasis role="bold">put
+              one activation code on each line.</emphasis> To facilitate the
+              identification and management of multiple licenses, you can add
+              more information, such as a serial number, username or computer
+              name in the second and third columns, but only the activation
+              code in the first column is required.</para>
+
+              <para>Click the Browse button and select the <type>.lic</type>
+              file you received, then click the Activate button to perform
+              activation.if no exception happens, it will prompt that the
+              software has been successfully activated.</para>
+            </listitem>
+          </itemizedlist>
+        </glossdef>
+      </glossentry>
+
+      <glossentry xml:id="cancel_active_id">
+        <glossterm>How to deactivate a license</glossterm>
+
+        <glossdef>
+          <para>You will need to deactivate your license in one of the
+          following situations:</para>
+
+          <itemizedlist>
+            <listitem>
+              <para>If you want to change the current Trial license to a
+              purchased Commercial license.</para>
+            </listitem>
+
+            <listitem>
+              <para>If you want to reinstall your operating system.</para>
+            </listitem>
+
+            <listitem>
+              <para>You want to move the current license to a different
+              computer.</para>
+            </listitem>
+          </itemizedlist>
+
+          <para>Follow these steps to deactivate your license:</para>
+
+          <para>1. Select Help &gt; License Management to open the License
+          Management dialog box.</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/lic3.png" width="300"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <para>2. Make sure you are connected to the network (to set up a
+          proxy server, please refer to the <link
+          linkend="net_proxy_id">Custom Proxy</link> section), and then click
+          the Deactivate button</para>
+
+          <para>3. Once the operation has finished, the software will
+          automatically restart. After it has restarted, the <guilabel>License
+          Status</guilabel> changes to <emphasis role="bold">No
+          License</emphasis>.</para>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+  </chapter>
+
+  <chapter xml:id="term_table_id">
+    <title>Glossary</title>
+
+    <glosslist>
+      <glossentry>
+        <glossterm>TMX file</glossterm>
+
+        <glossdef>
+          <para>TMX (TM exchange) is an industry standard used to exchange
+          translation memories. Heartsome TMX Editor 8 can edit and maintain
+          TMX files. Heartsome Translation Studio 8 TM also supports import
+          and export of TMX files.</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry>
+        <glossterm>TBX file</glossterm>
+
+        <glossdef>
+          <para>TBX is terminology markup language. It is an open, XML-based
+          standard for exchanging structured terminological data from one
+          termbase to another termbase.</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry>
+        <glossterm>Translation unit</glossterm>
+
+        <glossdef>
+          <para>Translation memory (TM) entries contain source text, a
+          translation and additional TM data, such as the date of
+          translation.</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry>
+        <glossterm>Translation unit variant</glossterm>
+
+        <glossdef>
+          <para>Text segments are contained in translation units (&lt;tu&gt;
+          element), each &lt;tu&gt; element contains one or more translation
+          unit variants &lt;tuv&gt;, and these variants are the various
+          translations in multiple languages for one source language.</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry>
+        <glossterm>Internal tags</glossterm>
+
+        <glossdef>
+          <para>Internal tags contain the layout and formatting information,
+          style definitions and font information of the source file. They are
+          extracted as non-translatable content from the source file and
+          displayed as tags in CAT software.</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry>
+        <glossterm>Source</glossterm>
+
+        <glossdef>
+          <para>This refers to the item to be translated,for example:source
+          text and source language. It is relative to the target. See language
+          pair.</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry>
+        <glossterm>Target</glossterm>
+
+        <glossdef>
+          <para>This refers to the translated items, for example:target
+          content, target language, target segment. It is relative to the
+          source. See language pair.</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry>
+        <glossterm>Language pair</glossterm>
+
+        <glossdef>
+          <para>The refers to the source and target language, such as English
+          to French, or English (United Kingdom) to French (Switzerland).
+          Language pairs have a particular direction, e.g., from English to
+          French.</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry>
+        <glossterm>Filter</glossterm>
+
+        <glossdef>
+          <para>These are a rule or combination of rules used to extract
+          content. A filter contains one or more rules. Filter rules compare
+          content based on reference values. When you apply a filter, only the
+          contents that comply with these rules will be displayed or
+          processed.</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry>
+        <glossterm>HS</glossterm>
+
+        <glossdef>
+          <para>This is the abbreviation for Heartsome.</para>
+        </glossdef>
+      </glossentry>
+
+      <glossentry>
+        <glossterm>HSTS</glossterm>
+
+        <glossdef>
+          <para>File format for a Heartsome Translation Studio 8 file-based
+          translation memory.</para>
+        </glossdef>
+      </glossentry>
+    </glosslist>
+  </chapter>
+
+  <chapter xml:id="copyright_id">
+    <title>Copyright</title>
+
+    <para>Copyright (C) 2013 Heartsome Technologies Ltd.</para>
+
+    <para>Intellectual property of any authorized copy of the Software and
+    structure, organization and code’s valuable intellectual property of
+    related software (such as trade secrets and confidential information) are
+    owned by HEARTSOME. The intellectual property to the third-party software
+    used in the Software is owned by its respective party.</para>
+
+    <para>This Software is protected by law (including but not limited to the
+    copyright laws of the Hong Kong Special Administrative Region and other
+    countries) and international treaty provisions. Unless expressly provided
+    otherwise, this Agreement does not grant any intellectual property rights
+    of the Software to the user, and HEARTSOME and its suppliers reserve all
+    other rights not expressly granted.</para>
+  </chapter>
+</book>

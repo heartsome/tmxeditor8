@@ -1,0 +1,114 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>2. Translation Memory Management</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<meta name="generator" content="DocBook XSL Stylesheets V1.77.1">
+<link rel="home" href="index.html" title="Heartsome Translation Studio Release 8 Help">
+<link rel="up" href="ch06.html" title="Maintenance and management of TMs and termbases">
+<link rel="prev" href="ch06.html" title="Maintenance and management of TMs and termbases">
+<link rel="next" href="ch06s03.html" title="3. Export TM as TMX">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="sect1">
+<div class="titlepage"><div><div><h2 class="title" style="clear: both">
+<a name="tm-management"></a>2. Translation Memory Management</h2></div></div></div>
+      
+
+      <p>TMs can be created during project creation, but HSTS also has a
+      specialized TM management feature that helps users to create or delete
+      TMs on database servers without having to open projects. The TM
+      management interface can be opened by going to
+      <span class="guimenu">Databases</span> &gt; <span class="guimenuitem">Translation Memory
+      Management</span>.</p>
+
+      <div class="sect2">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="ch6s2a"></a>Create</h3></div></div></div>
+        
+
+        <p>Follow these steps to create a TM from the
+        <code class="interfacename">Translation Memory Management</code> dialog
+        box:</p>
+
+        <div class="figure">
+<a name="idp1426992"></a><p class="title"><b>Figure 129. Translation Memory Management</b></p>
+<div class="figure-contents">
+          
+
+          <div class="screenshot">
+            <div class="mediaobject"><img src="images/tm-management-1.png" alt="Translation Memory Management"></div>
+          </div>
+        </div>
+</div>
+<br class="figure-break">
+
+        <div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem">
+            <p>Select database server type in the left side.</p>
+<div class="figure">
+<a name="idp1431376"></a><p class="title"><b>Figure 130. Translation Memory Management</b></p>
+<div class="figure-contents">
+                
+
+                <div class="screenshot">
+                  <div class="mediaobject"><img src="images/tm-management-2.png" alt="Translation Memory Management"></div>
+                </div>
+              </div>
+</div>
+<p><br class="figure-break"></p>
+          </li>
+<li class="listitem">
+            <p>Enter connection information for the relevant database
+            server on the right, and click the <span class="guibutton">Search</span>
+            button.</p>
+          </li>
+<li class="listitem">
+            <p>A list of TMs on this database server will be displayed, as
+            long as the database information entered is correct and that both
+            the server and the network are running.</p>
+          </li>
+<li class="listitem">
+            <p>Click the <span class="guibutton">Create</span> button, enter the
+            name of the TM and click <span class="guibutton">OK</span>.</p>
+<div class="figure">
+<a name="idp1438848"></a><p class="title"><b>Figure 131. Create Translation Memory</b></p>
+<div class="figure-contents">
+                
+
+                <div class="screenshot">
+                  <div class="mediaobject"><img src="images/tm-management-3.png" alt="Create Translation Memory"></div>
+                </div>
+              </div>
+</div>
+<p><br class="figure-break"></p>
+          </li>
+</ol></div>
+
+        <p>In step 3, upon successful connection, the database information
+        will be automatically saved in the respective database type to the
+        left of the dialog box. When you want to search in this database
+        server, simply click the appropriate database without having to enter
+        the database information again.</p>
+      </div>
+
+      <div class="sect2">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="ch6s2b"></a>Delete</h3></div></div></div>
+        
+
+        <p>The steps for deleting a database from the
+        <code class="interfacename">Translation Memory Management</code> dialog
+        box are similar to the steps for creating it, except that the last
+        step should be to click the <span class="guibutton">Delete</span> button and
+        then <span class="guibutton">OK</span>.</p>
+
+        <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Warning</h3>
+          <p>Once a TM has been deleted, it <span class="emphasis"><em>cannot be
+          restored</em></span>. Therefore, please make sure that a TMX back-up
+          has been exported for the TM, or that the content in the TM is no
+          longer needed prior to deleting a TM.</p>
+        </div>
+      </div>
+    </div></body>
+</html>
