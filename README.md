@@ -51,11 +51,11 @@ Supports all types of TM from Heartsome Translation Studio, including desktop-ba
 
 ## Download open-source version
 
-- All installer: [Dropbox](https://www.dropbox.com/sh/15tz6sdr1ibp6s7/AADNAUCxKleoM1IZVqGbrUOga), [OneDrive](https://onedrive.live.com/redir?resid=A132898840765207!108&authkey=!ADuuiyhuvMU30nU&ithint=folder%2c.zip)
-- Microsoft Windows XP/Vista/7/8(**Recommend**): [32bit with JRE](https://www.dropbox.com/s/i2e584nrpklq5nv/HSTMXEditor_8_0_1_Win_x86_JRE.zip), [64bit with JRE](https://www.dropbox.com/s/rj6opfjrf7tscey/HSTMXEditor_8_0_1_Win_x64_JRE.zip)
-- Microsoft Windows XP/Vista/7/8: [32bit without JRE](https://www.dropbox.com/s/x621kgorg9i1vnj/HSTMXEditor_8_0_1_Win_x86.zip), [64bit without JRE](https://www.dropbox.com/s/xot3ehnjkxpk8bg/HSTMXEditor_8_0_1_Win_x64.zip)
-- Linux(Ubuntu Desktop/Fedora/openSuSE/etc...):[32bit](https://www.dropbox.com/s/77jm2enayn1c0w8/HSTMXEditor_8_0_1_Linux_x86.zip), [64bit](https://www.dropbox.com/s/updwucq54b3vvde/HSTMXEditor_8_0_1_Linux_x64.zip)
-- Mac OS X 10.6+(Universal): [Download now](https://www.dropbox.com/s/sxt04a8b8095a3c/HSTMXEditor_8_0_1_Mac_x64.zip), [Mac OS X 32bit(Older)](https://www.dropbox.com/s/ljggkhkrs435dwi/HSTMXEditor_8_0_1_Mac_x86.zip)
+- All installer: [Microsoft OneDrive](https://onedrive.live.com/redir?resid=A132898840765207!108&authkey=!ADuuiyhuvMU30nU&ithint=folder%2c.zip), [Dropbox](https://www.dropbox.com/sh/15tz6sdr1ibp6s7/AADNAUCxKleoM1IZVqGbrUOga)
+- Microsoft Windows XP/Vista/7/8(**Recommend**): [32bit with JRE](http://1drv.ms/1x4O11N), [64bit with JRE](http://1drv.ms/1z66oX3)
+- Microsoft Windows XP/Vista/7/8: [32bit without JRE](http://1drv.ms/1x4O2D2), [64bit without JRE](http://1drv.ms/1x4NU6n)
+- Linux(Ubuntu Desktop/Fedora/openSuSE/etc...):[32bit](http://1drv.ms/1x4NFZ0), [64bit](http://1drv.ms/1x4Nyww)
+- Mac OS X 10.6+(Universal): [Download now](http://1drv.ms/1z66cab), [Mac OS X 32bit(Older)](http://1drv.ms/1z66hL1)
 
 
 ## Resources
